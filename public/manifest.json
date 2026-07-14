@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+  "short_name": "Esports Manager 2026",
+  "description": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, finances, tournaments, and updates.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#7c3aed",
+  "background_color": "#0a0e1a",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

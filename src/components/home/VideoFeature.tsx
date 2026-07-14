@@ -1,14 +1,21 @@
 "use client";
 
-import { useMemo } from "react";
-import { ExternalLink } from "lucide-react";
+import { useMemo, useState } from "react";
+import { ExternalLink, Play } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
   title: string;
+  poster?: string;
 }
 
-export function VideoFeature({ videoId, title }: VideoFeatureProps) {
+export function VideoFeature({
+  videoId,
+  title,
+  poster = "/images/hero.webp",
+}: VideoFeatureProps) {
+  const [playing, setPlaying] = useState(false);
+
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
@@ -22,15 +29,41 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
-          title={title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div
+        className="relative w-full overflow-hidden rounded-lg bg-black"
+        style={{ paddingBottom: "56.25%" }}
+      >
+        {playing ? (
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={embedUrl}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setPlaying(true)}
+            aria-label={`Play ${title}`}
+            className="group absolute inset-0 h-full w-full"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={poster}
+              alt={title}
+              className="absolute inset-0 h-full w-full object-cover"
+              loading="lazy"
+            />
+            <span className="absolute inset-0 bg-black/30 transition group-hover:bg-black/45" />
+            <span className="absolute inset-0 flex items-center justify-center">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] shadow-lg ring-4 ring-white/20 transition group-hover:scale-110">
+                <Play className="h-7 w-7 translate-x-0.5 fill-white text-white" />
+              </span>
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">
