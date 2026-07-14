@@ -10,14 +10,7 @@
       "twitterDescription": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, and tournaments on Steam."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
