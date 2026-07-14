@@ -1,15 +1,4 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
-    }
-  },
   "nav": {
     "guides": "Guides",
     "crafting": "Fabrication",
@@ -32,31 +21,6 @@
     "relatedArticles": "Articles similaires",
     "readMore": "En savoir plus",
     "articlesComingSoon": "Articles à venir"
-  },
-  "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
-    "stats": {
-      "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
-      },
-      "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
-      },
-      "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
-      },
-      "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
-      }
-    }
   },
   "gameFeature": {
     "title": "Gameplay de Lucid Blocks",
@@ -818,29 +782,6 @@
       }
     ]
   },
-  "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
-    "resources": "Ressources",
-    "community": "Communauté",
-    "legal": "Légal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
-    "about": "À propos",
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
-  },
   "pages": {
     "guides": {
       "title": "Guides Lucid Blocks",
@@ -962,5 +903,64 @@
       "featured": "En vedette et essentiels",
       "all": "Tous les articles de support"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+      "description": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, finances, tournaments, and updates.",
+      "keywords": "Esports Manager 2026, Steam, players, teams, scouting, transfers, tactics, training, guides",
+      "ogTitle": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+      "ogDescription": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, finances, tournaments, and updates.",
+      "twitterTitle": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+      "twitterDescription": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, and tournaments on Steam."
+    }
+  },
+  "hero": {
+    "badge": "Deep Esports Management Simulation",
+    "title": "Esports Manager 2026 Wiki",
+    "description": "Build and run a professional esports organization through scouting, contracts, transfers, training, staff, finances, tournaments, and live match tactics.",
+    "getFreeCodesCTA": "Play Free Demo",
+    "playOnRobloxCTA": "Play on Steam",
+    "stats": {
+      "stat1": {
+        "value": "10,149",
+        "label": "Peak CCU"
+      },
+      "stat2": {
+        "value": "76% Positive",
+        "label": "Steam Reviews"
+      },
+      "stat3": {
+        "value": "325+",
+        "label": "Real Organizations"
+      },
+      "stat4": {
+        "value": "Jul 6, 2026",
+        "label": "Release Date"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Build Your Championship Team?",
+    "description": "Join the Esports Manager 2026 community on Discord and Steam for guides, tactics, transfers, and updates!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Steam"
+  },
+  "footer": {
+    "title": "Esports Manager 2026 Wiki",
+    "description": "Your complete resource hub for Esports Manager 2026 players, teams, scouting, transfers, training, tactics, finances, and tournament guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Esports Manager 2026 Wiki. Not affiliated with Neurona Games or indie.io.",
+    "disclaimer": "Unofficial fan-made resource website."
   }
 }

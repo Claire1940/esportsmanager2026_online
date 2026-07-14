@@ -1,15 +1,4 @@
 {
-  "seo": {
-    "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
-    }
-  },
   "nav": {
     "guides": "ガイド",
     "crafting": "クラフト",
@@ -32,31 +21,6 @@
     "relatedArticles": "関連記事",
     "readMore": "続きを読む",
     "articlesComingSoon": "記事は近日公開予定です"
-  },
-  "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
-    "stats": {
-      "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
-      },
-      "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
-      },
-      "stat3": {
-        "value": "97%",
-        "label": "好評"
-      },
-      "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
-      }
-    }
   },
   "gameFeature": {
     "title": "Lucid Blocks ゲームプレイ",
@@ -784,29 +748,6 @@
       }
     ]
   },
-  "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
-  },
-  "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
-  },
   "pages": {
     "guides": {
       "title": "Lucid Blocks 攻略ガイド",
@@ -928,5 +869,64 @@
       "featured": "注目・必須ガイド",
       "all": "すべてのサポート記事"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+      "description": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, finances, tournaments, and updates.",
+      "keywords": "Esports Manager 2026, Steam, players, teams, scouting, transfers, tactics, training, guides",
+      "ogTitle": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+      "ogDescription": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, finances, tournaments, and updates.",
+      "twitterTitle": "Esports Manager 2026 Wiki - Players, Tactics & Transfers",
+      "twitterDescription": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, and tournaments on Steam."
+    }
+  },
+  "hero": {
+    "badge": "Deep Esports Management Simulation",
+    "title": "Esports Manager 2026 Wiki",
+    "description": "Build and run a professional esports organization through scouting, contracts, transfers, training, staff, finances, tournaments, and live match tactics.",
+    "getFreeCodesCTA": "Play Free Demo",
+    "playOnRobloxCTA": "Play on Steam",
+    "stats": {
+      "stat1": {
+        "value": "10,149",
+        "label": "Peak CCU"
+      },
+      "stat2": {
+        "value": "76% Positive",
+        "label": "Steam Reviews"
+      },
+      "stat3": {
+        "value": "325+",
+        "label": "Real Organizations"
+      },
+      "stat4": {
+        "value": "Jul 6, 2026",
+        "label": "Release Date"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Build Your Championship Team?",
+    "description": "Join the Esports Manager 2026 community on Discord and Steam for guides, tactics, transfers, and updates!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Steam"
+  },
+  "footer": {
+    "title": "Esports Manager 2026 Wiki",
+    "description": "Your complete resource hub for Esports Manager 2026 players, teams, scouting, transfers, training, tactics, finances, and tournament guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Esports Manager 2026 Wiki. Not affiliated with Neurona Games or indie.io.",
+    "disclaimer": "Unofficial fan-made resource website."
   }
 }
