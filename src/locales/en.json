@@ -52,696 +52,500 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Esports Manager 2026 Gameplay",
+    "description": "Build and run a professional esports organization through scouting, transfers, training, tactics, finances, and live match simulation on Steam."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Esports Manager 2026",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to build a championship organization in Esports Manager 2026",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First-season route, roster setup, and staff"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "icon": "Users",
+        "title": "Players and Roles",
+        "description": "S to C tiers and specialist role fit"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Scouting and Transfers",
+        "description": "Free agents, loans, wages, and contracts"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Tactics and Simulation",
+        "description": "Match plans, map veto, and economy"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "TrendingUp",
+        "title": "Training and Staff",
+        "description": "Weekly plans, morale, and backroom hires"
+      },
+      {
+        "icon": "Package",
+        "title": "Sponsors and Finance",
+        "description": "Budgets, salaries, and organization growth"
+      },
+      {
+        "icon": "Download",
+        "title": "Download and Demo",
+        "description": "Steam demo, price, and PC requirements"
       },
       {
         "icon": "Clock",
         "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "description": "Balance changes, fixes, and save impact"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "beginnerGuide": {
+      "title": "Esports Manager 2026 Beginner Guide",
+      "intro": "Esports Manager 2026 lets you start from scratch or manage an established organization from a pool of more than 325 real organizations. A safe opening focuses on roster legality, role coverage, staff, weekly training, morale, contracts, and reachable tournaments before expensive star signings.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose Your Starting Path",
+          "description": "Create your own organization for a complete rebuild, or take over an existing team with players, reputation, and competitive expectations already attached. Review the starting budget, squad, staff, and tournament calendar before advancing time."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Complete a Five-Player Starting Lineup",
+          "description": "The match roster needs five players, and recent official updates make short-handed AI teams fill missing places with role-aware signings. Confirm the lineup covers IGL, AWPer, Entry Fragger, Support, Lurker, and general Rifler duties without excessive role overlap."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Negotiate the First Essential Contract",
+          "description": "Compare transfer cost, wage demand, contract term, current ability, role fit, and development value before sending an offer. Use free agents when the transfer budget is tight and keep enough budget for wages, staff, training, and later roster changes."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Hire the Core Backroom Staff",
+          "description": "The game supports coaches, analysts, junior managers, media specialists, and other staff who contribute to performance and organization growth. Prioritize a coach for development and an analyst for match preparation, and match staff quality to club prestige."
+        },
+        {
+          "title": "Set Weekly Training and Protect Morale",
+          "description": "Weekly plans affect skill growth and well-being, while team-building, psychology sessions, smart scheduling, and the Talk module support morale. Train the team's next competitive weakness instead of every attribute at once, and prepare a small group of maps first."
+        },
+        {
+          "title": "Enter the First Tournament Cycle",
+          "description": "The calendar ranges from smaller competitions to major championships, with rankings, sponsorships, and organization visibility tied to long-term progress. Choose events that match the current roster level and use early matches to test the starting five, map preparation, and tactical roles."
+        },
+        {
+          "title": "Follow the First-Season Route",
+          "description": "Use a simple sequence: legal roster, essential contract, core staff, weekly training, morale check, first tournament, then controlled upgrades. Keep a stable starting five long enough to evaluate role fit and review finances before each new tournament block."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Do not spend immediately. First identify which positions, contracts, and staff roles are actually missing.",
+        "Do not sign several players for the same specialist role simply because their overall rating is high.",
+        "Avoid one marquee signing that consumes the budget but leaves the team without role balance or bench cover.",
+        "Develop promising players instead of replacing the entire roster after one event.",
+        "Do not treat every early loss as proof that the roster needs another expensive transfer."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "playersTierList": {
+      "title": "Esports Manager 2026 Players and Roles Tier List",
+      "intro": "The Esports Manager Database stores player skill, specialist attributes, roles, team assignment, and career earnings in the format used by Esports Manager 2026. The rating tier is a fast strength indicator, but a complete roster still needs IGL, AWPer, Entry Fragger, Support, Lurker, and reliable Rifler coverage.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "S",
+          "label": "Elite / Top-20",
+          "meaning": "The highest displayed player tier, intended for elite names and top-20 level talent.",
+          "bestUse": "Use as a franchise anchor, primary star, elite AWPer, or high-impact leader when the wage and transfer cost fit the organization."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "A",
+          "label": "Professional / Tier-1",
+          "meaning": "Strong professional players suited to tier-1 competition and regular starting roles.",
+          "bestUse": "Build most of a competitive core from A-tier players with complementary roles and attributes."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "tier": "B",
+          "label": "Semi-Pro",
+          "meaning": "Semi-professional players who can provide affordable starters, bench depth, or development value.",
+          "bestUse": "Target B-tier players when the budget needs role coverage, future growth, or a lower-cost replacement."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "tier": "C",
+          "label": "Amateur / Lower-Tier",
+          "meaning": "The entry rating tier for amateur and lower-level players.",
+          "bestUse": "Use for emergency depth, low-budget starts, custom databases, or long development projects."
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
+      "roles": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "role": "IGL",
+          "fullName": "In-Game Leader",
+          "attributes": "Skill, Grenades, Clutch",
+          "function": "Fills the leadership slot while contributing utility, decision-making value, and late-round stability."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "role": "AWPer",
+          "fullName": "Primary Sniper",
+          "attributes": "AWP, Reaction, Clutch",
+          "function": "Creates long-range impact and gives the tactical system a dedicated primary sniper."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "role": "Entry Fragger",
+          "fullName": "Opening Duel Specialist",
+          "attributes": "Rifle, Reaction, Pistol",
+          "function": "Takes early fights, creates space, and begins attacking sequences."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "role": "Support",
+          "fullName": "Utility and Trade Support",
+          "attributes": "Grenades, Rifle, Pistol",
+          "function": "Uses utility, enables teammates, and stabilizes executes and retakes."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "role": "Lurker",
+          "fullName": "Map Control Specialist",
+          "attributes": "Clutch, Reaction, Rifle",
+          "function": "Controls space away from the group, punishes rotations, and handles isolated late-round situations."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "role": "Rifler",
+          "fullName": "Flexible Rifle Player",
+          "attributes": "Rifle, Reaction, Pistol",
+          "function": "Fills flexible positions, trades teammates, and supports both aggressive and controlled plans."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "scoutingTransfers": {
+      "title": "Esports Manager 2026 Scouting, Transfers and Contracts",
+      "intro": "Esports Manager 2026 uses a dynamic market with transfers, loans, player consent, contract negotiations, wages, role-aware squad building, and club prestige. The best deal is not always the highest-rated player; compare immediate impact with total cost and long-term development.",
+      "routes": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "route": "Free Agent",
+          "upfront": "No transfer fee",
+          "commitment": "Wage and contract term",
+          "bestUse": "Completing a five-player lineup, adding low-cost depth, or signing a prospect without paying another club."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "route": "Paid Transfer",
+          "upfront": "Transfer fee",
+          "commitment": "Wage and contract term",
+          "bestUse": "Buying a clear starter upgrade or filling a specialist role the free-agent pool cannot cover."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "route": "Loan In",
+          "upfront": "Temporary deal cost",
+          "commitment": "Loan duration and agreed terms",
+          "bestUse": "Adding short-term quality when the club cannot afford a permanent transfer."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "route": "Loan Out",
+          "upfront": "No purchase cost",
+          "commitment": "Parent contract remains active",
+          "bestUse": "Giving bench or young players competitive time while preserving ownership."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "route": "Contract Renewal",
+          "upfront": "No transfer fee",
+          "commitment": "New wage and contract term",
+          "bestUse": "Protecting a core starter, retaining a high-potential player, or preventing a replacement search."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "route": "Established Star",
+          "upfront": "Usually the highest fee",
+          "commitment": "High wage and major roster expectations",
+          "bestUse": "Providing immediate championship impact in a role the team is built to support."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "route": "Development Prospect",
+          "upfront": "Usually lower than a star",
+          "commitment": "Wage, term, training time, roster space",
+          "bestUse": "Building value across several seasons through weekly training and regular playing time."
         }
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
+      "note": "Official updates adjusted transfer-price formulas, scale wages more closely to player rating, and expanded new-player inflow. Each club can have up to two players loaned in and two loaned out."
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "tacticsSimulation": {
+      "title": "Esports Manager 2026 Tactics and Match Simulation",
+      "intro": "Simulation Mode places the manager inside a semi-3D match where tactical calls, rotations, map bans, buy logic, sniper roles, and live events affect the series. Start with a small set of repeatable plans and change one element at a time when the match pattern demands it.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "heading": "Build the Plan Around the Starting Five",
+          "content": "Assign a clear IGL, primary AWPer, Entry Fragger, Support, Lurker, and flexible Rifler coverage before choosing tactics. The plan should use each player's strongest specialist attributes instead of forcing every player into the same style.",
+          "template": "IGL/Rifler + AWPer + Entry Fragger + Support + Lurker"
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "heading": "Prepare a Small Map Pool and Veto Plan",
+          "content": "Weekly training can target specific maps, and official updates have improved the AI map-ban algorithm and per-map calculations. Build one reliable first pick, one secondary option, and one safe fallback before trying to prepare every map.",
+          "template": "Ban the least prepared map, protect the best-trained map, and keep a practiced fallback."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "heading": "Balanced Default Tactic",
+          "content": "Use a controlled opening that lets the Entry Fragger create space, the Support prepare utility and trades, the AWPer hold a long angle, the Lurker control a separate lane, and the IGL or Rifler connect the group.",
+          "template": "One entry action, one support package, one AWP angle, one lurker route, one flexible trader."
+        },
+        {
+          "heading": "Fast Pressure Tactic",
+          "content": "Use a faster plan when the opponent repeatedly gives away early space or rotates too slowly. The Entry Fragger begins the move, a Rifler follows for the trade, Support utility clears the route, and the Lurker blocks the rotation.",
+          "template": "Entry first, trader second, Support utility behind, AWPer watching the response, Lurker cutting the rotate."
+        },
+        {
+          "heading": "Economy and AWP Decisions",
+          "content": "The match engine includes buy logic, weapon roles, and decisive-round economy behavior. Recent updates reworked buy logic and enabled double-AWP setups by assigning the second weapon to the secondary sniper.",
+          "template": "Keep full-buy rounds coordinated and use double AWP only when two assigned sniper roles justify the cost."
+        },
+        {
+          "heading": "React During Simulation Mode",
+          "content": "Matches unfold in real time with dynamic events, live casters, tactical rules, timings, rotations, post-plant situations, and manager decisions. Change one variable at a time so the result can be read clearly.",
+          "template": "Adjust tempo, target area, or player task separately instead of replacing the entire tactic after one round."
+        },
+        {
+          "heading": "Adapt Between Maps",
+          "content": "Use the first map to identify which roles, timings, and economy choices are working. Keep successful structure, replace the failing detail, and use the next veto or tactical setup to move the series toward the roster's strengths.",
+          "template": "Keep the stable core, change the weak map plan, and protect morale with clear player roles."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+    "trainingStaff": {
+      "title": "Esports Manager 2026 Training, Morale and Staff Guide",
+      "intro": "Esports Manager 2026 connects player development with morale and workload management. Weekly training plans, psychology sessions, team-building activities, conversations, staff recruitment, and tournament scheduling all contribute to the long-term condition of the roster.",
+      "cards": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Weekly Training Plans",
+          "category": "Player Development",
+          "description": "Create weekly plans that target skill growth while also protecting player well-being. Training should reflect the team's current weaknesses, available preparation time, and upcoming tournament schedule.",
+          "action": "Use focused development during open weeks and reduce the workload when several competitive matches are scheduled close together."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Team Building",
+          "category": "Morale",
+          "description": "Team-building activities help managers address the human side of roster development. They are most useful when new players join, results decline, or relationships inside the lineup begin to weaken.",
+          "action": "Include team-building work after roster changes instead of expecting newly signed players to perform as a complete unit immediately."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Psychology Sessions",
+          "category": "Mental Well-Being",
+          "description": "Psychology sessions support the mental health and motivation systems included in the game. They provide an alternative to treating every performance problem as a lack of mechanical skill.",
+          "action": "Use psychological support when morale or motivation falls rather than increasing training intensity automatically."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Talk Module",
+          "category": "Communication",
+          "description": "The Talk module allows direct conversations with players and staff. Managers can learn about individual needs, motivations, complaints, and conflicts before those issues damage the wider team.",
+          "action": "Check conversations regularly and respond to concerns before important tournaments or contract negotiations."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Workload and Scheduling",
+          "category": "Workload",
+          "description": "Training must be balanced against travel, tournament dates, match preparation, and player well-being. A crowded calendar can make an aggressive training plan harder to sustain.",
+          "action": "Review the tournament calendar before confirming the weekly plan and leave room for recovery around important events."
+        },
+        {
+          "title": "Coaches",
+          "category": "Backroom Staff",
+          "description": "Coaches are part of the full support team available to an organization and are a central staff choice for managers focused on player and team development.",
+          "action": "Prioritize a coach when the organization needs structured development rather than relying only on expensive transfers."
+        },
+        {
+          "title": "Analysts",
+          "category": "Backroom Staff",
+          "description": "Analysts strengthen the competitive support structure around the roster. They are designed to contribute to preparation and the wider performance operation alongside coaches and managers.",
+          "action": "Add analyst support as the team begins entering stronger tournaments and requires a more complete competitive staff."
+        },
+        {
+          "title": "Junior Managers",
+          "category": "Backroom Staff",
+          "description": "Junior managers expand the management structure behind the main roster. They become more valuable as the number of players, staff members, contracts, and scheduled events increases.",
+          "action": "Hire junior management support after the organization grows beyond a small first-season operation."
+        },
+        {
+          "title": "Media Specialists",
+          "category": "Brand Staff",
+          "description": "Media specialists support the organization-building side of the game, where visibility, branding, sponsorships, and influence matter alongside tournament results.",
+          "action": "Invest in media staff when the club is ready to turn competitive progress into stronger visibility and commercial growth."
+        }
+      ]
+    },
+    "sponsorsFinance": {
+      "title": "Esports Manager 2026 Sponsors, Finance and Organization Growth",
+      "intro": "Every contract, signing, sponsorship, and staffing decision affects the wider organization. The safest first-season approach is to establish a functional roster, protect operating funds, develop affordable talent, and expand commercial operations only when the club can support the added costs.",
+      "stages": [
+        {
+          "stage": "1. Establish the Budget",
+          "priority": "Critical",
+          "focus": "Operating security",
+          "actions": "Review the available budget before signing players or staff. Reserve enough money for contracts, salaries, tournament operations, and unexpected roster problems.",
+          "risk": "Spending most of the starting budget on one recognizable player before the rest of the organization is functional."
+        },
+        {
+          "stage": "2. Control Player Salaries",
+          "priority": "Critical",
+          "focus": "Sustainable payroll",
+          "actions": "Compare a player's competitive value, role, contract demands, and effect on the complete lineup. Build a balanced roster instead of collecting several expensive names with overlapping roles.",
+          "risk": "Creating a top-heavy wage structure that limits future transfers and causes dissatisfaction across the squad."
+        },
+        {
+          "stage": "3. Build a Lean Support Team",
+          "priority": "High",
+          "focus": "Essential staffing",
+          "actions": "Begin with staff who directly support development, preparation, player management, or organization operations. Add specialized roles as the tournament schedule and business workload increase.",
+          "risk": "Hiring a large backroom team before the club has stable competitive income."
+        },
+        {
+          "stage": "4. Use the Transfer Market Carefully",
+          "priority": "High",
+          "focus": "Roster improvement",
+          "actions": "Scout players, negotiate contracts, and consider buying, selling, or loaning talent according to the club's actual needs. Developing promising players can be safer than immediately pursuing established superstars.",
+          "risk": "Paying a major transfer fee without checking role balance, morale, contract cost, and the remaining budget."
+        },
+        {
+          "stage": "5. Secure Sponsorship Deals",
+          "priority": "Medium",
+          "focus": "Commercial income",
+          "actions": "Use sponsorship opportunities to strengthen the business side of the organization. Competitive results and growing visibility provide a stronger base for long-term commercial development.",
+          "risk": "Treating sponsorship income as unlimited transfer money while ignoring recurring salaries and operating costs."
+        },
+        {
+          "stage": "6. Grow Brand Visibility",
+          "priority": "Medium",
+          "focus": "Reputation and influence",
+          "actions": "Invest in media activity and organization branding as the team becomes more established. Visibility supports the wider goal of increasing the club's influence across the esports scene.",
+          "risk": "Expanding branding operations faster than the competitive team and financial base can support."
+        },
+        {
+          "stage": "7. Reinvest After Competitive Progress",
+          "priority": "Long Term",
+          "focus": "Organization expansion",
+          "actions": "Use improved results and stronger finances to upgrade the roster, expand staff, enter larger competitions, and pursue more ambitious sponsorship opportunities.",
+          "risk": "Replacing a successful structure with multiple high-cost signings after a single strong tournament."
+        }
+      ]
+    },
+    "downloadDemo": {
+      "title": "Esports Manager 2026 Download, Demo and PC Requirements",
+      "intro": "Esports Manager 2026 launched for PC on July 6, 2026. The full game is sold through Steam and the indie.io store, while a separate free Steam demo lets players test performance and the core management systems before buying.",
+      "specs": [
+        {
+          "label": "Release Date",
+          "value": "July 6, 2026",
+          "details": "The full PC version was released by Neurona Games and indie.io."
+        },
+        {
+          "label": "Available Platforms",
+          "value": "Windows PC",
+          "details": "The official release is available on PC through Steam and the indie.io store."
+        },
+        {
+          "label": "Free Demo",
+          "value": "Available on Steam",
+          "details": "Open the Esports Manager 2026 Demo page, sign in to Steam, select Install Demo, choose an installation location, and launch it from the Steam Library."
+        },
+        {
+          "label": "Demo Release Date",
+          "value": "December 8, 2025",
+          "details": "The demo is listed as a separate free Steam application and is updated with changes from the release version."
+        },
+        {
+          "label": "Full Game Price",
+          "value": "US Steam base price: $19.99",
+          "details": "A 20% introductory Steam discount is listed through July 20, 2026. Final prices vary by region, currency, taxes, and store."
+        },
+        {
+          "label": "indie.io Store Delivery",
+          "value": "Digital activation key",
+          "details": "After a successful purchase, the activation key and receipt are sent to the checkout email address."
+        },
+        {
+          "label": "Operating System",
+          "value": "Windows 7, 10, or 11 — 64-bit",
+          "details": "A 64-bit processor and operating system are required."
+        },
+        {
+          "label": "Processor",
+          "value": "Intel Core 2 or AMD Athlon 64 X2",
+          "details": "The official minimum listing targets older dual-core processor families."
+        },
+        {
+          "label": "Memory",
+          "value": "2 GB RAM",
+          "details": "Both the minimum and recommended listings show 2 GB of system memory."
+        },
+        {
+          "label": "Graphics",
+          "value": "Intel GMA X4500, NVIDIA GeForce 9600M GT, or AMD/ATI Mobility Radeon HD 3650",
+          "details": "The graphics listing requires at least 256 MB VRAM and DirectX 11 capability."
+        },
+        {
+          "label": "DirectX",
+          "value": "Version 10",
+          "details": "The official requirement table lists DirectX Version 10."
+        },
+        {
+          "label": "Storage",
+          "value": "4 GB available space",
+          "details": "Keep additional free space available for Steam installation files, saves, and updates."
+        },
+        {
+          "label": "Supported Languages",
+          "value": "11 languages in the full Steam release",
+          "details": "English, French, German, Spanish, Polish, Russian, Portuguese, Simplified Chinese, Swedish, Turkish, and Ukrainian are listed."
+        },
+        {
+          "label": "Older PC Compatibility",
+          "value": "Suitable for modest 64-bit hardware",
+          "details": "A computer meeting the listed processor, RAM, graphics, DirectX, and storage requirements should be able to attempt the game. The free demo is the quickest way to test performance."
+        }
+      ]
+    },
+    "updatesPatchNotes": {
+      "title": "Esports Manager 2026 Updates and Patch Notes",
+      "intro": "The first post-launch updates focused on transfer-market behavior, match simulation, training balance, wages, roster generation, localization, and problems affecting existing saves. Steam normally downloads these patches automatically before the game launches.",
+      "entries": [
+        {
+          "date": "July 12, 2026",
+          "version": "Hot-fix Patch",
+          "summary": "A small stability and transfer-realism update that repairs retired players stuck inside active squads.",
+          "changes": [
+            "Retired players are removed from the locked roster state that prevented selling, releasing, or changing their contracts.",
+            "Existing affected saves repair the retired-player roster problem automatically when loaded.",
+            "Retired squad members no longer send wage-demand or playing-time complaints.",
+            "The career-start transfer freeze now also stops AI clubs from bidding for the user's players.",
+            "World-class players are less likely to join clubs far below their prestige level.",
+            "German menu labels, prompts, finance terms, and transfer actions received localization improvements."
+          ],
+          "impact": "Players with retired squad members should load the career normally so the automatic roster repair can run."
+        },
+        {
+          "date": "July 11, 2026",
+          "version": "Patch 1.0.2",
+          "summary": "A major simulation, training, economy, transfer-market, localization, and database update.",
+          "changes": [
+            "Fixed player pathing, navigation grids, map loading, and Counter-Terrorist rotations after the bomb is planted.",
+            "Improved AI map bans, decisive-round purchasing, tactic behavior, and double-AWP assignment.",
+            "Reduced ERS rating gains from matches, team comparisons, and tournaments.",
+            "Rebalanced training formulas and lowered maximum NewGen attributes while increasing player variety.",
+            "Rebalanced quick-match results and per-map individual rating calculations.",
+            "AI clubs wait 14 days after a rejected bid before returning with a higher offer.",
+            "Short-handed AI teams sign players according to required roles and fill incomplete rosters more quickly.",
+            "Starting and market wages were lowered, transfer values recalculated, and wages scale more closely with rating.",
+            "A player's wage drops by 30% after spending one month on the bench.",
+            "Career creation added an undismissable-manager option and a choice to freeze the AI transfer market.",
+            "Updated the team and player database with new rosters, transfers, and free agents."
+          ],
+          "impact": "Active careers receive the new training, wage, ERS, transfer, simulation, and player-generation rules after updating."
+        },
+        {
+          "date": "July 7, 2026",
+          "version": "Patch 1.0.1",
+          "summary": "The first post-launch patch expanded player loans and fixed scouting, simulation, staff-training, audio, interface, and localization issues.",
+          "changes": [
+            "AI clubs can loan players to and from one another instead of relying only on permanent transfers.",
+            "Clubs normally loan bench or young players while protecting starting stars.",
+            "Players can reject loans to clubs far below their level, with region and compatibility considered.",
+            "Each club can have up to two players loaned in and two players loaned out.",
+            "Players return with their original contracts intact when loans end, and managers can recall them early for a reduced fee.",
+            "Fixed scouting filter defaults, reset behavior, and the displayed number of matching players.",
+            "Corrected post-plant simulation behavior and rotation routes on multiple maps.",
+            "The appropriate localized caster is selected automatically, with fixes for commentary and round-MVP announcements.",
+            "Added the seasonal EMTV Top 20 countdown and Player of the Year presentation with season statistics."
+          ],
+          "impact": "Existing careers gain the expanded AI loan market, corrected staff training, simulation fixes, and seasonal EMTV awards."
         }
       ]
     }
@@ -749,31 +553,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Esports Manager 2026",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Esports Manager 2026?",
+        "answer": "Esports Manager 2026 is a PC esports club management simulation developed by Neurona Games and published by indie.io, released on Steam on July 6, 2026. You scout players, negotiate contracts, manage training and morale, and control live match tactics."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Esports Manager 2026?",
+        "answer": "Esports Manager 2026 is available on PC through Steam and the indie.io store. A separate free Steam demo lets you test the core management systems before buying the full game."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How much does Esports Manager 2026 cost?",
+        "answer": "The US Steam base price for Esports Manager 2026 is $19.99, with a 20% introductory discount listed through July 20, 2026. Final prices vary by region, currency, taxes, and store."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Esports Manager 2026 include real teams and players?",
+        "answer": "Yes. Esports Manager 2026 includes more than 325 real organizations and a player database with skill, specialist attributes, roles, team assignments, and career earnings."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Can I run Esports Manager 2026 on an older PC?",
+        "answer": "Yes. Esports Manager 2026 targets modest 64-bit hardware, with a minimum of 2 GB RAM, a dual-core processor, and 256 MB VRAM graphics. The free Steam demo is the quickest way to test performance before buying."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Will Esports Manager 2026 receive updates?",
+        "answer": "Yes. The first post-launch patches for Esports Manager 2026 improved transfer-market behavior, match simulation, training balance, wages, roster generation, and localization. Steam normally downloads these updates automatically."
       }
     ]
   },
@@ -802,124 +606,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Esports Manager 2026 Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced tactics, scouting, and tournament strategies.",
+      "metaTitle": "Esports Manager 2026 Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Esports Manager 2026 guides covering beginner tips, roster building, scouting, transfers, tactics, and tournament preparation.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, roster management, scouting, transfers, training, and tactics. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand scouting, contracts, and morale systems and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to build a stable organization and win tournaments",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for match simulation and long-term growth"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Esports Manager 2026 Players",
+      "description": "Player database, rating tiers, specialist attributes, roles, and roster-building strategies.",
+      "metaTitle": "Esports Manager 2026 Players - Tier List & Roles",
+      "metaDescription": "Master Esports Manager 2026 player ratings, tiers, specialist attributes, and roles. Build a balanced roster with the right IGL, AWPer, Entry, Support, and Lurker coverage.",
+      "categoryLabel": "PLAYERS & ROLES",
+      "whatIs": "What are Players?",
+      "whatIsDescription": "A complete player database with skill ratings, specialist attributes, roles, team assignments, and career earnings. Learn how S, A, B, and C tiers translate into balanced roster decisions.",
+      "why": "Why study players?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Build Balanced Rosters",
+        "step1Description": "Combine overall strength with specialist role coverage",
+        "step2Title": "Spot Value Signings",
+        "step2Description": "Identify affordable prospects with strong development potential",
+        "step3Title": "Avoid Role Overlap",
+        "step3Description": "Prevent expensive lineups that overlap on the same specialist role"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Player Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Esports Manager 2026 Teams",
+      "description": "Real organizations, active rosters, team strength, and starting difficulty comparisons.",
+      "metaTitle": "Esports Manager 2026 Teams - Real Organizations",
+      "metaDescription": "Explore the real organizations in Esports Manager 2026. Compare rosters, budgets, reputation, and starting difficulty to pick the right club.",
+      "categoryLabel": "TEAMS & ORGANIZATIONS",
+      "whatIs": "What are Teams?",
+      "whatIsDescription": "Guides to the real organizations included in the game, their current rosters, prestige, budgets, and starting difficulty. Find the team that matches your preferred challenge level.",
+      "why": "Why compare teams?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose Your Challenge",
+        "step1Description": "Pick a club with the right budget and reputation for your skill",
+        "step2Title": "Read the Roster",
+        "step2Description": "Understand which positions and roles need immediate attention",
+        "step3Title": "Plan the First Season",
+        "step3Description": "Set realistic tournament goals based on team strength"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Team Guides"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Esports Manager 2026 Tournaments",
+      "description": "Event qualification, schedules, rankings, prize pools, and progression paths.",
+      "metaTitle": "Esports Manager 2026 Tournaments - Events & Qualification",
+      "metaDescription": "Explore Esports Manager 2026 tournaments. Find event lists, qualification rules, prize pools, rankings, and progression paths to the biggest championships.",
+      "categoryLabel": "TOURNAMENTS & EVENTS",
+      "whatIs": "What are Tournaments?",
+      "whatIsDescription": "Guides to the competition calendar, from smaller events to major championships. Learn qualification, scheduling, rankings, prize pools, and how tournaments affect organization visibility.",
+      "why": "Why plan tournaments?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Match Events to Roster Level",
+        "step1Description": "Enter competitions that fit your current team strength",
+        "step2Title": "Manage the Calendar",
+        "step2Description": "Balance travel, preparation, and player recovery",
+        "step3Title": "Climb the Rankings",
+        "step3Description": "Use consistent results to grow prestige and sponsorships"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Tournament Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Esports Manager 2026 Finances",
+      "description": "Budgets, salaries, sponsorships, branding, and long-term organization growth.",
+      "metaTitle": "Esports Manager 2026 Finances - Budgets & Sponsors",
+      "metaDescription": "Master Esports Manager 2026 finances. Learn budget control, salary structure, sponsorship deals, brand visibility, and sustainable organization growth.",
+      "categoryLabel": "FINANCES & SPONSORS",
+      "whatIs": "What are Finances?",
+      "whatIsDescription": "Guides to budgets, salaries, transfer spending, sponsorship deals, brand visibility, and business operations. Build financial discipline that gives the organization time to develop.",
+      "why": "Why manage finances?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Protect Operating Funds",
+        "step1Description": "Reserve budget for wages, staff, and unexpected problems",
+        "step2Title": "Control the Wage Bill",
+        "step2Description": "Avoid top-heavy salaries that block future transfers",
+        "step3Title": "Grow Commercially",
+        "step3Description": "Turn competitive progress into sponsorship and brand value"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Finance Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Esports Manager 2026 Updates",
+      "description": "Patch notes, balance changes, transfer-system improvements, bug fixes, and save impact.",
+      "metaTitle": "Esports Manager 2026 Updates - Patch Notes & Changes",
+      "metaDescription": "Track Esports Manager 2026 updates including patch notes, balance changes, transfer-system improvements, bug fixes, localization, and save impact.",
+      "categoryLabel": "UPDATES & SUPPORT",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Technical guides and news covering official patches, balance adjustments, transfer-market changes, simulation improvements, bug fixes, and how each update affects active careers.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Stay Current",
+        "step1Description": "Keep the game patched for the latest fixes and balance",
+        "step2Title": "Understand Changes",
+        "step2Description": "See how updates affect players, tactics, and saves",
+        "step3Title": "Plan Around Patches",
+        "step3Description": "Adjust rosters and tactics to match the live rules"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Update Notes"
     }
   }
 }
