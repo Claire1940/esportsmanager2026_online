@@ -1,11 +1,757 @@
 {
+  "seo": {
+    "home": {
+      "title": "Esports Manager 2026 Wiki - Jugadores, Tácticas y Fichajes",
+      "description": "Esports Manager 2026 Wiki incluye guías para principiantes, mejores jugadores, equipos, scouting, fichajes, entrenamiento, tácticas, finanzas, torneos y actualizaciones.",
+      "keywords": "Esports Manager 2026, Steam, jugadores, equipos, scouting, fichajes, tácticas, entrenamiento, guías",
+      "ogTitle": "Esports Manager 2026 Wiki - Jugadores, Tácticas y Fichajes",
+      "ogDescription": "Esports Manager 2026 Wiki incluye guías para principiantes, mejores jugadores, equipos, scouting, fichajes, entrenamiento, tácticas, finanzas, torneos y actualizaciones.",
+      "twitterTitle": "Esports Manager 2026 Wiki - Jugadores, Tácticas y Fichajes",
+      "twitterDescription": "Esports Manager 2026 Wiki incluye guías para principiantes, mejores jugadores, equipos, scouting, fichajes, entrenamiento, tácticas y torneos en Steam."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "tactics": "Tácticas",
-    "roster": "Roster",
+    "roster": "Plantilla",
     "customization": "Personalización",
     "release": "Lanzamiento",
     "support": "Soporte",
     "review": "Reseña"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulación profunda de gestión de esports",
+    "title": "Esports Manager 2026 Wiki",
+    "description": "Crea y dirige una organización profesional de esports a través del scouting, contratos, fichajes, entrenamientos, personal, finanzas, torneos y tácticas de partidos en vivo.",
+    "getFreeCodesCTA": "Jugar demo gratuita",
+    "playOnRobloxCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "10.149",
+        "label": "Pico de CCU"
+      },
+      "stat2": {
+        "value": "76% positivas",
+        "label": "Reseñas de Steam"
+      },
+      "stat3": {
+        "value": "325+",
+        "label": "Organizaciones reales"
+      },
+      "stat4": {
+        "value": "6 de jul. de 2026",
+        "label": "Fecha de lanzamiento"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Esports Manager 2026",
+    "description": "Crea y dirige una organización profesional de esports mediante el scouting, traspasos, entrenamiento, tácticas, finanzas y simulación de partidos en vivo en Steam."
+  },
+  "tools": {
+    "title": "Esports Manager 2026",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para construir una organización de campeonato en Esports Manager 2026",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Ruta de la primera temporada, configuración de la plantilla y personal"
+      },
+      {
+        "icon": "Users",
+        "title": "Jugadores y roles",
+        "description": "Niveles de S a C y ajuste de roles de especialistas"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Scouting y traspasos",
+        "description": "Agentes libres, préstamos, salarios y contratos"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Tácticas y simulación",
+        "description": "Planes de partido, veto de mapas y economía"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Entrenamiento y personal",
+        "description": "Planes semanales, moral y contrataciones del cuerpo técnico"
+      },
+      {
+        "icon": "Package",
+        "title": "Patrocinadores y finanzas",
+        "description": "Presupuestos, salarios y crecimiento de la organización"
+      },
+      {
+        "icon": "Download",
+        "title": "Descarga y demo",
+        "description": "Demo de Steam, precio y requisitos de PC"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones y notas del parche",
+        "description": "Cambios de equilibrio, correcciones e impacto en la partida guardada"
+      }
+    ]
+  },
+  "modules": {
+    "beginnerGuide": {
+      "title": "Guía para principiantes de Esports Manager 2026",
+      "intro": "Esports Manager 2026 te permite empezar de cero o gestionar una organización establecida a partir de una base de más de 325 organizaciones reales. Un comienzo seguro se centra en la legalidad de la plantilla, la cobertura de roles, el personal, el entrenamiento semanal, la moral, los contratos y los torneos alcanzables antes de realizar fichajes estrella costosos.",
+      "steps": [
+        {
+          "title": "Elige tu camino inicial",
+          "description": "Crea tu propia organización para una reconstrucción completa o toma las riendas de un equipo existente con jugadores, reputación y expectativas competitivas ya definidos. Revisa el presupuesto inicial, la plantilla, el personal y el calendario de torneos antes de avanzar el tiempo."
+        },
+        {
+          "title": "Completa una alineación titular de cinco jugadores",
+          "description": "La plantilla para los partidos necesita cinco jugadores, y las actualizaciones oficiales recientes hacen que los equipos de la IA incompletos cubran las vacantes con fichajes que tienen en cuenta los roles. Confirma que la alineación cubra las funciones de IGL, AWPer, Entry Fragger, Support, Lurker y Rifler sin un solapamiento excesivo de roles."
+        },
+        {
+          "title": "Negocia el primer contrato esencial",
+          "description": "Compara el coste de traspaso, la demanda salarial, la duración del contrato, la habilidad actual, el ajuste del rol y el valor de desarrollo antes de enviar una oferta. Utiliza agentes libres cuando el presupuesto de traspasos sea ajustado y reserva suficiente presupuesto para salarios, personal, entrenamiento y futuros cambios en la plantilla."
+        },
+        {
+          "title": "Contrata al cuerpo técnico principal",
+          "description": "El juego incluye entrenadores, analistas, mánagers junior, especialistas en medios y otro personal que contribuye al rendimiento y al crecimiento de la organización. Prioriza a un entrenador para el desarrollo y a un analista para la preparación de partidos, y ajusta la calidad del personal al prestigio del club."
+        },
+        {
+          "title": "Configura el entrenamiento semanal y protege la moral",
+          "description": "Los planes semanales afectan al crecimiento de las habilidades y al bienestar, mientras que el team-building, las sesiones de psicología, la programación inteligente y el módulo Talk refuerzan la moral. Entrena la próxima debilidad competitiva del equipo en lugar de todos los atributos a la vez, y prepara primero un grupo pequeño de mapas."
+        },
+        {
+          "title": "Entra en el primer ciclo de torneos",
+          "description": "El calendario abarca desde pequeñas competiciones hasta campeonatos importantes, con clasificaciones, patrocinios y visibilidad de la organización ligados al progreso a largo plazo. Elige eventos que se ajusten al nivel actual de la plantilla y usa los primeros partidos para probar el quinteto inicial, la preparación de mapas y los roles tácticos."
+        },
+        {
+          "title": "Sigue la ruta de la primera temporada",
+          "description": "Usa una secuencia sencilla: plantilla legal, contrato esencial, personal principal, entrenamiento semanal, control de moral, primer torneo y luego mejoras controladas. Mantén un quinteto inicial estable el tiempo suficiente para evaluar el encaje de roles y revisa las finanzas antes de cada nuevo bloque de torneos."
+        }
+      ],
+      "quickTips": [
+        "No gastes de inmediato. Primero identifica qué posiciones, contratos y roles de personal faltan realmente.",
+        "No fiches a varios jugadores para el mismo rol de especialista solo porque su valoración general sea alta.",
+        "Evita un fichaje estrella único que consuma el presupuesto pero deje al equipo sin equilibrio de roles o cobertura en el banquillo.",
+        "Desarrolla a jugadores prometedores en lugar de reemplazar a toda la plantilla tras un solo evento.",
+        "No trates cada derrota temprana como prueba de que la plantilla necesita otro traspaso costoso."
+      ]
+    },
+    "playersTierList": {
+      "title": "Tier List de jugadores y roles de Esports Manager 2026",
+      "intro": "La base de datos de Esports Manager almacena la habilidad de los jugadores, los atributos de especialista, los roles, la asignación de equipo y las ganancias de su carrera en el formato utilizado por Esports Manager 2026. El nivel de valoración es un indicador rápido de fuerza, pero una plantilla completa sigue necesitando cobertura de IGL, AWPer, Entry Fragger, Support, Lurker y un Rifler fiable.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Élite / Top-20",
+          "meaning": "El nivel de jugador más alto mostrado, destinado a nombres de élite y talento de nivel Top-20.",
+          "bestUse": "Úsalo como pilar de la franquicia, estrella principal, AWPer de élite o líder de alto impacto cuando el salario y el coste de traspaso se ajusten a la organización."
+        },
+        {
+          "tier": "A",
+          "label": "Profesional / Tier-1",
+          "meaning": "Jugadores profesionales fuertes adecuados para la competición de Tier-1 y roles de titular habituales.",
+          "bestUse": "Construye la mayor parte de un núcleo competitivo con jugadores de nivel A con roles y atributos complementarios."
+        },
+        {
+          "tier": "B",
+          "label": "Semiprofesional",
+          "meaning": "Jugadores semiprofesionales que pueden aportar titulares asequibles, profundidad de banquillo o valor de desarrollo.",
+          "bestUse": "Apunta a jugadores de nivel B cuando el presupuesto necesite cobertura de roles, crecimiento futuro o un reemplazo de menor coste."
+        },
+        {
+          "tier": "C",
+          "label": "Amateur / Nivel inferior",
+          "meaning": "El nivel de valoración inicial para jugadores amateur y de nivel inferior.",
+          "bestUse": "Úsalo para profundidad de emergencia, inicios con bajo presupuesto, bases de datos personalizadas o proyectos de desarrollo a largo plazo."
+        }
+      ],
+      "roles": [
+        {
+          "role": "IGL",
+          "fullName": "In-Game Leader",
+          "attributes": "Habilidad, Granadas, Clutch",
+          "function": "Ocupa el puesto de liderazgo a la vez que aporta utilidad, valor en la toma de decisiones y estabilidad al final de la ronda."
+        },
+        {
+          "role": "AWPer",
+          "fullName": "Francotirador principal",
+          "attributes": "AWP, Reacción, Clutch",
+          "function": "Crea impacto a larga distancia y dota al sistema táctico de un francotirador principal dedicado."
+        },
+        {
+          "role": "Entry Fragger",
+          "fullName": "Especialista en duelos de apertura",
+          "attributes": "Rifle, Reacción, Pistola",
+          "function": "Participa en los primeros duelos, crea espacio y comienza las secuencias de ataque."
+        },
+        {
+          "role": "Support",
+          "fullName": "Utilidad y Trade Support",
+          "attributes": "Granadas, rifle, pistola",
+          "function": "Usa la utilidad, habilita a sus compañeros y estabiliza las ejecuciones y retakes."
+        },
+        {
+          "role": "Lurker",
+          "fullName": "Especialista en control del mapa",
+          "attributes": "Clutch, reacción, rifle",
+          "function": "Controla el espacio lejos del grupo, castiga las rotaciones y maneja situaciones aisladas al final de la ronda."
+        },
+        {
+          "role": "Rifler",
+          "fullName": "Jugador de rifle flexible",
+          "attributes": "Rifle, reacción, pistola",
+          "function": "Ocupa posiciones flexibles, hace trades para sus compañeros y apoya planes tanto agresivos como controlados."
+        }
+      ]
+    },
+    "scoutingTransfers": {
+      "title": "Scouting, traspasos y contratos de Esports Manager 2026",
+      "intro": "Esports Manager 2026 utiliza un mercado dinámico con traspasos, cesiones, consentimiento del jugador, negociaciones de contrato, salarios, creación de plantillas basada en roles y prestigio del club. El mejor acuerdo no siempre es el jugador con mayor valoración; compara el impacto inmediato con el coste total y el desarrollo a largo plazo.",
+      "routes": [
+        {
+          "route": "Agente libre",
+          "upfront": "Sin coste de traspaso",
+          "commitment": "Salario y duración del contrato",
+          "bestUse": "Completar una alineación de cinco jugadores, añadir profundidad a bajo coste o fichar a una promesa sin pagar a otro club."
+        },
+        {
+          "route": "Traspaso pagado",
+          "upfront": "Coste de traspaso",
+          "commitment": "Salario y duración del contrato",
+          "bestUse": "Comprar una mejora clara para el quinteto inicial o cubrir un rol de especialista que el mercado de agentes libres no puede cubrir."
+        },
+        {
+          "route": "Cesión recibida",
+          "upfront": "Coste del acuerdo temporal",
+          "commitment": "Duración de la cesión y términos acordados",
+          "bestUse": "Añadir calidad a corto plazo cuando el club no puede permitirse un traspaso permanente."
+        },
+        {
+          "route": "Cesión enviada",
+          "upfront": "Sin coste de compra",
+          "commitment": "El contrato principal sigue activo",
+          "bestUse": "Dar tiempo competitivo a suplentes o jugadores jóvenes mientras se mantiene la propiedad."
+        },
+        {
+          "route": "Renovación de contrato",
+          "upfront": "Sin coste de traspaso",
+          "commitment": "Nuevo salario y duración del contrato",
+          "bestUse": "Proteger a un titular fundamental, retener a un jugador con gran potencial o evitar la búsqueda de un sustituto."
+        },
+        {
+          "route": "Estrella consagrada",
+          "upfront": "Normalmente el coste más alto",
+          "commitment": "Salario alto y grandes expectativas para la plantilla",
+          "bestUse": "Proporcionar un impacto inmediato de campeonato en un rol para el que el equipo está diseñado."
+        },
+        {
+          "route": "Promesa en desarrollo",
+          "upfront": "Normalmente inferior al de una estrella",
+          "commitment": "Salario, duración, tiempo de entrenamiento, espacio en la plantilla",
+          "bestUse": "Generar valor a lo largo de varias temporadas mediante el entrenamiento semanal y tiempo de juego regular."
+        }
+      ],
+      "note": "Las actualizaciones oficiales ajustaron las fórmulas de los precios de traspaso, escalaron los salarios de forma más precisa según la valoración del jugador y ampliaron la entrada de nuevos jugadores. Cada club puede tener hasta dos jugadores cedidos y dos prestados."
+    },
+    "tacticsSimulation": {
+      "title": "Tácticas y simulación de partidos de Esports Manager 2026",
+      "intro": "El modo de simulación sitúa al mánager dentro de un partido semi-3D donde las decisiones tácticas, las rotaciones, los vetos de mapas, la lógica de compra, los roles de francotirador y los eventos en vivo afectan a la serie. Comienza con un pequeño conjunto de planes repetibles y cambia un elemento a la vez cuando el patrón del partido lo exija.",
+      "entries": [
+        {
+          "heading": "Construye el plan en torno al quinteto inicial",
+          "content": "Asigna claramente un IGL, un AWPer principal, un Entry Fragger, un Support, un Lurker y cobertura flexible de Rifler antes de elegir las tácticas. El plan debe utilizar los atributos de especialista más fuertes de cada jugador en lugar de forzar a todos los jugadores al mismo estilo.",
+          "template": "IGL/Rifler + AWPer + Entry Fragger + Support + Lurker"
+        },
+        {
+          "heading": "Prepara un pool de mapas reducido y un plan de vetos",
+          "content": "El entrenamiento semanal puede centrarse en mapas específicos, y las actualizaciones oficiales han mejorado el algoritmo de veto de mapas de la IA y los cálculos por mapa. Crea una primera elección fiable, una opción secundaria y una alternativa segura antes de intentar preparar todos los mapas.",
+          "template": "Veta el mapa menos preparado, protege el mapa mejor entrenado y mantén una alternativa practicada."
+        },
+        {
+          "heading": "Táctica predeterminada equilibrada",
+          "content": "Utiliza una apertura controlada que permita al Entry Fragger crear espacio, al Support preparar la utilidad y los intercambios, al AWPer cubrir un ángulo largo, al Lurker controlar un carril separado y al IGL o Rifler conectar al grupo.",
+          "template": "Una acción de entrada, un paquete de utilidad de apoyo, un ángulo de AWP, una ruta de lurker, un trader flexible."
+        },
+        {
+          "heading": "Táctica de presión rápida",
+          "content": "Utiliza un plan más rápido cuando el oponente ceda espacio inicial repetidamente o rote demasiado lento. El Entry Fragger comienza el movimiento, un Rifler le sigue para el intercambio, la utilidad del Support despeja la ruta y el Lurker bloquea la rotación.",
+          "template": "Entry primero, trader segundo, utilidad de Support detrás, AWPer vigilando la respuesta, Lurker cortando la rotación."
+        },
+        {
+          "heading": "Economía y decisiones de AWP",
+          "content": "El motor de partidos incluye lógica de compra, roles de armas y comportamiento económico en rondas decisivas. Las actualizaciones recientes han rediseñado la lógica de compra y habilitado configuraciones de doble AWP al asignar la segunda arma al francotirador secundario.",
+          "template": "Mantén las rondas de compra completa coordinadas y usa doble AWP solo cuando dos roles de francotirador asignados justifiquen el coste."
+        },
+        {
+          "heading": "Reacciona durante el modo de simulación",
+          "content": "Los partidos se desarrollan en tiempo real con eventos dinámicos, comentaristas en vivo, reglas tácticas, tiempos, rotaciones, situaciones de post-plant y decisiones del mánager. Cambia una variable a la vez para que el resultado pueda leerse claramente.",
+          "template": "Ajusta el ritmo, el área objetivo o la tarea del jugador por separado en lugar de reemplazar toda la táctica después de una ronda."
+        },
+        {
+          "heading": "Adáptate entre mapas",
+          "content": "Utiliza el primer mapa para identificar qué roles, tiempos y opciones económicas están funcionando. Mantén la estructura exitosa, reemplaza el detalle que falle y utiliza el siguiente veto o configuración táctica para orientar la serie hacia las fortalezas de la plantilla.",
+          "template": "Mantén el núcleo estable, cambia el plan del mapa débil y protege la moral con roles de jugador claros."
+        }
+      ]
+    },
+    "trainingStaff": {
+      "title": "Guía de entrenamiento, moral y personal de Esports Manager 2026",
+      "intro": "Esports Manager 2026 conecta el desarrollo del jugador con la gestión de la moral y la carga de trabajo. Los planes de entrenamiento semanales, las sesiones de psicología, las actividades de Team Building, las conversaciones, la contratación de personal y la programación de torneos contribuyen al estado a largo plazo de la plantilla.",
+      "cards": [
+        {
+          "title": "Planes de entrenamiento semanales",
+          "category": "Desarrollo de jugadores",
+          "description": "Crea planes semanales que apunten al crecimiento de habilidades y al mismo tiempo protejan el bienestar del jugador. El entrenamiento debe reflejar las debilidades actuales del equipo, el tiempo de preparación disponible y el calendario de los próximos torneos.",
+          "action": "Utiliza un desarrollo enfocado durante las semanas libres y reduce la carga de trabajo cuando haya varios partidos competitivos programados en fechas cercanas."
+        },
+        {
+          "title": "Team Building",
+          "category": "Moral",
+          "description": "Las actividades de Team Building ayudan a los mánagers a abordar el lado humano del desarrollo de la plantilla. Son más útiles cuando se unen nuevos jugadores, los resultados empeoran o las relaciones dentro de la alineación comienzan a debilitarse.",
+          "action": "Incluye trabajo de Team Building después de los cambios en la plantilla en lugar de esperar que los jugadores recién fichados rindan como una unidad completa de inmediato."
+        },
+        {
+          "title": "Sesiones de psicología",
+          "category": "Bienestar mental",
+          "description": "Las sesiones de psicología apoyan los sistemas de salud mental y motivación incluidos en el juego. Proporcionan una alternativa a tratar cada problema de rendimiento como una falta de habilidad mecánica.",
+          "action": "Utiliza el apoyo psicológico cuando la moral o la motivación caigan en lugar de aumentar la intensidad del entrenamiento automáticamente."
+        },
+        {
+          "title": "Módulo de charla",
+          "category": "Comunicación",
+          "description": "El módulo de charla permite tener conversaciones directas con los jugadores y el personal. Los mánagers pueden informarse sobre las necesidades individuales, motivaciones, quejas y conflictos antes de que esos problemas afecten al equipo en general.",
+          "action": "Revisa las conversaciones con regularidad y responde a las inquietudes antes de los torneos importantes o las negociaciones de contratos."
+        },
+        {
+          "title": "Carga de trabajo y calendario",
+          "category": "Carga de trabajo",
+          "description": "El entrenamiento debe equilibrarse con los viajes, las fechas de los torneos, la preparación de los partidos y el bienestar de los jugadores. Un calendario saturado puede dificultar el mantenimiento de un plan de entrenamiento agresivo.",
+          "action": "Revisa el calendario de torneos antes de confirmar el plan semanal y deja espacio para la recuperación en torno a los eventos importantes."
+        },
+        {
+          "title": "Entrenadores",
+          "category": "Cuerpo técnico",
+          "description": "Los entrenadores forman parte de todo el equipo de apoyo disponible para una organización y son una elección de personal clave para los mánagers centrados en el desarrollo de los jugadores y del equipo.",
+          "action": "Prioriza a un entrenador cuando la organización necesite un desarrollo estructurado en lugar de depender únicamente de fichajes costosos."
+        },
+        {
+          "title": "Analistas",
+          "category": "Cuerpo técnico",
+          "description": "Los analistas refuerzan la estructura de apoyo competitivo en torno a la plantilla. Están diseñados para contribuir a la preparación y al rendimiento general junto con los entrenadores y los mánagers.",
+          "action": "Añade el apoyo de analistas a medida que el equipo empiece a participar en torneos más competitivos y requiera un cuerpo técnico más completo."
+        },
+        {
+          "title": "Mánagers júnior",
+          "category": "Cuerpo técnico",
+          "description": "Los mánagers júnior amplían la estructura de gestión que hay detrás de la plantilla principal. Se vuelven más valiosos a medida que aumenta el número de jugadores, miembros del personal, contratos y eventos programados.",
+          "action": "Contrata apoyo de gestión júnior una vez que la organización crezca más allá de una pequeña operación de primera temporada."
+        },
+        {
+          "title": "Especialistas en medios",
+          "category": "Personal de marca",
+          "description": "Los especialistas en medios apoyan el aspecto de creación de la organización del juego, donde la visibilidad, la imagen de marca, los patrocinios y la influencia importan tanto como los resultados de los torneos.",
+          "action": "Invierte en personal de medios cuando el club esté listo para convertir el progreso competitivo en una mayor visibilidad y crecimiento comercial."
+        }
+      ]
+    },
+    "sponsorsFinance": {
+      "title": "Patrocinadores, finanzas y crecimiento de la organización de Esports Manager 2026",
+      "intro": "Cada contrato, fichaje, patrocinio y decisión de personal afecta a toda la organización. El enfoque más seguro para la primera temporada es establecer una plantilla funcional, proteger los fondos operativos, desarrollar talento asequible y expandir las operaciones comerciales únicamente cuando el club pueda asumir los costes adicionales.",
+      "stages": [
+        {
+          "stage": "1. Establecer el presupuesto",
+          "priority": "Crítico",
+          "focus": "Seguridad operativa",
+          "actions": "Revisa el presupuesto disponible antes de fichar a jugadores o personal. Reserva suficiente dinero para contratos, salarios, operaciones de torneos y problemas inesperados con la plantilla.",
+          "risk": "Gastar la mayor parte del presupuesto inicial en un solo jugador reconocido antes de que el resto de la organización sea funcional."
+        },
+        {
+          "stage": "2. Controlar los salarios de los jugadores",
+          "priority": "Crítico",
+          "focus": "Masa salarial sostenible",
+          "actions": "Compara el valor competitivo de un jugador, su rol, sus exigencias contractuales y su efecto en la alineación completa. Crea una plantilla equilibrada en lugar de acumular varios nombres caros con roles superpuestos.",
+          "risk": "Crear una estructura salarial desequilibrada que limite los futuros fichajes y cause descontento en toda la plantilla."
+        },
+        {
+          "stage": "3. Crear un equipo de apoyo eficiente",
+          "priority": "Alto",
+          "focus": "Personal esencial",
+          "actions": "Empieza con personal que apoye directamente el desarrollo, la preparación, la gestión de jugadores o las operaciones de la organización. Añade roles especializados a medida que aumenten el calendario de torneos y la carga de trabajo comercial.",
+          "risk": "Contratar un equipo de gestión amplio antes de que el club tenga ingresos competitivos estables."
+        },
+        {
+          "stage": "4. Usa el mercado de fichajes con cuidado",
+          "priority": "Alto",
+          "focus": "Mejora de la plantilla",
+          "actions": "Ojea jugadores, negocia contratos y considera comprar, vender o ceder talento según las necesidades reales del club. Desarrollar jugadores prometedores puede ser más seguro que ir inmediatamente tras superestrellas consagradas.",
+          "risk": "Pagar una tarifa de transferencia elevada sin comprobar el equilibrio de roles, la moral, el coste del contrato y el presupuesto restante."
+        },
+        {
+          "stage": "5. Asegura acuerdos de patrocinio",
+          "priority": "Medio",
+          "focus": "Ingresos comerciales",
+          "actions": "Aprovecha las oportunidades de patrocinio para fortalecer el lado comercial de la organización. Los resultados competitivos y la creciente visibilidad proporcionan una base más sólida para el desarrollo comercial a largo plazo.",
+          "risk": "Tratar los ingresos por patrocinio como dinero de transferencia ilimitado mientras se ignoran los salarios recurrentes y los costes operativos."
+        },
+        {
+          "stage": "6. Aumenta la visibilidad de la marca",
+          "priority": "Medio",
+          "focus": "Reputación e influencia",
+          "actions": "Invierte en actividad mediática y en la imagen de marca de la organización a medida que el equipo se consolida. La visibilidad apoya el objetivo más amplio de aumentar la influencia del club en la escena de los esports.",
+          "risk": "Expandir las operaciones de marca más rápido de lo que el equipo competitivo y la base financiera pueden soportar."
+        },
+        {
+          "stage": "7. Reinvierte tras el progreso competitivo",
+          "priority": "Largo plazo",
+          "focus": "Expansión de la organización",
+          "actions": "Usa la mejora de los resultados y el fortalecimiento de las finanzas para mejorar la plantilla, ampliar el personal, entrar en competiciones más grandes y buscar oportunidades de patrocinio más ambiciosas.",
+          "risk": "Reemplazar una estructura exitosa con múltiples fichajes de alto coste tras un solo torneo bueno."
+        }
+      ]
+    },
+    "downloadDemo": {
+      "title": "Descarga, demo y requisitos de PC de Esports Manager 2026",
+      "intro": "Esports Manager 2026 se lanzó para PC el 6 de julio de 2026. El juego completo se vende a través de Steam y la tienda de indie.io, mientras que una demo gratuita independiente en Steam permite a los jugadores probar el rendimiento y los sistemas de gestión principales antes de comprarlo.",
+      "specs": [
+        {
+          "label": "Fecha de lanzamiento",
+          "value": "6 de julio de 2026",
+          "details": "La versión completa para PC fue lanzada por Neurona Games e indie.io."
+        },
+        {
+          "label": "Plataformas disponibles",
+          "value": "Windows PC",
+          "details": "El lanzamiento oficial está disponible en PC a través de Steam y la tienda de indie.io."
+        },
+        {
+          "label": "Demo gratuita",
+          "value": "Disponible en Steam",
+          "details": "Abre la página de la demo de Esports Manager 2026, inicia sesión en Steam, selecciona Instalar demo, elige una ubicación de instalación e iníciala desde la biblioteca de Steam."
+        },
+        {
+          "label": "Fecha de lanzamiento de la demo",
+          "value": "8 de diciembre de 2025",
+          "details": "La demo figura como una aplicación de Steam gratuita e independiente y se actualiza con los cambios de la versión de lanzamiento."
+        },
+        {
+          "label": "Precio del juego completo",
+          "value": "Precio base de Steam en EE. UU.: 19,99 $",
+          "details": "Se indica un descuento de lanzamiento del 20 % en Steam hasta el 20 de julio de 2026. Los precios finales varían según la región, la moneda, los impuestos y la tienda."
+        },
+        {
+          "label": "Entrega en la tienda de indie.io",
+          "value": "Clave de activación digital",
+          "details": "Después de una compra exitosa, la clave de activación y el recibo se envían a la dirección de correo electrónico de pago."
+        },
+        {
+          "label": "Sistema operativo",
+          "value": "Windows 7, 10 o 11 — 64 bits",
+          "details": "Se requiere un procesador y un sistema operativo de 64 bits."
+        },
+        {
+          "label": "Procesador",
+          "value": "Intel Core 2 o AMD Athlon 64 X2",
+          "details": "Los requisitos mínimos oficiales están dirigidos a familias de procesadores de doble núcleo más antiguas."
+        },
+        {
+          "label": "Memoria",
+          "value": "2 GB de RAM",
+          "details": "Tanto los requisitos mínimos como los recomendados muestran 2 GB de memoria del sistema."
+        },
+        {
+          "label": "Gráficos",
+          "value": "Intel GMA X4500, NVIDIA GeForce 9600M GT o AMD/ATI Mobility Radeon HD 3650",
+          "details": "Los requisitos de gráficos especifican al menos 256 MB de VRAM y compatibilidad con DirectX 11."
+        },
+        {
+          "label": "DirectX",
+          "value": "Versión 10",
+          "details": "La tabla de requisitos oficiales enumera DirectX Versión 10."
+        },
+        {
+          "label": "Almacenamiento",
+          "value": "4 GB de espacio disponible",
+          "details": "Mantén espacio libre adicional disponible para los archivos de instalación de Steam, las partidas guardadas y las actualizaciones."
+        },
+        {
+          "label": "Idiomas compatibles",
+          "value": "11 idiomas en la versión completa de Steam",
+          "details": "Se enumeran el inglés, francés, alemán, español, polaco, ruso, portugués, chino simplificado, sueco, turco y ucraniano."
+        },
+        {
+          "label": "Compatibilidad con PC antiguos",
+          "value": "Apto para hardware modesto de 64 bits",
+          "details": "Un ordenador que cumpla con los requisitos enumerados de procesador, RAM, gráficos, DirectX y almacenamiento debería poder ejecutar el juego. La demo gratuita es la forma más rápida de probar el rendimiento."
+        }
+      ]
+    },
+    "updatesPatchNotes": {
+      "title": "Actualizaciones y notas del parche de Esports Manager 2026",
+      "intro": "Las primeras actualizaciones tras el lanzamiento se centraron en el comportamiento del mercado de fichajes, la simulación de partidos, el equilibrio del entrenamiento, los salarios, la generación de plantillas, la localización y problemas que afectaban a las partidas guardadas existentes. Steam normalmente descarga estos parches de forma automática antes de que se inicie el juego.",
+      "entries": [
+        {
+          "date": "12 de julio de 2026",
+          "version": "Parche de corrección rápida",
+          "summary": "Una pequeña actualización de estabilidad y realismo en los fichajes que soluciona el problema de los jugadores retirados atrapados en plantillas activas.",
+          "changes": [
+            "Los jugadores retirados se eliminan del estado de plantilla bloqueada que impedía venderlos, liberarlos o modificar sus contratos.",
+            "Las partidas guardadas afectadas existentes corrigen el problema de la plantilla de jugadores retirados automáticamente al cargarse.",
+            "Los miembros de la plantilla retirados ya no envían quejas sobre exigencias salariales o tiempo de juego.",
+            "El bloqueo de fichajes al inicio de la carrera ahora también evita que los clubes de la IA pujen por los jugadores del usuario.",
+            "Es menos probable que los jugadores de clase mundial se unan a clubes muy por debajo de su nivel de prestigio.",
+            "Las etiquetas de los menús, los avisos, los términos financieros y las acciones de fichaje en alemán han recibido mejoras de localización."
+          ],
+          "impact": "Los jugadores con miembros retirados en su plantilla deben cargar la carrera normalmente para que se ejecute la reparación automática de la plantilla."
+        },
+        {
+          "date": "11 de julio de 2026",
+          "version": "Parche 1.0.2",
+          "summary": "Una actualización importante de simulación, entrenamiento, economía, mercado de fichajes, localización y base de datos.",
+          "changes": [
+            "Se corrigieron las rutas de los jugadores, las cuadrículas de navegación, la carga de mapas y las rotaciones antiterroristas tras plantar la bomba.",
+            "Se mejoraron los vetos de mapas por parte de la IA, las compras en rondas decisivas, el comportamiento táctico y la asignación de doble AWP.",
+            "Se redujeron las ganancias de valoración ERS en partidos, comparaciones de equipos y torneos.",
+            "Se reequilibraron las fórmulas de entrenamiento y se redujeron los atributos máximos de los NewGen, aumentando a su vez la variedad de jugadores.",
+            "Se reequilibraron los resultados de las partidas rápidas y los cálculos de valoración individual por mapa.",
+            "Los clubes controlados por la IA esperan 14 días tras una oferta rechazada antes de volver con una propuesta más alta.",
+            "Los equipos de la IA con pocos jugadores fichan según los roles requeridos y completan las plantillas incompletas más rápido.",
+            "Se redujeron los salarios iniciales y de mercado, se recalcularon los valores de transferencia y los salarios se ajustan de forma más precisa a la valoración.",
+            "El salario de un jugador disminuye un 30% tras pasar un mes en el banquillo.",
+            "Al crear una carrera, se añadió la opción de mánager indestituible y la posibilidad de congelar el mercado de transferencias de la IA.",
+            "Se actualizó la base de datos de equipos y jugadores con nuevas plantillas, transferencias y agentes libres."
+          ],
+          "impact": "Las carreras activas recibirán las nuevas reglas de entrenamiento, salarios, ERS, transferencias, simulación y generación de jugadores tras la actualización."
+        },
+        {
+          "date": "7 de julio de 2026",
+          "version": "Parche 1.0.1",
+          "summary": "El primer parche tras el lanzamiento amplió las cesiones de jugadores y corrigió problemas de ojeo, simulación, entrenamiento de personal, audio, interfaz y localización.",
+          "changes": [
+            "Los clubes de la IA pueden cederse jugadores entre sí en lugar de depender únicamente de transferencias permanentes.",
+            "Por lo general, los clubes ceden a jugadores del banquillo o jóvenes, mientras protegen a sus estrellas titulares.",
+            "Los jugadores pueden rechazar cesiones a clubes muy por debajo de su nivel, teniendo en cuenta la región y la compatibilidad.",
+            "Cada club puede tener hasta dos jugadores cedidos recibidos y dos jugadores cedidos enviados.",
+            "Los jugadores regresan con sus contratos originales intactos cuando finalizan las cesiones, y los mánagers pueden recuperarlos antes a cambio de una tarifa reducida.",
+            "Se corrigieron los valores predeterminados de los filtros de ojeo, el comportamiento de restablecimiento y el número mostrado de jugadores coincidentes.",
+            "Se corrigió el comportamiento de simulación post-plantado y las rutas de rotación en múltiples mapas.",
+            "Se selecciona automáticamente el comentarista localizado adecuado, con correcciones para los comentarios y los anuncios de MVP de la ronda.",
+            "Se añadió la cuenta atrás del Top 20 de EMTV de la temporada y la presentación del Jugador del Año con estadísticas de la temporada."
+          ],
+          "impact": "Las carreras existentes obtienen el mercado ampliado de cesiones de la IA, el entrenamiento de personal corregido, las soluciones de simulación y los premios de temporada de EMTV."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Esports Manager 2026",
+    "questions": [
+      {
+        "question": "¿Qué es Esports Manager 2026?",
+        "answer": "Esports Manager 2026 es un simulador de gestión de clubes de deportes electrónicos para PC desarrollado por Neurona Games y publicado por indie.io, lanzado en Steam el 6 de julio de 2026. En él podrás ojear jugadores, negociar contratos, gestionar el entrenamiento y la moral, y controlar las tácticas de los partidos en directo."
+      },
+      {
+        "question": "¿Dónde puedo jugar a Esports Manager 2026?",
+        "answer": "Esports Manager 2026 está disponible para PC a través de Steam y la tienda de indie.io. Una demo gratuita e independiente en Steam te permite probar los sistemas de gestión principales antes de comprar el juego completo."
+      },
+      {
+        "question": "¿Cuánto cuesta Esports Manager 2026?",
+        "answer": "El precio base de Steam en EE. UU. para Esports Manager 2026 es de $19.99, con un descuento de lanzamiento del 20% disponible hasta el 20 de julio de 2026. Los precios finales varían según la región, la moneda, los impuestos y la tienda."
+      },
+      {
+        "question": "¿Incluye Esports Manager 2026 equipos y jugadores reales?",
+        "answer": "Sí. Esports Manager 2026 incluye más de 325 organizaciones reales y una base de datos de jugadores con atributos de habilidad, especialización, roles, asignaciones de equipos y ganancias en sus carreras."
+      },
+      {
+        "question": "¿Puedo ejecutar Esports Manager 2026 en un PC antiguo?",
+        "answer": "Sí. Esports Manager 2026 está diseñado para hardware modesto de 64 bits, con un mínimo de 2 GB de RAM, un procesador de doble núcleo y 256 MB de VRAM gráfica. La demo gratuita de Steam es la forma más rápida de probar el rendimiento antes de comprar."
+      },
+      {
+        "question": "¿Recibirá actualizaciones Esports Manager 2026?",
+        "answer": "Sí. Los primeros parches tras el lanzamiento de Esports Manager 2026 mejoraron el comportamiento del mercado de transferencias, la simulación de partidos, el equilibrio del entrenamiento, los salarios, la generación de plantillas y la localización. Normalmente, Steam descarga estas actualizaciones de forma automática."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para construir tu equipo campeón?",
+    "description": "¡Únete a la comunidad de Esports Manager 2026 en Discord y Steam para obtener guías, tácticas, fichajes y actualizaciones!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Esports Manager 2026",
+    "description": "Tu centro de recursos completo para jugadores, equipos, scouting, fichajes, entrenamiento, tácticas, finanzas y guías de torneos de Esports Manager 2026.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Esports Manager 2026 Wiki. No afiliado a Neurona Games ni a indie.io.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de Esports Manager 2026",
+      "description": "Guías para principiantes que cubren la configuración de la organización, operaciones de la primera semana, conceptos básicos de scouting, planificación de bootcamps y técnicas de gestión avanzada.",
+      "metaTitle": "Guía de Esports Manager 2026 - Consejos para principiantes y recorridos",
+      "metaDescription": "Domina Esports Manager 2026 con guías para principiantes, configuración de la organización, scouting, bootcamps y consejos de gestión avanzada para nuevos managers.",
+      "categoryLabel": "GUÍAS Y RECORRIDOS",
+      "whatIs": "¿Qué es la guía?",
+      "whatIsDescription": "Guías paso a paso que cubren los primeros días de una nueva carrera, creación de la organización, fundamentos de scouting, planificación de bootcamps y técnicas avanzadas que te ayudan a construir una organización de esports estable.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Empieza con fuerza",
+        "step1Description": "Construye una base desde el primer día con la configuración adecuada de la organización y las decisiones de la primera semana",
+        "step2Title": "Evita errores comunes",
+        "step2Description": "Sáltate el ensayo y error que ralentiza a los nuevos managers y desperdicia el presupuesto inicial",
+        "step3Title": "Escala",
+        "step3Description": "Pasa de lo básico a la gestión avanzada de la organización y la planificación a largo plazo"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "tactics": {
+      "title": "Tácticas de Esports Manager 2026",
+      "description": "Tácticas de partido, horarios de entrenamiento, gestión del estado de forma de los jugadores, estrategias específicas de mapas y preparación para clasificatorios.",
+      "metaTitle": "Tácticas de Esports Manager 2026 - Estrategia de entrenamiento y partido",
+      "metaDescription": "Mejora los resultados en Esports Manager 2026 con guías de tácticas, horarios de entrenamiento, gestión del estado de forma de los jugadores, estrategias de mapas y consejos para clasificatorios.",
+      "categoryLabel": "TÁCTICAS Y ENTRENAMIENTO",
+      "whatIs": "¿Qué son las tácticas?",
+      "whatIsDescription": "Guías sobre configuración táctica en el partido, calendarios de entrenamiento, gestión de forma y moral de los jugadores, estrategias específicas por mapa y preparación de clasificatorios que convierten una buena plantilla en una ganadora.",
+      "why": "¿Por qué usar guías de tácticas?",
+      "whySteps": {
+        "step1Title": "Gana más partidos",
+        "step1Description": "Aplica tácticas específicas por mapa y configuraciones de roles que se ajusten a las fortalezas de tu plantilla",
+        "step2Title": "Entrena de forma más inteligente",
+        "step2Description": "Usa calendarios de entrenamiento equilibrados que mejoren la forma sin agotar a los jugadores",
+        "step3Title": "Supera los clasificatorios",
+        "step3Description": "Ajusta la estrategia de vetos y la química de roles para superar los clasificatorios de los torneos"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de tácticas"
+    },
+    "roster": {
+      "title": "Plantilla de Esports Manager 2026",
+      "description": "Base de datos de jugadores, roles de especialistas, jóvenes promesas, los mejores equipos y recomendaciones de plantillas iniciales.",
+      "metaTitle": "Plantilla de Esports Manager 2026 - Mejores jugadores, roles y equipos",
+      "metaDescription": "Crea la mejor plantilla en Esports Manager 2026 con roles de jugadores, jóvenes promesas, equipos punteros y recomendaciones de plantillas iniciales.",
+      "categoryLabel": "JUGADORES Y EQUIPOS",
+      "whatIs": "¿Qué es la plantilla?",
+      "whatIsDescription": "Una base de datos de jugadores, roles de especialistas, jóvenes promesas de gran potencial, organizaciones reales y recomendaciones de plantillas iniciales que te ayudan a ojear y formar un equipo equilibrado.",
+      "why": "¿Por qué estudiar la plantilla?",
+      "whySteps": {
+        "step1Title": "Conoce los roles",
+        "step1Description": "Entiende la cobertura de IGL, AWPer, Entry, Support y Lurker en tu alineación",
+        "step2Title": "Encuentra jóvenes promesas",
+        "step2Description": "Localiza jóvenes prospectos con gran potencial de desarrollo antes de que se vuelvan caros",
+        "step3Title": "Elige el equipo adecuado",
+        "step3Description": "Compara organizaciones reales por fuerza de plantilla, presupuesto y dificultad inicial"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de plantillas"
+    },
+    "customization": {
+      "title": "Personalización de Esports Manager 2026",
+      "description": "Editor de base de datos, mods, bases de datos personalizadas, Steam Workshop, Nexus Mods y herramientas de traducción.",
+      "metaTitle": "Personalización de Esports Manager 2026 - Mods y editor de base de datos",
+      "metaDescription": "Personaliza Esports Manager 2026 con guías del editor de base de datos, mods, bases de datos personalizadas, Steam Workshop, Nexus Mods y herramientas de traducción.",
+      "categoryLabel": "MODS Y BASE DE DATOS",
+      "whatIs": "¿Qué es la personalización?",
+      "whatIsDescription": "Guías para el editor de base de datos, bases de datos personalizadas, mods, contenido de Steam Workshop y Nexus Mods, y herramientas de traducción que te permiten adaptar plantillas, ligas e idiomas a tu gusto.",
+      "why": "¿Por qué personalizar el juego?",
+      "whySteps": {
+        "step1Title": "Edita la base de datos",
+        "step1Description": "Añade o actualiza jugadores, equipos y ligas con el editor de base de datos integrado",
+        "step2Title": "Instala mods",
+        "step2Description": "Amplía el juego con mods de la comunidad de Steam Workshop y Nexus Mods",
+        "step3Title": "Traduce la interfaz",
+        "step3Description": "Usa herramientas de traducción para jugar y gestionar en tu idioma preferido"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de personalización"
+    },
+    "release": {
+      "title": "Lanzamiento de Esports Manager 2026",
+      "description": "Fecha de lanzamiento, demo gratuita, página de la tienda de Steam, precio, dónde comprar y la lista completa de logros.",
+      "metaTitle": "Lanzamiento de Esports Manager 2026 - Fecha, demo, precio y logros",
+      "metaDescription": "Encuentra la fecha de lanzamiento de Esports Manager 2026, la demo gratuita, la página de Steam, el precio, dónde comprar y la lista completa de logros.",
+      "categoryLabel": "LANZAMIENTO Y COMPRA",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "Todo sobre el lanzamiento: la fecha de lanzamiento oficial, demo gratuita, página de la tienda de Steam, precios, dónde comprar y la lista completa de logros para completistas.",
+      "why": "¿Por qué consultar la información de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Juega la demo",
+        "step1Description": "Prueba la demo gratuita antes de comprar para evaluar el rendimiento y las sensaciones de juego",
+        "step2Title": "Consigue el mejor precio",
+        "step2Description": "Compara tiendas y ediciones para saber exactamente qué estás pagando",
+        "step3Title": "Desbloquea logros",
+        "step3Description": "Sigue y planifica cada logro con una lista completa y organizada"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la información de lanzamiento"
+    },
+    "support": {
+      "title": "Soporte de Esports Manager 2026",
+      "description": "Guías de resolución de problemas para límites de FPS, ubicaciones de guardado, fallos, problemas al unirse a torneos y archivos de registro.",
+      "metaTitle": "Soporte de Esports Manager 2026 - Soluciones y resolución de problemas",
+      "metaDescription": "Soluciona problemas de Esports Manager 2026 con guías sobre límites de FPS, ubicaciones de guardado, fallos, errores al unirse a torneos y localización de archivos de registro.",
+      "categoryLabel": "SOPORTE Y SOLUCIONES",
+      "whatIs": "¿Qué es el soporte?",
+      "whatIsDescription": "Guías técnicas de resolución de problemas que cubren límites de FPS, ubicaciones de archivos de guardado, soluciones a fallos, problemas al unirse a torneos y dónde encontrar archivos de registro para reportar problemas.",
+      "why": "¿Por qué leer las guías de soporte?",
+      "whySteps": {
+        "step1Title": "Soluciona fallos",
+        "step1Description": "Resuelve fallos comunes y problemas de inicio de forma rápida y segura",
+        "step2Title": "Ajusta el rendimiento",
+        "step2Description": "Ajusta los límites de FPS y la configuración gráfica para un juego más fluido y estable",
+        "step3Title": "Recupera partidas guardadas",
+        "step3Description": "Localiza y realiza copias de seguridad de los archivos de guardado, y lee los registros para diagnosticar problemas persistentes"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de soporte"
+    },
+    "review": {
+      "title": "Análisis de Esports Manager 2026",
+      "description": "Impresiones de jugabilidad, análisis completos, análisis antes de comprar y guías de juego.",
+      "metaTitle": "Análisis de Esports Manager 2026 - Jugabilidad y antes de comprar",
+      "metaDescription": "Lee análisis de Esports Manager 2026, impresiones de jugabilidad, análisis antes de comprar y guías de juego para decidir si vale la pena.",
+      "categoryLabel": "ANÁLISIS Y JUGABILIDAD",
+      "whatIs": "¿Qué son las reseñas?",
+      "whatIsDescription": "Impresiones de juego independientes, reseñas completas, desgloses previos a la compra y guías de juego que muestran cómo se siente realmente jugar al simulador.",
+      "why": "¿Por qué leer reseñas?",
+      "whySteps": {
+        "step1Title": "Ver jugabilidad real",
+        "step1Description": "Mira y lee cómo se juega al simulador en la práctica, más allá del marketing",
+        "step2Title": "Decide antes de comprar",
+        "step2Description": "Sopesa la profundidad, el rendimiento y el valor antes de gastar tu dinero",
+        "step3Title": "Sigue las guías de juego",
+        "step3Description": "Usa las guías de juego para aprender los sistemas principales y estrategias probadas"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las reseñas"
+    }
   }
 }
