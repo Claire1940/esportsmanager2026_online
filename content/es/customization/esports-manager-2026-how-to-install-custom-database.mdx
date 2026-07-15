@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo instalar una base de datos personalizada en Esports Manager 2026: Guía de configuración paso a paso",
+  description: "Aprende a instalar bases de datos personalizadas en Esports Manager 2026 para desbloquear nombres reales de jugadores, plantillas actualizadas y ligas creadas por la comunidad con nuestra guía.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Database+Installation",
+  date: "2026-07-15",
+  author: "Equipo de Wiki de Esports Manager 2026",
+  keywords: "esports manager 2026, base de datos personalizada, instalar base de datos, plantillas reales"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las bases de datos personalizadas** permiten a los jugadores reemplazar las plantillas ficticias con jugadores y equipos profesionales de esports del mundo real.
+- **La ruta de instalación** generalmente involucra la carpeta local de datos de la aplicación o el directorio de Steam Workshop.
+- **Requisito de nueva partida**: La mayoría de las bases de datos personalizadas requieren iniciar una **nueva carrera** para que se apliquen correctamente.
+- **Integridad de archivos**: Verifica siempre que la versión de la base de datos coincida con la versión actual de tu juego **Esports Manager 2026**.
+- **Prioridad de respaldo**: Crea una copia de seguridad de tu carpeta de **base de datos** original antes de sobrescribir cualquier archivo.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo las bases de datos personalizadas en Esports Manager 2026">
+
+Las bases de datos personalizadas son la columna vertebral de la experiencia de la comunidad en **Esports Manager 2026**. Aunque el juego base ofrece un motor de simulación robusto, las limitaciones de licencias a menudo significan que muchos equipos y jugadores utilizan nombres aleatorios o ficticios. Al aprender **cómo instalar una base de datos personalizada en Esports Manager 2026**, puedes transformar tu experiencia de gestión en una simulación hiperrealista de la escena global actual de los esports.
+
+Estas bases de datos suelen modificar las estadísticas de los jugadores, los logotipos de los equipos, las estructuras de los torneos e incluso los datos históricos. La comunidad suele lanzar actualizaciones poco después de los principales movimientos de plantillas o periodos de transferencias en la escena profesional.
+
+| Tipo de Base de Datos | Contenido Principal | Ideal Para |
+| :--- | :--- | :--- |
+| **Corrección de Nombres Reales** | Corrige nombres ficticios por profesionales reales | Jugadores que buscan un realismo básico |
+| **Actualización de Plantillas** | Alineaciones actuales de equipos y transferencias | Simulación competitiva |
+| **Paquete Histórico** | Plantillas clásicas de 2015-2022 | Partidas nostálgicas |
+| **Draft de Fantasía** | Jóvenes promesas aleatorias con estadísticas altas | Modos de carrera a largo plazo |
+| **Expansión Regional** | Añade ligas locales de nivel 2 y nivel 3 | Entusiastas del scouting profundo |
+
+<Callout type="tip" title="Consejo Pro">
+Antes de descargar cualquier archivo, comprueba la fecha de \"Última actualización\". Las bases de datos creadas para la temporada 2025 pueden causar problemas de estabilidad con el motor de **Esports Manager 2026** si la estructura de datos ha cambiado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Dónde encontrar archivos de bases de datos confiables">
+
+Encontrar los archivos correctos es el primer paso del proceso. La comunidad de **Esports Manager 2026** está repartida en varias plataformas, cada una ofreciendo diferentes niveles de comodidad y personalización.
+
+<CardGrid cols={3}>
+  <Card title="Steam Workshop">
+    - **Instalación con un solo clic**
+    - Actualizaciones automáticas
+    - Integrado con el cliente de Steam
+  </Card>
+  <Card title="Foros de la Comunidad">
+    - **Personalización avanzada**
+    - Versiones beta disponibles
+    - Notas detalladas del creador
+  </Card>
+  <Card title="Servidores de Discord">
+    - **Soporte en tiempo real**
+    - Filtraciones exclusivas de plantillas
+    - Comunicación directa con desarrolladores
+  </Card>
+</CardGrid>
+
+Al seleccionar una fuente, prioriza a los creadores con valoraciones altas y secciones de comentarios activas. Esto asegura que la base de datos esté libre de errores graves que puedan dañar tu partida guardada durante la transición de mitad de temporada.
+
+| Plataforma de Origen | Confiabilidad | Facilidad de Uso | Frecuencia de Actualización |
+| :--- | :--- | :--- | :--- |
+| **Steam Workshop** | Alta | Excelente | Semanal |
+| **Nexus Mods** | Muy Alta | Moderada | Mensual |
+| **Comunidad de Reddit** | Moderada | Baja | Diaria |
+| **Discord Oficial** | Alta | Moderada | Ocasional |
+
+<Callout type="warning" title="Advertencia">
+Nunca descargues archivos `.exe` disfrazados de bases de datos. Los archivos legítimos de la base de datos de **Esports Manager 2026** deben estar principalmente en formatos `.json`, `.db` o `.xml`.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pasos para la instalación manual de bases de datos personalizadas">
+
+Si no estás usando Steam Workshop, necesitarás realizar una instalación manual. Esto es común para mods de \"Conversión Total\" que cambian más que solo los nombres de los jugadores. Seguir la ruta de directorio correcta es fundamental para que el juego reconozca los nuevos datos.
+
+<Steps>
+  <Step num="1" title="Descargar y Extraer">
+    Descarga el archivo ZIP o RAR de la base de datos desde una fuente confiable. Usa una herramienta como 7-Zip o WinRAR para extraer el contenido en una carpeta temporal en tu escritorio.
+  </Step>
+  <Step num="2" title="Localizar el Directorio del Juego">
+    Navega a tus archivos locales del juego. Para la mayoría de los usuarios, se encuentra en: `C:\Usuarios\[TuNombre]\Documentos\Esports Manager 2026\Databases`. Si la carpeta no existe, créala manualmente.
+  </Step>
+  <Step num="3" title="Transferir Archivos">
+    Copia la carpeta extraída (que contiene los archivos `.db` o `.json`) en el directorio `Databases`. Asegúrate de no tener carpetas anidadas (por ejemplo, `Databases/NombreMod/NombreMod/archivos`).
+  </Step>
+  <Step num="4" title="Verificar la Estructura de Archivos">
+    Abre la carpeta que acabas de mover. Deberías ver un archivo llamado `config.json` o `meta.data`. Este archivo le indica al juego cómo cargar los recursos específicos.
+  </Step>
+</Steps>
+
+| Paso de Instalación | Error Común | Solución |
+| :--- | :--- | :--- |
+| **Extracción** | Archivo ZIP corrupto | Volver a descargar con una conexión estable |
+| **Ruta** | Carpeta incorrecta seleccionada | Usa la ruta de Documentos, no la de Archivos de programa |
+| **Nombre** | Caracteres especiales en la carpeta | Renombra la carpeta con texto simple en inglés |
+| **Permisos** | Acceso de carpeta de solo lectura | Ejecuta tu explorador de archivos como Administrador |
+
+<Callout type="success" title="Éxito">
+Una vez que los archivos estén en el directorio correcto, aparecerán en el menú desplegable \"Selección de Base de Datos\" al hacer clic en \"Nueva Partida\" en el menú principal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Activación de la base de datos en el juego">
+
+Colocar los archivos en la carpeta no es suficiente; debes indicarle explícitamente a **Esports Manager 2026** que utilice los datos personalizados en lugar de la plantilla predeterminada de 2026.
+
+Cuando inicies el juego, sigue estos pasos específicos para asegurarte de que la base de datos personalizada se inicialice correctamente:
+
+1. Haz clic en **Nueva Carrera**.
+2. In la pantalla de **Selección de Base de Datos**, haz clic en el menú desplegable.
+3. Selecciona el nombre de tu base de datos personalizada (por ejemplo, \"Global Realism Pack v1.2\").
+4. Espera a que se complete la barra de progreso de \"Validación de Datos\".
+5. Selecciona las ligas que deseas cargar.
+
+| Característica | Base de Datos Predeterminada | Base de Datos Personalizada |
+| :--- | :--- | :--- |
+| **Nombres de Jugadores** | Ficticios/Aleatorios | Profesionales Reales |
+| **Logotipos de Equipos** | Formas Genéricas | Imagen Oficial del Equipo |
+| **Premios de Torneos** | Estimados | Cifras Reales de 2026 |
+| **Nombres de Patrocinadores** | Marcas Inventadas | Marcas Globales de Tecnología/Energía |
+| **Atributos del Personal** | Equilibrados/Estándar | Basados en el Rendimiento Real |
+
+<Callout type="info" title="Nota Importante">
+Algunas bases de datos son \"Grandes\" y pueden aumentar el tiempo de carga inicial de tu juego. Si el juego parece congelarse en el 88%, dale unos minutos para procesar las miles de nuevas entradas de jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación posterior a la instalación">
+
+Después de haber descubierto con éxito **cómo instalar una base de datos personalizada en Esports Manager 2026** y haber iniciado tu partida, debes verificar que todo funcione como se espera. Usa esta lista de verificación para confirmar una configuración exitosa.
+
+<Checklist
+  id="db-verification"
+  title="Pasos de Verificación de la Base de Datos:"
+  items={[
+    "Comprueba si los 10 mejores jugadores clasificados tienen sus nombres del mundo real.",
+    "Verifica que los logotipos de los equipos aparezcan correctamente en la página de 'Clasificación de la Liga'.",
+    "Confirma que la 'Fecha de Inicio' coincida con la temporada prevista de la base de datos.",
+    "Revisa la lista de 'Agentes Libres' para asegurarte de que no esté vacía (un error común).",
+    "Guarda la partida y vuelve a cargarla para asegurarte de que el enlace de la base de datos se mantenga estable."
+  ]}
+/>
+
+Si notas que los nombres son correctos pero faltan los logotipos, es posible que necesites instalar un \"Paquete de Gráficos\" por separado. Las bases de datos a menudo manejan los datos de texto, mientras que los logotipos y las caras de los jugadores se almacenan en una carpeta `Graphics` diferente.
+
+| Tipo de Recurso | Nombre de la Carpeta | Extensión de Archivo |
+| :--- | :--- | :--- |
+| **Plantillas/Estadísticas** | `Databases` | .db / .json |
+| **Logotipos/Caras** | `Graphics` | .png / .fmf |
+| **Skins/Interfaz de Usuario** | `Interface` | .xml |
+| **Paquetes de Idioma** | `Languages` | .txt / .xml |
+
+<Callout type="tip" title="Consejo de Optimización">
+Para obtener el mejor rendimiento, solo carga las ligas que tengas la intención de gestionar. Cargar cada una de las ligas regionales desde una base de datos personalizada masiva puede ralentizar significativamente la velocidad de procesamiento al hacer clic en \"Continuar\".
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resolución de problemas y preguntas frecuentes">
+
+Incluso con una guía perfecta, pueden surgir problemas debido a conflictos de software o discrepancias de versiones. A continuación se presentan las preguntas más frecuentes sobre la instalación de bases de datos en la edición 2026.
+
+<FAQ items={[
+  {
+    question: "¿Puedo añadir una base de datos personalizada a una partida guardada existente?",
+    answer: "No. Las bases de datos cambian la estructura fundamental del mundo del juego. Para usar una nueva base de datos, debes comenzar una nueva carrera. Añadir datos a mitad de una partida causaría conflictos críticos con las ID de los jugadores existentes."
+  },
+  {
+    question: "¿Por qué se cierra mi juego al hacer clic en 'Nueva Partida'?",
+    answer: "Esto suele suceder si la carpeta de la base de datos está vacía o si falta el archivo config.json. Vuelve a comprobar tu ruta de instalación y asegúrate de que todos los archivos se hayan extraído correctamente."
+  },
+  {
+    question: "¿Cómo actualizo mi base de datos a una versión más reciente?",
+    answer: "Descarga la nueva versión, elimina la carpeta antigua en tu directorio 'Databases' y pega la nueva. Ten en cuenta que probablemente necesitarás comenzar una nueva carrera para ver las actualizaciones."
+  },
+  {
+    question: "¿Es seguro usar múltiples bases de datos personalizadas a la vez?",
+    answer: "Generalmente no se recomienda. La mayoría de las bases de datos sobrescriben las mismas ID de jugadores. Usar varias puede generar 'jugadores duplicados' o estadísticas corruptas. Quédate con un solo 'Mega-Pack' completo para obtener los mejores resultados."
+  }
+]} />
+
+<Callout type="warning" title="Recordatorio Final">
+Conserva siempre una copia limpia de los archivos originales del juego. Si una base de datos personalizada causa bloqueos persistentes, eliminar la carpeta `Databases` y \"Verificar la integridad de los archivos del juego\" en Steam restablecerá tu juego a su estado de fábrica.
+</Callout>
+
+</Section>

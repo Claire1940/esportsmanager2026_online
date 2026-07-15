@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "esports manager 2026 tournament cannot join: Fix Roster Eligibility & Rules",
+  description: "Solve the esports manager 2026 tournament cannot join error. Learn how to fix roster size, role requirements, and contract issues to enter matches.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/581c87/fff?text=Tournament+Join+Fix",
+  date: "2026-07-15",
+  author: "esports manager 2026 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Issue**: The **esports manager 2026 tournament cannot join** error is almost always caused by an invalid or incomplete starting roster.
+- **Roster Check**: You must have exactly five active, healthy, and eligible players signed to valid professional contracts.
+- **Role Alignment**: Ensure your team covers critical positions including In-Game Leader (IGL) and primary sniper (AWPer).
+- **Update Fix**: Recent official patches have resolved bugs where retired players remained stuck in active slots, blocking registration.
+- **Save Recovery**: Loading your career save after Patch 1.0.2 automatically repairs common roster lock issues.
+</Callout>
+
+<Section icon={Shield} title="Why You Cannot Join Tournaments in Esports Manager 2026">
+
+When managing your club, encountering the **esports manager 2026 tournament cannot join** error can halt your competitive progress. This issue occurs when your squad fails to meet the strict registration criteria set by the tournament organizers. Esports Manager 2026 simulates realistic professional leagues, meaning you cannot bypass roster rules, contract terms, or player availability constraints.
+
+Most tournament entry blocks stem from roster issues, contract disputes, or lingering database bugs from earlier versions of the game. Let us analyze the primary causes behind this error and how they impact your registration status.
+
+| Cause | Impact Level | Primary Resolution |
+|---|---|---|
+| **Short-handed Roster** | Critical | Sign free agents or use loans to reach 5 active players |
+| **Contract Freeze / Lock** | High | Wait out the career-start freeze or complete renewals |
+| **Retired Player Bug** | High | Update to Patch 1.0.2 to automatically clear dead slots |
+| **Role Allocation Error** | Medium | Define clear sniper (AWP) and leadership (IGL) roles |
+| **Player Injury / Fatigue** | Medium | Adjust weekly training to restore physical well-being |
+
+<Callout type="warning" title="Roster Size Warning">
+A tournament registration requires exactly five active players. If you have players on loan, injured, or stuck in contract negotiations, the simulation will block your tournament entry.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Roster Validation Process">
+
+To resolve the registration block, you must systematically check your squad's status. Follow this step-by-step diagnostic path to ensure your organization is legally compliant and ready to compete.
+
+<Steps>
+  <Step num="1" title="Verify Five-Player Lineup Legality">
+    Open your squad screen and check the active status of your starting five. You must have five healthy players who are not currently loaned out, suspended, or awaiting contract resolution. If you are short-handed, you must sign a free agent or borrow a player via the loan system.
+  </Step>
+  <Step num="2" title="Clear Retired Players from Squad Slots">
+    If you are running an older save file, a common bug leaves retired players taking up active roster slots while remaining unclickable. Update your game to the latest hotfix, load your career, and let the automatic script remove the retired players from your squad.
+  </Step>
+  <Step num="3" title="Assign Correct Tactical Roles">
+    Verify that your starting lineup has clearly assigned roles. Your tactical system requires at least one designated In-Game Leader (IGL) and a primary sniper (AWPer). Failing to assign these roles can cause the match engine to reject tournament entry.
+  </Step>
+  <Step num="4" title="Check Contract Statuses and Wage Caps">
+    Ensure none of your starting five have expired contracts. If a player's contract has run out, they will refuse to play. Additionally, check if your total payroll exceeds the financial limits set by the specific tournament tier you are trying to enter.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Loan System Utility">
+If you cannot afford a permanent transfer to fill a missing slot, use the loan market. You can loan up to two players from other organizations to complete your five-man roster temporarily.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Managing Roster Paths and Transfer Options">
+
+Building a stable squad requires balancing your budget, scouting talent, and utilizing the transfer market. If you are blocked from entering tournaments due to roster depth, you must acquire eligible players. Use the comparison table below to determine the best path for your club's budget and prestige.
+
+| Route | Upfront Cost | Ongoing Commitment | Best Use |
+|---|---|---|---|
+| **Free Agent** | No transfer fee | Wage and contract term | Completing a 5-player lineup on a tight budget |
+| **Paid Transfer** | Transfer fee | Wage and contract term | Buying a clear starting upgrade for tier-1 play |
+| **Loan In** | Temporary fee | Negotiated financial split | Adding short-term quality to bypass registration blocks |
+| **Development Prospect** | Lower transfer fee | Long-term salary | Building value over multiple competitive seasons |
+
+<CardGrid cols={2}>
+  <Card title="Free Agent Route">
+    - **No transfer fees required**
+    - Immediate signing capability
+    - Ideal for emergency depth
+    - *Note*: Elite players may reject weak clubs
+  </Card>
+  <Card title="Player Loan Route">
+    - **Temporary low-cost solution**
+    - Max 2 players loaned in at once
+    - Easy to return when injured starters recover
+    - *Note*: Cannot sub-loan borrowed players
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Budget Optimization">
+If an active player spends more than one month on your bench, their wage demands drop by 30%. Use this mechanic to renegotiate expensive contracts and free up wage budget for new starters.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Tournament Checklist for Managers">
+
+Before clicking register on any major championship or local cup, run through this operational checklist to ensure your organization does not encounter unexpected entry blocks.
+
+<Checklist
+  id="pre-tournament-checklist"
+  title="Required Milestones for Tournament Entry:"
+  items={[
+    "Confirm five active players are assigned to the starting lineup",
+    "Verify that the In-Game Leader (IGL) role is assigned",
+    "Verify that the primary sniper (AWPer) role is assigned",
+    "Ensure no active starters have expired or disputed contracts",
+    "Check that team morale and physical well-being are above critical thresholds",
+    "Confirm the club's financial balance can cover tournament entry fees"
+  ]}
+/>
+
+<Callout type="info" title="Patch 1.0.2 Transfer Freeze">
+At the start of a new career, you can enable a 1-month or 6-month AI transfer freeze. This prevents AI clubs from bidding on your players, allowing you to stabilize your starting five without distraction.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why does the game say 'esports manager 2026 tournament cannot join' even with 5 players?",
+    answer: "This usually occurs if one of your five players is currently loaned out, has an expired contract, is physically unable to play due to extreme fatigue, or if you have a retired player bug locking a roster slot. Ensure all five players are fully active and healthy."
+  },
+  {
+    question: "How do I fix the retired player roster bug?",
+    answer: "Update your game to Patch 1.0.2 or the latest hotfix. When you load your active save file, the game will automatically run a repair script to remove retired players from your squad and unlock your roster."
+  },
+  {
+    question: "Can I use loans to bypass tournament roster requirements?",
+    answer: "Yes, you can loan in up to two players from other clubs to fill missing positions. This is an excellent way to quickly meet the five-player starting requirement when you lack the funds for a permanent transfer."
+  },
+  {
+    question: "Does the career-start transfer freeze affect my outgoing offers?",
+    answer: "No. The optional one-month or six-month career-start market freeze blocks incoming AI offers to protect your squad, but it still allows you to make outgoing transfer and loan offers to other clubs."
+  }
+]} />
+
+</Section>

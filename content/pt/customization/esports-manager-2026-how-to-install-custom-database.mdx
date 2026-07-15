@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Esports Manager 2026: Como Instalar Banco de Dados Personalizado - Guia Passo a Passo",
+  description: "Aprenda a instalar bancos de dados personalizados no Esports Manager 2026 para desbloquear nomes reais de jogadores, elencos atualizados e ligas criadas pela comunidade com o nosso guia.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Database+Installation",
+  date: "2026-07-15",
+  author: "Equipe Wiki Esports Manager 2026",
+  keywords: "esports manager 2026, banco de dados personalizado, como instalar, mod de nomes reais, elencos reais"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Bancos de Dados Personalizados** permitem que os jogadores substituam os elencos fictícios por jogadores e equipes profissionais de esports do mundo real.
+- **O Caminho de Instalação** geralmente envolve a pasta local de dados do aplicativo ou o diretório do Steam Workshop.
+- **Requisito de Novo Jogo**: A maioria dos bancos de dados personalizados exige iniciar uma **nova carreira (novo save)** para funcionar corretamente.
+- **Integridade dos Arquivos**: Sempre verifique se a versão do banco de dados corresponde à versão atual do seu jogo **Esports Manager 2026**.
+- **Backup Prioritário**: Crie uma cópia de segurança (backup) da sua pasta original de **bancos de dados (database)** antes de substituir qualquer arquivo.
+</Callout>
+
+<Section icon={Target} title="Entendendo os Bancos de Dados Personalizados no Esports Manager 2026">
+
+Os bancos de dados personalizados são a espinha dorsal da experiência comunitária no **Esports Manager 2026**. Embora o jogo base ofereça um motor de simulação robusto, as restrições de licenciamento frequentemente significam que muitas equipes e jogadores usam nomes aleatórios ou fictícios. Ao aprender **como instalar banco de dados personalizado no esports manager 2026**, você pode transformar sua experiência de gerenciamento em uma simulação hiper-realista do cenário global atual de esports.
+
+Esses bancos de dados normalmente modificam estatísticas de jogadores, logotipos de equipes, estruturas de torneios e até dados históricos. A comunidade costuma lançar atualizações logo após grandes transferências de elencos ou períodos de "janela de transferências" no cenário profissional.
+
+| Tipo de Banco de Dados | Conteúdo Principal | Ideal Para |
+| :--- | :--- | :--- |
+| **Correção de Nomes Reais** | Corrige nomes fictícios para pro-players reais | Jogadores que buscam realismo básico |
+| **Atualização de Elenco** | Alinhamentos atuais de equipes e transferências | Simulação competitiva |
+| **Pacote Histórico** | Elencos clássicos de 2015-2022 | Campanhas nostálgicas |
+| **Draft de Fantasia** | Jovens promessas aleatórias com atributos altos | Modos de carreira de longo prazo |
+| **Expansão Regional** | Adiciona ligas locais de tier-2 e tier-3 | Entusiastas de scouting profundo |
+
+<Callout type="tip" title="Dica de Mestre">
+Antes de baixar qualquer arquivo, verifique a data da "Última Atualização". Bancos de dados criados para a temporada de 2025 podem causar problemas de estabilidade com o motor do **Esports Manager 2026** se a estrutura de dados tiver mudado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Onde Encontrar Arquivos de Banco de Dados Confiáveis">
+
+Encontrar os arquivos certos é o primeiro passo do processo. A comunidade do **Esports Manager 2026** está espalhada por várias plataformas, cada uma oferecendo diferentes níveis de conveniência e personalização.
+
+<CardGrid cols={3}>
+  <Card title="Steam Workshop">
+    - **Instalação com um clique**
+    - Atualizações automáticas
+    - Integrado ao cliente Steam
+  </Card>
+  <Card title="Fóruns da Comunidade">
+    - **Personalização avançada**
+    - Versões beta disponíveis
+    - Notas detalhadas do criador
+  </Card>
+  <Card title="Servidores do Discord">
+    - **Suporte em tempo real**
+    - Vazamentos exclusivos de elencos
+    - Comunicação direta com desenvolvedores
+  </Card>
+</CardGrid>
+
+Ao selecionar uma fonte, priorize criadores com avaliações altas e seções de comentários ativas. Isso garante que o banco de dados esteja livre de bugs graves que possam travar o seu save durante a transição de meio de temporada.
+
+| Plataforma de Origem | Confiabilidade | Facilidade de Uso | Frequência de Atualização |
+| :--- | :--- | :--- | :--- |
+| **Steam Workshop** | Alta | Excelente | Semanal |
+| **Nexus Mods** | Muito Alta | Moderada | Mensal |
+| **Comunidade do Reddit** | Moderada | Baixa | Diária |
+| **Discord Oficial** | Alta | Moderada | Ocasional |
+
+<Callout type="warning" title="Atenção">
+Nunca baixe arquivos `.exe` disfarçados de bancos de dados. Os arquivos legítimos de banco de dados do **Esports Manager 2026** devem estar principalmente nos formatos `.json`, `.db` ou `.xml`.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Passos para Instalação Manual de Bancos de Dados Personalizados">
+
+Se você não estiver usando o Steam Workshop, precisará realizar uma instalação manual. Isso é comum para mods de "Conversão Total" que alteram mais do que apenas os nomes dos jogadores. Seguir o caminho correto do diretório é crítico para que o jogo reconheça os novos dados.
+
+<Steps>
+  <Step num="1" title="Baixar e Extrair">
+    Baixe o arquivo ZIP ou RAR do banco de dados de uma fonte confiável. Use uma ferramenta como 7-Zip ou WinRAR para extrair o conteúdo para uma pasta temporária na sua área de trabalho.
+  </Step>
+  <Step num="2" title="Localizar o Diretório do Jogo">
+    Navegue até os arquivos locais do seu jogo. Para a maioria dos usuários, o caminho é: `C:\Usuários\[SeuNome]\Documentos\Esports Manager 2026\Databases`. Se a pasta não existir, crie-a manualmente.
+  </Step>
+  <Step num="3" title="Transferir Arquivos">
+    Copie a pasta extraída (contendo os arquivos `.db` ou `.json`) para o diretório `Databases`. Certifique-se de não ter pastas aninhadas (por exemplo, `Databases/NomeDoMod/NomeDoMod/arquivos`).
+  </Step>
+  <Step num="4" title="Verificar a Estrutura dos Arquivos">
+    Abra a pasta recém-movida. Você deve ver um arquivo chamado `config.json` ou `meta.data`. Este arquivo diz ao jogo como carregar os recursos específicos.
+  </Step>
+</Steps>
+
+| Passo da Instalação | Erro Comum | Solução |
+| :--- | :--- | :--- |
+| **Extração** | Arquivo ZIP corrompido | Baixe novamente com uma conexão estável |
+| **Caminho** | Pasta errada selecionada | Use o caminho dos Documentos, não do Arquivos de Programas |
+| **Nomenclatura** | Caracteres especiais na pasta | Renomeie a pasta para um texto simples em inglês |
+| **Permissões** | Acesso à pasta apenas para leitura | Execute o seu explorador de arquivos como Administrador |
+
+<Callout type="success" title="Sucesso">
+Assim que os arquivos estiverem no diretório correto, eles aparecerão no menu suspenso "Seleção de Banco de Dados" quando você clicar em "Novo Jogo" no menu principal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ativando o Banco de Dados no Jogo">
+
+Apenas colocar os arquivos na pasta não é suficiente; você deve instruir explicitamente o **Esports Manager 2026** a usar os dados personalizados em vez do elenco padrão de 2026.
+
+Ao iniciar o jogo, siga estas configurações específicas para garantir que o banco de dados personalizado seja inicializado corretamente:
+
+1. Clique em **Nova Carreira**.
+2. Na tela de **Seleção de Banco de Dados**, clique no menu suspenso.
+3. Selecione o nome do seu banco de dados personalizado (ex: "Global Realism Pack v1.2").
+4. Aguarde a barra de progresso de "Validação de Dados" ser concluída.
+5. Selecione as ligas que deseja carregar.
+
+| Recurso | Banco de Dados Padrão | Banco de Dados Personalizado |
+| :--- | :--- | :--- |
+| **Nomes dos Jogadores** | Fictícios/Aleatórios | Pro-players Profissionais Reais |
+| **Logotipos das Equipes** | Formas Genéricas | Identidade Visual Oficial das Equipes |
+| **Premiações de Torneios** | Estimadas | Valores Reais do Mundo Real de 2026 |
+| **Nomes de Patrocinadores** | Marcas Inventadas | Marcas Globais de Tecnologia/Energia |
+| **Atributos da Comissão** | Equilibrados/Padrão | Baseados no Desempenho Real |
+
+<Callout type="info" title="Nota Importante">
+Alguns bancos de dados são "Grandes" e podem aumentar o tempo de carregamento inicial do seu jogo. Se o jogo parecer travado em 88%, dê a ele alguns minutos para processar os milhares de novos registros de jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação Pós-Instalação">
+
+Depois de entender com sucesso **como instalar banco de dados personalizado no esports manager 2026** e iniciar seu save, você deve verificar se tudo está funcionando como pretendido. Use esta lista de verificação para confirmar uma configuração bem-sucedida.
+
+<Checklist
+  id="db-verification"
+  title="Passos de Verificação do Banco de Dados:"
+  items={[
+    "Verifique se os 10 melhores jogadores do ranking possuem seus nomes do mundo real.",
+    "Confirme se os logotipos das equipes aparecem corretamente na página de 'Classificação da Liga'.",
+    "Verifique se a 'Data de Início' corresponde à temporada pretendida pelo banco de dados.",
+    "Consulte a lista de 'Agentes Livres' para garantir que não esteja vazia (um bug comum).",
+    "Salve o jogo e recarregue para garantir que o vínculo com o banco de dados permaneça estável."
+  ]}
+/>
+
+Se você notar que os nomes estão corretos, mas os logotipos estão faltando, pode ser necessário instalar um "Pacote de Gráficos" separado. Os bancos de dados geralmente lidam com os dados de texto, enquanto os logotipos e rostos dos jogadores são armazenados em uma pasta `Graphics` diferente.
+
+| Tipo de Recurso | Nome da Pasta | Extensão do Arquivo |
+| :--- | :--- | :--- |
+| **Elencos/Estatísticas** | `Databases` | .db / .json |
+| **Logotipos/Rostos** | `Graphics` | .png / .fmf |
+| **Skins/Interface** | `Interface` | .xml |
+| **Pacotes de Idioma** | `Languages` | .txt / .xml |
+
+<Callout type="tip" title="Dica de Otimização">
+Para obter o melhor desempenho, carregue apenas as ligas em que você pretende gerenciar. Carregar todas as ligas regionais de um banco de dados personalizado massivo pode reduzir significativamente a velocidade de processamento ao clicar em "Continuar".
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Solução de Problemas e Perguntas Frequentes (FAQ)">
+
+Mesmo com um guia perfeito, problemas podem surgir devido a conflitos de software ou incompatibilidades de versão. Abaixo estão as perguntas mais frequentes sobre a instalação de bancos de dados na edição de 2026.
+
+<FAQ items={[
+  {
+    question: "Posso adicionar um banco de dados personalizado a um arquivo de save existente?",
+    answer: "Não. Os bancos de dados alteram a estrutura fundamental do mundo do jogo. Para usar um novo banco de dados, você deve iniciar uma nova carreira. Adicionar dados no meio de um save causaria conflitos críticos com os IDs de jogadores existentes."
+  },
+  {
+    question: "Por que meu jogo trava quando clico em 'Novo Jogo'?",
+    answer: "Isso geralmente acontece se a pasta do banco de dados estiver vazia ou se o arquivo config.json estiver faltando. Verifique novamente o caminho de instalação e certifique-se de que todos os arquivos foram extraídos corretamente."
+  },
+  {
+    question: "Como atualizo meu banco de dados para uma versão mais recente?",
+    answer: "Baixe a nova versão, exclua a pasta antiga no diretório 'Databases' e cole a nova. Note que você provavelmente precisará iniciar uma nova carreira para ver as atualizações."
+  },
+  {
+    question: "É seguro usar vários bancos de dados personalizados ao mesmo tempo?",
+    answer: "Geralmente não é recomendado. A maioria dos bancos de dados substitui os mesmos IDs de jogadores. Usar vários pode levar a 'jogadores duplicados' ou estatísticas corrompidas. Escolha apenas um 'Mega-Pack' abrangente para obter os melhores resultados."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final">
+Sempre mantenha uma cópia limpa dos arquivos originais do jogo. Se um banco de dados personalizado causar travamentos persistentes, excluir a pasta `Databases` e usar a opção de 'Verificar Integridade dos Arquivos' na Steam redefinirá seu jogo para o estado padrão de fábrica.
+</Callout>
+
+</Section>

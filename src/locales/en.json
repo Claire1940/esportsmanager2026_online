@@ -10,7 +10,15 @@
       "twitterDescription": "Esports Manager 2026 Wiki covers beginner guides, best players, teams, scouting, transfers, training, tactics, and tournaments on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "tactics": "Tactics",
+    "roster": "Roster",
+    "customization": "Customization",
+    "release": "Release",
+    "support": "Support",
+    "review": "Review"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -605,125 +613,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Esports Manager 2026 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced tactics, scouting, and tournament strategies.",
-      "metaTitle": "Esports Manager 2026 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Esports Manager 2026 guides covering beginner tips, roster building, scouting, transfers, tactics, and tournament preparation.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, roster management, scouting, transfers, training, and tactics. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Esports Manager 2026 Guide",
+      "description": "Beginner-friendly guides covering organization setup, first-week operations, scouting basics, bootcamp planning, and advanced management techniques.",
+      "metaTitle": "Esports Manager 2026 Guide - Beginner Tips & Walkthrough",
+      "metaDescription": "Master Esports Manager 2026 with beginner guides, organization setup, scouting, bootcamps, and advanced management tips for new managers.",
+      "categoryLabel": "GUIDES & WALKTHROUGHS",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "Step-by-step guides covering the first days of a new career, organization creation, scouting fundamentals, bootcamp planning, and advanced techniques that help you build a stable esports organization.",
+      "why": "Why read the guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand scouting, contracts, and morale systems and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to build a stable organization and win tournaments",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for match simulation and long-term growth"
+        "step1Title": "Start Strong",
+        "step1Description": "Build a foundation from day one with the right organization setup and first-week decisions",
+        "step2Title": "Avoid Common Mistakes",
+        "step2Description": "Skip the trial-and-error that slows down new managers and wastes early budget",
+        "step3Title": "Scale Up",
+        "step3Description": "Move from the basics to advanced organization management and long-term planning"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Esports Manager 2026 Players",
-      "description": "Player database, rating tiers, specialist attributes, roles, and roster-building strategies.",
-      "metaTitle": "Esports Manager 2026 Players - Tier List & Roles",
-      "metaDescription": "Master Esports Manager 2026 player ratings, tiers, specialist attributes, and roles. Build a balanced roster with the right IGL, AWPer, Entry, Support, and Lurker coverage.",
-      "categoryLabel": "PLAYERS & ROLES",
-      "whatIs": "What are Players?",
-      "whatIsDescription": "A complete player database with skill ratings, specialist attributes, roles, team assignments, and career earnings. Learn how S, A, B, and C tiers translate into balanced roster decisions.",
-      "why": "Why study players?",
+    "tactics": {
+      "title": "Esports Manager 2026 Tactics",
+      "description": "Match tactics, training schedules, player form management, map-specific strategies, and qualifier preparation.",
+      "metaTitle": "Esports Manager 2026 Tactics - Training & Match Strategy",
+      "metaDescription": "Improve results in Esports Manager 2026 with tactics guides, training schedules, player form management, map strategies, and qualifier tips.",
+      "categoryLabel": "TACTICS & TRAINING",
+      "whatIs": "What are Tactics?",
+      "whatIsDescription": "Guides to in-match tactical setup, training schedules, player form and morale management, map-specific strategies, and qualifier preparation that turn a good roster into a winning one.",
+      "why": "Why use tactics guides?",
       "whySteps": {
-        "step1Title": "Build Balanced Rosters",
-        "step1Description": "Combine overall strength with specialist role coverage",
-        "step2Title": "Spot Value Signings",
-        "step2Description": "Identify affordable prospects with strong development potential",
-        "step3Title": "Avoid Role Overlap",
-        "step3Description": "Prevent expensive lineups that overlap on the same specialist role"
+        "step1Title": "Win More Matches",
+        "step1Description": "Apply map-specific tactics and role setups that match your roster strengths",
+        "step2Title": "Train Smarter",
+        "step2Description": "Use balanced training schedules that build form without burning players out",
+        "step3Title": "Clear Qualifiers",
+        "step3Description": "Fix veto strategy and role chemistry to pass tournament qualifiers"
       },
       "featured": "Featured & Essential",
-      "all": "All Player Guides"
+      "all": "All Tactics Guides"
     },
-    "items": {
-      "title": "Esports Manager 2026 Teams",
-      "description": "Real organizations, active rosters, team strength, and starting difficulty comparisons.",
-      "metaTitle": "Esports Manager 2026 Teams - Real Organizations",
-      "metaDescription": "Explore the real organizations in Esports Manager 2026. Compare rosters, budgets, reputation, and starting difficulty to pick the right club.",
-      "categoryLabel": "TEAMS & ORGANIZATIONS",
-      "whatIs": "What are Teams?",
-      "whatIsDescription": "Guides to the real organizations included in the game, their current rosters, prestige, budgets, and starting difficulty. Find the team that matches your preferred challenge level.",
-      "why": "Why compare teams?",
+    "roster": {
+      "title": "Esports Manager 2026 Roster",
+      "description": "Player database, specialist roles, wonderkids, the best teams, and starting roster recommendations.",
+      "metaTitle": "Esports Manager 2026 Roster - Best Players, Roles & Teams",
+      "metaDescription": "Build the best roster in Esports Manager 2026 with player roles, wonderkids, top teams, and starting roster recommendations.",
+      "categoryLabel": "PLAYERS & TEAMS",
+      "whatIs": "What is the Roster?",
+      "whatIsDescription": "A database of players, specialist roles, high-potential wonderkids, real organizations, and starting roster recommendations that help you scout and build a balanced squad.",
+      "why": "Why study the roster?",
       "whySteps": {
-        "step1Title": "Choose Your Challenge",
-        "step1Description": "Pick a club with the right budget and reputation for your skill",
-        "step2Title": "Read the Roster",
-        "step2Description": "Understand which positions and roles need immediate attention",
-        "step3Title": "Plan the First Season",
-        "step3Description": "Set realistic tournament goals based on team strength"
+        "step1Title": "Know the Roles",
+        "step1Description": "Understand IGL, AWPer, Entry, Support, and Lurker coverage across your lineup",
+        "step2Title": "Find Wonderkids",
+        "step2Description": "Spot young prospects with strong development potential before they get expensive",
+        "step3Title": "Pick the Right Team",
+        "step3Description": "Compare real organizations by roster strength, budget, and starting difficulty"
       },
       "featured": "Featured & Essential",
-      "all": "All Team Guides"
+      "all": "All Roster Guides"
     },
-    "biomes": {
-      "title": "Esports Manager 2026 Tournaments",
-      "description": "Event qualification, schedules, rankings, prize pools, and progression paths.",
-      "metaTitle": "Esports Manager 2026 Tournaments - Events & Qualification",
-      "metaDescription": "Explore Esports Manager 2026 tournaments. Find event lists, qualification rules, prize pools, rankings, and progression paths to the biggest championships.",
-      "categoryLabel": "TOURNAMENTS & EVENTS",
-      "whatIs": "What are Tournaments?",
-      "whatIsDescription": "Guides to the competition calendar, from smaller events to major championships. Learn qualification, scheduling, rankings, prize pools, and how tournaments affect organization visibility.",
-      "why": "Why plan tournaments?",
+    "customization": {
+      "title": "Esports Manager 2026 Customization",
+      "description": "Database editor, mods, custom databases, Steam Workshop, Nexus Mods, and translation tools.",
+      "metaTitle": "Esports Manager 2026 Customization - Mods & Database Editor",
+      "metaDescription": "Customize Esports Manager 2026 with database editor guides, mods, custom databases, Steam Workshop, Nexus Mods, and translation tools.",
+      "categoryLabel": "MODS & DATABASE",
+      "whatIs": "What is Customization?",
+      "whatIsDescription": "Guides to the database editor, custom databases, mods, Steam Workshop and Nexus Mods content, and translation tools that let you tailor rosters, leagues, and languages to your liking.",
+      "why": "Why customize the game?",
       "whySteps": {
-        "step1Title": "Match Events to Roster Level",
-        "step1Description": "Enter competitions that fit your current team strength",
-        "step2Title": "Manage the Calendar",
-        "step2Description": "Balance travel, preparation, and player recovery",
-        "step3Title": "Climb the Rankings",
-        "step3Description": "Use consistent results to grow prestige and sponsorships"
+        "step1Title": "Edit the Database",
+        "step1Description": "Add or update players, teams, and leagues with the built-in database editor",
+        "step2Title": "Install Mods",
+        "step2Description": "Expand the game with community mods from Steam Workshop and Nexus Mods",
+        "step3Title": "Translate the UI",
+        "step3Description": "Use translation tools to play and manage in your preferred language"
       },
       "featured": "Featured & Essential",
-      "all": "All Tournament Guides"
+      "all": "All Customization Guides"
     },
-    "building": {
-      "title": "Esports Manager 2026 Finances",
-      "description": "Budgets, salaries, sponsorships, branding, and long-term organization growth.",
-      "metaTitle": "Esports Manager 2026 Finances - Budgets & Sponsors",
-      "metaDescription": "Master Esports Manager 2026 finances. Learn budget control, salary structure, sponsorship deals, brand visibility, and sustainable organization growth.",
-      "categoryLabel": "FINANCES & SPONSORS",
-      "whatIs": "What are Finances?",
-      "whatIsDescription": "Guides to budgets, salaries, transfer spending, sponsorship deals, brand visibility, and business operations. Build financial discipline that gives the organization time to develop.",
-      "why": "Why manage finances?",
+    "release": {
+      "title": "Esports Manager 2026 Release",
+      "description": "Release date, free demo, Steam store page, price, where to buy, and the full achievements list.",
+      "metaTitle": "Esports Manager 2026 Release - Date, Demo, Price & Achievements",
+      "metaDescription": "Find the Esports Manager 2026 release date, free demo, Steam page, price, where to buy, and the full achievements list.",
+      "categoryLabel": "RELEASE & BUY",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Everything about the launch: the official release date, free demo, Steam store page, pricing, where to buy, and the complete achievements list for completionists.",
+      "why": "Why check release info?",
       "whySteps": {
-        "step1Title": "Protect Operating Funds",
-        "step1Description": "Reserve budget for wages, staff, and unexpected problems",
-        "step2Title": "Control the Wage Bill",
-        "step2Description": "Avoid top-heavy salaries that block future transfers",
-        "step3Title": "Grow Commercially",
-        "step3Description": "Turn competitive progress into sponsorship and brand value"
+        "step1Title": "Play the Demo",
+        "step1Description": "Try the free demo before you buy to test performance and gameplay feel",
+        "step2Title": "Get the Best Price",
+        "step2Description": "Compare stores and editions so you know exactly what you are paying for",
+        "step3Title": "Unlock Achievements",
+        "step3Description": "Track and plan every achievement with a complete, organized list"
       },
       "featured": "Featured & Essential",
-      "all": "All Finance Guides"
+      "all": "All Release Info"
     },
     "support": {
-      "title": "Esports Manager 2026 Updates",
-      "description": "Patch notes, balance changes, transfer-system improvements, bug fixes, and save impact.",
-      "metaTitle": "Esports Manager 2026 Updates - Patch Notes & Changes",
-      "metaDescription": "Track Esports Manager 2026 updates including patch notes, balance changes, transfer-system improvements, bug fixes, localization, and save impact.",
-      "categoryLabel": "UPDATES & SUPPORT",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Technical guides and news covering official patches, balance adjustments, transfer-market changes, simulation improvements, bug fixes, and how each update affects active careers.",
-      "why": "Why follow updates?",
+      "title": "Esports Manager 2026 Support",
+      "description": "Troubleshooting guides for FPS limits, save locations, crashes, tournament join issues, and log files.",
+      "metaTitle": "Esports Manager 2026 Support - Fixes & Troubleshooting",
+      "metaDescription": "Fix Esports Manager 2026 problems with guides on FPS limits, save locations, crashes, tournament join errors, and finding log files.",
+      "categoryLabel": "SUPPORT & FIXES",
+      "whatIs": "What is Support?",
+      "whatIsDescription": "Technical troubleshooting guides covering FPS limits, save file locations, crash fixes, tournament join issues, and where to find log files for reporting problems.",
+      "why": "Why read support guides?",
       "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "Keep the game patched for the latest fixes and balance",
-        "step2Title": "Understand Changes",
-        "step2Description": "See how updates affect players, tactics, and saves",
-        "step3Title": "Plan Around Patches",
-        "step3Description": "Adjust rosters and tactics to match the live rules"
+        "step1Title": "Fix Crashes",
+        "step1Description": "Resolve common crashes and startup problems quickly and safely",
+        "step2Title": "Tune Performance",
+        "step2Description": "Adjust FPS limits and graphics settings for smoother, more stable play",
+        "step3Title": "Recover Saves",
+        "step3Description": "Locate and back up save files, and read logs to diagnose stubborn issues"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Notes"
+      "all": "All Support Guides"
+    },
+    "review": {
+      "title": "Esports Manager 2026 Review",
+      "description": "Gameplay impressions, full reviews, before-you-buy analysis, and gameplay walkthroughs.",
+      "metaTitle": "Esports Manager 2026 Review - Gameplay & Before You Buy",
+      "metaDescription": "Read Esports Manager 2026 reviews, gameplay impressions, before-you-buy analysis, and gameplay walkthroughs to decide if it is worth it.",
+      "categoryLabel": "REVIEWS & GAMEPLAY",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Independent gameplay impressions, full reviews, before-you-buy breakdowns, and gameplay walkthroughs that show what the simulation actually feels like to play.",
+      "why": "Why read reviews?",
+      "whySteps": {
+        "step1Title": "See Real Gameplay",
+        "step1Description": "Watch and read how the simulation plays in practice, beyond the marketing",
+        "step2Title": "Decide Before You Buy",
+        "step2Description": "Weigh depth, performance, and value before spending your money",
+        "step3Title": "Follow Walkthroughs",
+        "step3Description": "Use gameplay walkthroughs to learn core systems and proven strategies"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Reviews"
     }
   }
 }

@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Juego de Esports Manager 2026: Configuración de Organización Profesional",
+  description: "Domina la guía de juego de Esports Manager 2026 con nuestros consejos sobre creación de plantillas, ojeo, tácticas y crecimiento de la organización.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2a1b3d/fff?text=Gameplay+Walkthrough",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de Esports Manager 2026",
+  keywords: "esports manager 2026, guía de juego, gestión de esports, tácticas, ojeo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Recorrido principal**: Esta **guía de juego de Esports Manager 2026** se centra en establecer una plantilla estable de cinco jugadores y un equipo técnico básico antes de participar en torneos importantes.
+- **Equilibrio de la Plantilla**: Prioriza la cobertura de roles (IGL, AWPer, Entry) sobre las valoraciones generales simples para garantizar la flexibilidad táctica.
+- **Prioridad del Personal**: Contrata a un entrenador y a un analista de inmediato para potenciar el desarrollo de los jugadores y la eficiencia en la preparación de partidos.
+- **Disciplina Financiera**: Evita gastar todo tu presupuesto inicial en un solo jugador estrella; reserva fondos para salarios recurrentes y ojeo.
+- **Simulación de Partidos**: Utiliza el Modo Simulación para ajustar las tácticas en tiempo real basándote en las rotaciones y la economía del oponente.
+</Callout>
+
+<Section icon={Map} title="Configuración Inicial: Eligiendo tu Camino de Gestión">
+
+El primer paso en cualquier **guía de juego de Esports Manager 2026** es decidir cómo entrar en la escena profesional. Neurona Games ofrece dos caminos distintos: crear una organización completamente nueva desde cero o tomar el control de una de las más de 325 organizaciones del mundo real incluidas en la base de datos. Cada camino presenta desafíos únicos en cuanto a presupuesto, reputación y estabilidad inicial de la plantilla.
+
+| Tipo de Camino | Dificultad | Control Inicial | Reputación | Ideal Para |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nueva Organización** | Alta | Completo | Cero | Jugadores que buscan una reconstrucción total e identidad propia |
+| **Equipo Existente** | Baja a Media | Limitado | Establecida | Jugadores que quieren acceso inmediato a torneos de élite |
+| **Toma de Control** | Media | Variable | Alta | Gestores que disfrutan solucionando problemas internos de equipo |
+
+Si eliges una nueva organización, tu objetivo principal es establecer una plantilla legal. No puedes avanzar al primer ciclo de torneos sin cinco jugadores activos. Revisa cuidadosamente tu presupuesto inicial antes de hacer ofertas, ya que los fondos iniciales deben cubrir no solo las tarifas de traspaso, sino también los primeros meses de salarios y costes de personal.
+
+<Callout type="tip" title="Consejo de Gestión">
+No gastes todo tu presupuesto de traspasos en la primera semana. Identifica qué posiciones faltan realmente y utiliza filtros de ojeo para encontrar agentes libres asequibles que puedan cubrir esos huecos mientras ahorras para un fichaje estrella más adelante en la temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Creación de la Plantilla: Roles y Listas de Niveles">
+
+Construir un equipo campeón requiere algo más que fichar a los jugadores con la mayor valoración de habilidad general. En Esports Manager 2026, la efectividad del jugador está ligada a roles y atributos específicos. Un equipo de cinco francotiradores de nivel S probablemente fracasará contra una alineación equilibrada de nivel A con una cobertura de roles adecuada.
+
+<CardGrid cols={3}>
+  <Card title="El IGL (Líder en el juego)">
+    - **Atributos Primarios**: Habilidad, Granadas, Clutch
+    - **Función**: Se encarga de la toma de decisiones y la utilidad
+    - **Selección**: Elige un líder que pueda mantener un buen rendimiento mecánico
+  </Card>
+  <Card title="El AWPer (Francotirador)">
+    - **Atributos Primarios**: AWP, Reacción, Clutch
+    - **Función**: Crea impacto a larga distancia y bajas de apertura
+    - **Selección**: Revisa específicamente el atributo AWP, no solo la habilidad general
+  </Card>
+  <Card title="El Entry Fragger">
+    - **Atributos Primarios**: Rifle, Reacción, Pistola
+    - **Función**: Toma los duelos iniciales y crea espacio en el mapa
+    - **Selección**: Busca tiempos de reacción rápidos y tendencias agresivas
+  </Card>
+  <Card title="El Support (Apoyo)">
+    - **Atributos Primarios**: Granadas, Rifle, Pistola
+    - **Función**: Facilita el juego de sus compañeros mediante utilidad y trade-fragging
+    - **Selección**: Una habilidad alta en granadas es esencial para ejecuciones al final de la ronda
+  </Card>
+  <Card title="El Lurker (Acechador)">
+    - **Atributos Primarios**: Clutch, Reacción, Rifle
+    - **Función**: Controla las rotaciones y castiga a los enemigos aislados
+    - **Selección**: Requiere valoraciones altas de clutch para situaciones de 1vX
+  </Card>
+  <Card title="El Rifler Flexible">
+    - **Atributos Primarios**: Rifle, Reacción, Pistola
+    - **Función**: Cubre huecos y apoya planes tanto agresivos como pasivos
+    - **Selección**: Ideal para completar la alineación tras fijar a los especialistas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Conflicto de Roles">
+Evita asignar a varios jugadores roles pasivos como Lurker o Support sin tener al menos un Entry Fragger dedicado. Sin alguien que cree espacio, tus ejecuciones tácticas a menudo se estancarán en los puntos de choque.
+</Callout>
+
+| Nivel de Calificación | Etiqueta | Significado | Mejor Uso |
+| :--- | :--- | :--- | :--- |
+| **Nivel S** | Élite | Talento de nivel Top-20 | Ancla de la franquicia o estrella principal |
+| **Nivel A** | Profesional | Estándar de Nivel 1 | Núcleo de la alineación titular |
+| **Nivel B** | Semiprofesional | Talento en desarrollo | Profundidad asequible o proyectos de crecimiento |
+| **Nivel C** | Amateur | Nivel de entrada | Profundidad de emergencia o inicios con bajo presupuesto |
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Ojeo y Mercado de Traspasos">
+
+El mercado de traspasos en Esports Manager 2026 es dinámico, lo que significa que los clubes controlados por la IA pujarán activamente por tus jugadores mientras tú buscas mejoras. Comprender las diferentes vías de adquisición es vital para la sostenibilidad a largo plazo. El juego utiliza un sistema de prestigio donde los jugadores de élite pueden rechazar ofertas de clubes con bajo ranking, independientemente del salario ofrecido.
+
+<Steps>
+  <Step num="1" title="Filtros de Ojeo Iniciales">
+    Configura a tus ojeadores para buscar roles específicos (p. ej., AWPer) en lugar de talento general. Filtra por edad si buscas prospectos de desarrollo a largo plazo o "Wonderkids".
+  </Step>
+  <Step num="2" title="Negociación de la Tarifa de Traspaso">
+    Al comprar un jugador con contrato, comienza con una oferta ligeramente inferior a su valor de mercado. Los clubes de la IA contraofertarán. Las actualizaciones recientes aseguran que los clubes esperen 14 días antes de volver con una puja más alta si los rechazas.
+  </Step>
+  <Step num="3" title="Términos del Contrato y Salarios">
+    Equilibra la duración del contrato con la edad del jugador. Para los veteranos, los contratos cortos (1-2 años) son más seguros. Para los jóvenes prospectos, asegúralos por 3-5 años para proteger su valor de reventa.
+  </Step>
+  <Step num="4" title="Finalización del Acuerdo">
+    Comprueba la moral del jugador y su compatibilidad con tu plantilla actual. Un jugador de gran habilidad con mala química puede dañar el rendimiento general del equipo en el Modo Simulación.
+  </Step>
+</Steps>
+
+| Vía | Coste Inicial | Compromiso | Mejor Uso |
+| :--- | :--- | :--- | :--- |
+| **Agente Libre** | Ninguno | Solo salario | Completar una plantilla con presupuesto ajustado |
+| **Traspaso Pagado** | Alto | Salario + Tarifa | Añadir una mejora clara a la alineación titular |
+| **Cesión de Entrada** | Bajo | Temporal | Calidad a corto plazo sin costes a largo plazo |
+| **Cesión de Salida** | Ninguno | Preservado | Desarrollar jugadores jóvenes en otros equipos |
+
+<Callout type="info" title="Regla del Mercado">
+La demanda salarial de un jugador bajará aproximadamente un 30% si pasa más de un mes en el banquillo. Usa esto a tu favor al negociar renovaciones para jugadores suplentes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Entrenamiento, Moral y Equipo Técnico">
+
+El éxito en la **guía de juego de Esports Manager 2026** no se trata solo de a quién fichas, sino de cómo los desarrollas. Tu equipo técnico (entrenadores, analistas y psicólogos) desempeña un papel fundamental en el mantenimiento de la habilidad mecánica y el bienestar mental de tu plantilla.
+
+<Checklist
+  id="staff-milestones"
+  title="Lista de Verificación de Personal y Desarrollo:"
+  items={[
+    "Contrata a un Entrenador Principal con estadísticas altas en 'Desarrollo de Jugadores'",
+    "Añade un Analista para mejorar la velocidad de 'Preparación de Mapas'",
+    "Programa al menos una actividad de Team Building al mes",
+    "Monitoriza el módulo de Charlas para quejas o conflictos de los jugadores",
+    "Ajusta la carga de trabajo de entrenamiento durante semanas intensas de torneos"
+  ]}
+/>
+
+El entrenamiento debe adaptarse a la próxima debilidad competitiva del equipo. Si tu equipo está perdiendo demasiadas rondas económicas, céntrate en el entrenamiento de "Pistola" y "Estrategia Eco". Si tus ejecuciones fallan, céntrate en "Granadas" y "Coordinación Táctica".
+
+<Callout type="success" title="Aumento de Moral">
+Usar el módulo de "Charlas" para elogiar a un jugador después de un partido de alto rendimiento puede aumentar significativamente su motivación, lo que lleva a mejores resultados de entrenamiento en la semana siguiente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Partido y Modo Simulación">
+
+El Modo Simulación te pone al mando durante los partidos en vivo. Eres responsable de los vetos de mapas, la gestión de la economía y los ajustes tácticos. El motor del partido tiene en cuenta los roles de los jugadores, los roles de las armas (como la configuración de doble AWP) y los tiempos de rotación.
+
+| Plantilla | Descripción | Roles Clave | Cuándo Usar |
+| :--- | :--- | :--- | :--- |
+| **Equilibrado** | Apertura controlada para el control del mapa | Todos los roles | Usar cuando el marcador esté ajustado |
+| **Presión Rápida** | Ejecuciones agresivas para pillar rotaciones | Entry / Trader | Usar si el oponente rota lentamente |
+| **Ataque Sitio A** | Utilidad y trades enfocados en el Sitio A | Support / Entry | Usar si la defensa del Sitio A es débil |
+| **Defensa Pasiva** | Esperar a los errores del oponente | AWPer / Lurker | Usar durante rondas de alta presión |
+
+Durante el proceso de veto, prioriza los mapas que tu equipo ha practicado en el entrenamiento semanal. Las actualizaciones oficiales han mejorado el algoritmo de veto de la IA, así que espera que los oponentes ataquen tus mapas menos preparados.
+
+<Callout type="tip" title="Ajuste Táctico">
+Si notas que tu AWPer está perdiendo constantemente los duelos de apertura, cambia a una táctica de "Defensa Pasiva". Esto obliga al oponente a entrar en la mira de tu francotirador en lugar de que tu francotirador tenga que asomarse a la suya.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Crecimiento Financiero y Éxito de la Organización">
+
+El éxito a largo plazo depende de tu capacidad para convertir las victorias en torneos en crecimiento comercial. Los patrocinios son tu principal fuente de ingresos recurrentes, pero a menudo vienen con requisitos de rendimiento, como alcanzar un cierto rango o ganar un número específico de partidos.
+
+| Etapa | Prioridad | Enfoque | Riesgo a Evitar |
+| :--- | :--- | :--- | :--- |
+| **1. Inicio** | Crítica | Seguridad Operativa | Gastar demasiado en una sola estrella |
+| **2. Estabilidad** | Alta | Nómina Sostenible | Estructuras salariales demasiado pesadas arriba |
+| **3. Expansión** | Media | Ingresos Comerciales | Contratar demasiado personal no esencial |
+| **4. Élite** | Largo Plazo | Reputación de Marca | Reemplazar un núcleo ganador demasiado rápido |
+
+Mantén un equipo de apoyo reducido en la primera temporada. Aunque los especialistas en medios y los gestores junior son útiles para el crecimiento de la marca, son gastos innecesarios hasta que tu organización tenga unos ingresos competitivos estables procedentes de torneos y patrocinadores de nivel medio.
+
+<Callout type="warning" title="Riesgo de Bancarrota">
+Los fichajes imprudentes pueden dañar la reputación de tu club. Si no puedes pagar los salarios, la moral de los jugadores caerá en picado y pueden negarse a jugar o entrenar, lo que llevará a una espiral de muerte para la organización.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de empezar una partida en Esports Manager 2026?",
+    answer: "El mejor comienzo es centrarse en una plantilla legal de cinco jugadores con roles equilibrados (IGL, AWPer, Entry, Support, Lurker) y contratar a un entrenador de inmediato para comenzar el desarrollo de los jugadores."
+  },
+  {
+    question: "¿Cómo ficho a jugadores de élite para una organización nueva?",
+    answer: "Los jugadores de élite consideran el prestigio del club junto con los salarios. Debes ganar torneos más pequeños y aumentar el ranking de tu organización antes de que los jugadores de nivel S acepten tus ofertas."
+  },
+  {
+    question: "¿Puedo pedir jugadores cedidos en Esports Manager 2026?",
+    answer: "Sí, puedes tener hasta dos jugadores cedidos de entrada y dos jugadores cedidos de salida. Es una excelente forma de añadir calidad a corto plazo o desarrollar talento joven."
+  },
+  {
+    question: "¿Cómo afecta el sistema de entrenamiento al crecimiento del jugador?",
+    answer: "Los planes de entrenamiento se dirigen a atributos específicos como AWP, Rifle o Granadas. Sin embargo, debes equilibrar la carga de trabajo con la recuperación para evitar el agotamiento y la pérdida de moral."
+  }
+]} />
+
+</Section>

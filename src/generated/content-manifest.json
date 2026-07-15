@@ -1,1 +1,658 @@
-{}
+{
+  "en": {
+    "customization": [
+      {
+        "slug": "esports-manager-2026-database-editor",
+        "file": "esports-manager-2026-database-editor"
+      },
+      {
+        "slug": "esports-manager-2026-database",
+        "file": "esports-manager-2026-database"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-install-custom-database",
+        "file": "esports-manager-2026-how-to-install-custom-database"
+      },
+      {
+        "slug": "esports-manager-2026-mods",
+        "file": "esports-manager-2026-mods"
+      },
+      {
+        "slug": "esports-manager-2026-nexus-mods",
+        "file": "esports-manager-2026-nexus-mods"
+      },
+      {
+        "slug": "esports-manager-2026-steam-workshop",
+        "file": "esports-manager-2026-steam-workshop"
+      },
+      {
+        "slug": "esports-manager-2026-translation-tool",
+        "file": "esports-manager-2026-translation-tool"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "esports-manager-2026-advanced-tips",
+        "file": "esports-manager-2026-advanced-tips"
+      },
+      {
+        "slug": "esports-manager-2026-beginner-guide",
+        "file": "esports-manager-2026-beginner-guide"
+      },
+      {
+        "slug": "esports-manager-2026-guide",
+        "file": "esports-manager-2026-guide"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-create-esports-organization",
+        "file": "esports-manager-2026-how-to-create-esports-organization"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
+        "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      }
+    ],
+    "release": [
+      {
+        "slug": "esports-manager-2026-achievements",
+        "file": "esports-manager-2026-achievements"
+      },
+      {
+        "slug": "esports-manager-2026-buy",
+        "file": "esports-manager-2026-buy"
+      },
+      {
+        "slug": "esports-manager-2026-demo",
+        "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-price",
+        "file": "esports-manager-2026-price"
+      },
+      {
+        "slug": "esports-manager-2026-release-date",
+        "file": "esports-manager-2026-release-date"
+      },
+      {
+        "slug": "esports-manager-2026-steam",
+        "file": "esports-manager-2026-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "esports-manager-2026-before-you-buy",
+        "file": "esports-manager-2026-before-you-buy"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay-walkthrough",
+        "file": "esports-manager-2026-gameplay-walkthrough"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay",
+        "file": "esports-manager-2026-gameplay"
+      },
+      {
+        "slug": "esports-manager-2026-review",
+        "file": "esports-manager-2026-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "esports-manager-2026-best-starting-roster",
+        "file": "esports-manager-2026-best-starting-roster"
+      },
+      {
+        "slug": "esports-manager-2026-best-teams",
+        "file": "esports-manager-2026-best-teams"
+      },
+      {
+        "slug": "esports-manager-2026-best-wonderkids",
+        "file": "esports-manager-2026-best-wonderkids"
+      },
+      {
+        "slug": "esports-manager-2026-player-roles",
+        "file": "esports-manager-2026-player-roles"
+      },
+      {
+        "slug": "esports-manager-2026-players",
+        "file": "esports-manager-2026-players"
+      }
+    ],
+    "support": [
+      {
+        "slug": "esports-manager-2026-crashing",
+        "file": "esports-manager-2026-crashing"
+      },
+      {
+        "slug": "esports-manager-2026-fps-limit",
+        "file": "esports-manager-2026-fps-limit"
+      },
+      {
+        "slug": "esports-manager-2026-logs",
+        "file": "esports-manager-2026-logs"
+      },
+      {
+        "slug": "esports-manager-2026-save-location",
+        "file": "esports-manager-2026-save-location"
+      },
+      {
+        "slug": "esports-manager-2026-tournament-cannot-join",
+        "file": "esports-manager-2026-tournament-cannot-join"
+      }
+    ],
+    "tactics": [
+      {
+        "slug": "esports-manager-2026-best-tactics",
+        "file": "esports-manager-2026-best-tactics"
+      },
+      {
+        "slug": "esports-manager-2026-cannot-win-qualifier-matches",
+        "file": "esports-manager-2026-cannot-win-qualifier-matches"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-improve-player-form",
+        "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-tactics-dust-2",
+        "file": "esports-manager-2026-tactics-dust-2"
+      },
+      {
+        "slug": "esports-manager-2026-training-schedule",
+        "file": "esports-manager-2026-training-schedule"
+      }
+    ]
+  },
+  "es": {
+    "customization": [
+      {
+        "slug": "esports-manager-2026-database-editor",
+        "file": "esports-manager-2026-database-editor"
+      },
+      {
+        "slug": "esports-manager-2026-database",
+        "file": "esports-manager-2026-database"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-install-custom-database",
+        "file": "esports-manager-2026-how-to-install-custom-database"
+      },
+      {
+        "slug": "esports-manager-2026-mods",
+        "file": "esports-manager-2026-mods"
+      },
+      {
+        "slug": "esports-manager-2026-nexus-mods",
+        "file": "esports-manager-2026-nexus-mods"
+      },
+      {
+        "slug": "esports-manager-2026-steam-workshop",
+        "file": "esports-manager-2026-steam-workshop"
+      },
+      {
+        "slug": "esports-manager-2026-translation-tool",
+        "file": "esports-manager-2026-translation-tool"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "esports-manager-2026-advanced-tips",
+        "file": "esports-manager-2026-advanced-tips"
+      },
+      {
+        "slug": "esports-manager-2026-beginner-guide",
+        "file": "esports-manager-2026-beginner-guide"
+      },
+      {
+        "slug": "esports-manager-2026-guide",
+        "file": "esports-manager-2026-guide"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-create-esports-organization",
+        "file": "esports-manager-2026-how-to-create-esports-organization"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
+        "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      }
+    ],
+    "release": [
+      {
+        "slug": "esports-manager-2026-achievements",
+        "file": "esports-manager-2026-achievements"
+      },
+      {
+        "slug": "esports-manager-2026-buy",
+        "file": "esports-manager-2026-buy"
+      },
+      {
+        "slug": "esports-manager-2026-demo",
+        "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-price",
+        "file": "esports-manager-2026-price"
+      },
+      {
+        "slug": "esports-manager-2026-release-date",
+        "file": "esports-manager-2026-release-date"
+      },
+      {
+        "slug": "esports-manager-2026-steam",
+        "file": "esports-manager-2026-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "esports-manager-2026-before-you-buy",
+        "file": "esports-manager-2026-before-you-buy"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay-walkthrough",
+        "file": "esports-manager-2026-gameplay-walkthrough"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay",
+        "file": "esports-manager-2026-gameplay"
+      },
+      {
+        "slug": "esports-manager-2026-review",
+        "file": "esports-manager-2026-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "esports-manager-2026-best-starting-roster",
+        "file": "esports-manager-2026-best-starting-roster"
+      },
+      {
+        "slug": "esports-manager-2026-best-teams",
+        "file": "esports-manager-2026-best-teams"
+      },
+      {
+        "slug": "esports-manager-2026-best-wonderkids",
+        "file": "esports-manager-2026-best-wonderkids"
+      },
+      {
+        "slug": "esports-manager-2026-player-roles",
+        "file": "esports-manager-2026-player-roles"
+      },
+      {
+        "slug": "esports-manager-2026-players",
+        "file": "esports-manager-2026-players"
+      }
+    ],
+    "support": [
+      {
+        "slug": "esports-manager-2026-crashing",
+        "file": "esports-manager-2026-crashing"
+      },
+      {
+        "slug": "esports-manager-2026-fps-limit",
+        "file": "esports-manager-2026-fps-limit"
+      },
+      {
+        "slug": "esports-manager-2026-logs",
+        "file": "esports-manager-2026-logs"
+      },
+      {
+        "slug": "esports-manager-2026-save-location",
+        "file": "esports-manager-2026-save-location"
+      },
+      {
+        "slug": "esports-manager-2026-tournament-cannot-join",
+        "file": "esports-manager-2026-tournament-cannot-join"
+      }
+    ],
+    "tactics": [
+      {
+        "slug": "esports-manager-2026-best-tactics",
+        "file": "esports-manager-2026-best-tactics"
+      },
+      {
+        "slug": "esports-manager-2026-cannot-win-qualifier-matches",
+        "file": "esports-manager-2026-cannot-win-qualifier-matches"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-improve-player-form",
+        "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-tactics-dust-2",
+        "file": "esports-manager-2026-tactics-dust-2"
+      },
+      {
+        "slug": "esports-manager-2026-training-schedule",
+        "file": "esports-manager-2026-training-schedule"
+      }
+    ]
+  },
+  "pt": {
+    "customization": [
+      {
+        "slug": "esports-manager-2026-database-editor",
+        "file": "esports-manager-2026-database-editor"
+      },
+      {
+        "slug": "esports-manager-2026-database",
+        "file": "esports-manager-2026-database"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-install-custom-database",
+        "file": "esports-manager-2026-how-to-install-custom-database"
+      },
+      {
+        "slug": "esports-manager-2026-mods",
+        "file": "esports-manager-2026-mods"
+      },
+      {
+        "slug": "esports-manager-2026-nexus-mods",
+        "file": "esports-manager-2026-nexus-mods"
+      },
+      {
+        "slug": "esports-manager-2026-steam-workshop",
+        "file": "esports-manager-2026-steam-workshop"
+      },
+      {
+        "slug": "esports-manager-2026-translation-tool",
+        "file": "esports-manager-2026-translation-tool"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "esports-manager-2026-advanced-tips",
+        "file": "esports-manager-2026-advanced-tips"
+      },
+      {
+        "slug": "esports-manager-2026-beginner-guide",
+        "file": "esports-manager-2026-beginner-guide"
+      },
+      {
+        "slug": "esports-manager-2026-guide",
+        "file": "esports-manager-2026-guide"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-create-esports-organization",
+        "file": "esports-manager-2026-how-to-create-esports-organization"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
+        "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      }
+    ],
+    "release": [
+      {
+        "slug": "esports-manager-2026-achievements",
+        "file": "esports-manager-2026-achievements"
+      },
+      {
+        "slug": "esports-manager-2026-buy",
+        "file": "esports-manager-2026-buy"
+      },
+      {
+        "slug": "esports-manager-2026-demo",
+        "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-price",
+        "file": "esports-manager-2026-price"
+      },
+      {
+        "slug": "esports-manager-2026-release-date",
+        "file": "esports-manager-2026-release-date"
+      },
+      {
+        "slug": "esports-manager-2026-steam",
+        "file": "esports-manager-2026-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "esports-manager-2026-before-you-buy",
+        "file": "esports-manager-2026-before-you-buy"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay-walkthrough",
+        "file": "esports-manager-2026-gameplay-walkthrough"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay",
+        "file": "esports-manager-2026-gameplay"
+      },
+      {
+        "slug": "esports-manager-2026-review",
+        "file": "esports-manager-2026-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "esports-manager-2026-best-starting-roster",
+        "file": "esports-manager-2026-best-starting-roster"
+      },
+      {
+        "slug": "esports-manager-2026-best-teams",
+        "file": "esports-manager-2026-best-teams"
+      },
+      {
+        "slug": "esports-manager-2026-best-wonderkids",
+        "file": "esports-manager-2026-best-wonderkids"
+      },
+      {
+        "slug": "esports-manager-2026-player-roles",
+        "file": "esports-manager-2026-player-roles"
+      },
+      {
+        "slug": "esports-manager-2026-players",
+        "file": "esports-manager-2026-players"
+      }
+    ],
+    "support": [
+      {
+        "slug": "esports-manager-2026-crashing",
+        "file": "esports-manager-2026-crashing"
+      },
+      {
+        "slug": "esports-manager-2026-fps-limit",
+        "file": "esports-manager-2026-fps-limit"
+      },
+      {
+        "slug": "esports-manager-2026-logs",
+        "file": "esports-manager-2026-logs"
+      },
+      {
+        "slug": "esports-manager-2026-save-location",
+        "file": "esports-manager-2026-save-location"
+      },
+      {
+        "slug": "esports-manager-2026-tournament-cannot-join",
+        "file": "esports-manager-2026-tournament-cannot-join"
+      }
+    ],
+    "tactics": [
+      {
+        "slug": "esports-manager-2026-best-tactics",
+        "file": "esports-manager-2026-best-tactics"
+      },
+      {
+        "slug": "esports-manager-2026-cannot-win-qualifier-matches",
+        "file": "esports-manager-2026-cannot-win-qualifier-matches"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-improve-player-form",
+        "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-tactics-dust-2",
+        "file": "esports-manager-2026-tactics-dust-2"
+      },
+      {
+        "slug": "esports-manager-2026-training-schedule",
+        "file": "esports-manager-2026-training-schedule"
+      }
+    ]
+  },
+  "ru": {
+    "customization": [
+      {
+        "slug": "esports-manager-2026-database-editor",
+        "file": "esports-manager-2026-database-editor"
+      },
+      {
+        "slug": "esports-manager-2026-database",
+        "file": "esports-manager-2026-database"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-install-custom-database",
+        "file": "esports-manager-2026-how-to-install-custom-database"
+      },
+      {
+        "slug": "esports-manager-2026-mods",
+        "file": "esports-manager-2026-mods"
+      },
+      {
+        "slug": "esports-manager-2026-nexus-mods",
+        "file": "esports-manager-2026-nexus-mods"
+      },
+      {
+        "slug": "esports-manager-2026-steam-workshop",
+        "file": "esports-manager-2026-steam-workshop"
+      },
+      {
+        "slug": "esports-manager-2026-translation-tool",
+        "file": "esports-manager-2026-translation-tool"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "esports-manager-2026-advanced-tips",
+        "file": "esports-manager-2026-advanced-tips"
+      },
+      {
+        "slug": "esports-manager-2026-beginner-guide",
+        "file": "esports-manager-2026-beginner-guide"
+      },
+      {
+        "slug": "esports-manager-2026-guide",
+        "file": "esports-manager-2026-guide"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-create-esports-organization",
+        "file": "esports-manager-2026-how-to-create-esports-organization"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
+        "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      }
+    ],
+    "release": [
+      {
+        "slug": "esports-manager-2026-achievements",
+        "file": "esports-manager-2026-achievements"
+      },
+      {
+        "slug": "esports-manager-2026-buy",
+        "file": "esports-manager-2026-buy"
+      },
+      {
+        "slug": "esports-manager-2026-demo",
+        "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-price",
+        "file": "esports-manager-2026-price"
+      },
+      {
+        "slug": "esports-manager-2026-release-date",
+        "file": "esports-manager-2026-release-date"
+      },
+      {
+        "slug": "esports-manager-2026-steam",
+        "file": "esports-manager-2026-steam"
+      }
+    ],
+    "review": [
+      {
+        "slug": "esports-manager-2026-before-you-buy",
+        "file": "esports-manager-2026-before-you-buy"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay-walkthrough",
+        "file": "esports-manager-2026-gameplay-walkthrough"
+      },
+      {
+        "slug": "esports-manager-2026-gameplay",
+        "file": "esports-manager-2026-gameplay"
+      },
+      {
+        "slug": "esports-manager-2026-review",
+        "file": "esports-manager-2026-review"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "esports-manager-2026-best-starting-roster",
+        "file": "esports-manager-2026-best-starting-roster"
+      },
+      {
+        "slug": "esports-manager-2026-best-teams",
+        "file": "esports-manager-2026-best-teams"
+      },
+      {
+        "slug": "esports-manager-2026-best-wonderkids",
+        "file": "esports-manager-2026-best-wonderkids"
+      },
+      {
+        "slug": "esports-manager-2026-player-roles",
+        "file": "esports-manager-2026-player-roles"
+      },
+      {
+        "slug": "esports-manager-2026-players",
+        "file": "esports-manager-2026-players"
+      }
+    ],
+    "support": [
+      {
+        "slug": "esports-manager-2026-crashing",
+        "file": "esports-manager-2026-crashing"
+      },
+      {
+        "slug": "esports-manager-2026-fps-limit",
+        "file": "esports-manager-2026-fps-limit"
+      },
+      {
+        "slug": "esports-manager-2026-logs",
+        "file": "esports-manager-2026-logs"
+      },
+      {
+        "slug": "esports-manager-2026-save-location",
+        "file": "esports-manager-2026-save-location"
+      },
+      {
+        "slug": "esports-manager-2026-tournament-cannot-join",
+        "file": "esports-manager-2026-tournament-cannot-join"
+      }
+    ],
+    "tactics": [
+      {
+        "slug": "esports-manager-2026-best-tactics",
+        "file": "esports-manager-2026-best-tactics"
+      },
+      {
+        "slug": "esports-manager-2026-cannot-win-qualifier-matches",
+        "file": "esports-manager-2026-cannot-win-qualifier-matches"
+      },
+      {
+        "slug": "esports-manager-2026-how-to-improve-player-form",
+        "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-tactics-dust-2",
+        "file": "esports-manager-2026-tactics-dust-2"
+      },
+      {
+        "slug": "esports-manager-2026-training-schedule",
+        "file": "esports-manager-2026-training-schedule"
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Esports Manager 2026: Los 10 mejores consejos tácticos",
+  description: "Domina Esports Manager 2026 con nuestra guía para principiantes. Aprende tácticas mapa por mapa, control económico, calendarios de entrenamiento y creación de plantillas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Esports+Manager+2026+Beginner+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de Esports Manager 2026"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía principal**: Domina los aspectos fundamentales de las tácticas de mapas, el entrenamiento del equipo y las finanzas del mercado en Esports Manager 2026.
+- **Estrategia económica**: Controla el presupuesto de tu equipo utilizando compras forzadas y tiempos muertos tácticos.
+- **Desarrollo de jugadores**: Prioriza el equilibrio en el entrenamiento de la plantilla sobre las intensas sesiones diarias para evitar el desgaste de los jugadores.
+- **Inversión en personal**: Contrata pronto a un cuerpo técnico completo, que incluya analistas y psicólogos.
+- **Creación de la plantilla**: Selecciona a los jugadores en función de su confianza en el conjunto de mapas y la sinergia de roles, en lugar de sus valoraciones brutas.
+</Callout>
+
+<Section icon={Map} title="Dominar el creador de tácticas por mapa">
+
+Entrar en la arena profesional requiere algo más que simplemente iniciar partidos y esperar lo mejor. Para construir una franquicia dominante, debes alejarte de las configuraciones estratégicas genéricas y universales. El creador de tácticas es la herramienta más poderosa de tu arsenal, pero solo ofrece resultados cuando se personaliza para cada mapa individual del conjunto activo.
+
+**Puntos clave del video:**
+- **Estrategia específica de mapas**: Personaliza las tácticas para cada mapa en lugar de utilizar una única configuración predeterminada.
+- **Nivel de confianza**: Adapta los roles de los jugadores a sus niveles de confianza específicos en cada mapa para reducir los errores en el juego.
+- **Ajustes a mitad de ronda**: Ajusta la posición de los jugadores, como el uso de acechadores (*lurkers*) activos, para controlar el flujo de la partida.
+
+<YouTubeEmbed videoId="6IbPBJcfMf8" title="Esports Manager 2026 - 10 consejos avanzados que DEBES saber" />
+
+Cada jugador de tu plantilla posee un nivel de confianza único para cada mapa. Obligar a un entry fragger agresivo a jugar de forma pasiva en un mapa que no le gusta, como Mirage, provocará ejecuciones deficientes y errores costosos. En su lugar, ajusta los roles individuales para que se adapten a sus zonas de confort. Esta alineación mejora directamente el rendimiento del equipo en la simulación de partidos en semi-3D.
+
+| Nombre del mapa | Enfoque táctico clave | Rol de jugador recomendado | Complejidad de la configuración |
+|---|---|---|---|
+| **Mirage** | Control de medio, apoyo pasivo | Apoyo (línea trasera) | Media |
+| **Dust 2** | Acecho activo, entrada rápida | Acechador activo | Baja |
+| **Inferno** | Uso de utilidad, defensa de zonas | Ancla / Apoyo | Alta |
+
+<Callout type="tip" title="Prueba de tácticas">
+Nunca participes en un torneo importante con una estrategia sin probar. Realiza siempre múltiples partidos de práctica simulados, perfecciona la posición de los jugadores y ajusta las preferencias a mitad de ronda antes de competir en el gran escenario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gestión económica y decisiones a mitad de ronda">
+
+El control económico es la habilidad definitoria que separa a los mánager promedio de los campeones. Dirigir tu economía en piloto automático comprando equipamiento estándar en cada ronda arruinará rápidamente la situación financiera de tu equipo durante una serie. Cada decisión económica (ya sea ahorrar, hacer compra parcial, compra forzada o compra completa) debe calcularse en función del estado de la banca de tu oponente.
+
+| Opción económica | Nivel de coste | Impacto en la moral del equipo | Mejor escenario para usar |
+|---|---|---|---|
+| **Eco total** | Muy bajo | Mínimo | Cuando la banca está completamente agotada |
+| **Compra forzada** | Medio | Alto (si tiene éxito) | Para romper la racha ganadora del oponente |
+| **Compra completa** | Alto | Estable | Durante las rondas de compra estándar |
+
+Las compras forzadas no deben tratarse como decisiones desesperadas de último segundo. Cuando se programan correctamente, una compra forzada exitosa puede destrozar por completo la economía del equipo contrario, provocando un efecto dominó que los obligue a realizar rondas de ahorro consecutivas. Además, utilizar los tiempos muertos antes de las rondas críticas te permite reorganizar el plan de compra y reajustar las estrategias.
+
+<Callout type="warning" title="Gestión de tiempos muertos">
+No te guardes los tiempos muertos. Si tu equipo pierde dos rondas consecutivas debido a malas configuraciones, solicita un tiempo muerto inmediato para frenar el impulso del oponente y ajustar tu posicionamiento defensivo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estructurar el plan de entrenamiento óptimo">
+
+En esta guía para principiantes de Esports Manager 2026, equilibrar la fatiga de los jugadores es tan fundamental como mejorar la mecánica pura. Un error común de los novatos es saturar cada día del calendario con sesiones de entrenamiento intensas y de alta carga. Sobrecargar a tu plantilla provoca un desgaste severo, lo que reduce la moral de los jugadores y empeora el rendimiento durante los partidos oficiales.
+
+<CardGrid cols={3}>
+  <Card title="Entrenamiento mecánico">
+    - **Se centra en la puntería pura**
+    - Alta generación de fatiga
+    - Ideal para usar durante la temporada baja
+  </Card>
+  <Card title="Entrenamiento táctico">
+    - **Mejora el sentido del juego**
+    - Generación de fatiga moderada
+    - Esencial antes de eventos importantes
+  </Card>
+  <Card title="Entrenamiento mental">
+    - **Desarrolla la resiliencia del equipo**
+    - Baja generación de fatiga
+    - Mantiene alta la moral de la plantilla
+  </Card>
+</CardGrid>
+
+Un plan semanal inteligente divide el enfoque a partes iguales entre las habilidades físicas, la comprensión táctica y la resistencia mental. Si notas que los niveles de fatiga de los jugadores aumentan, reduce inmediatamente la carga de entrenamiento y programa días de descanso.
+
+<Steps>
+  <Step num="1" title="Evaluar la fatiga semanal">
+    Comprueba los niveles de energía de la plantilla al comienzo de cada semana antes de asignar tareas.
+  </Step>
+  <Step num="2" title="Distribuir el enfoque de entrenamiento">
+    Establece un calendario equilibrado dividido entre práctica de puntería, teoría táctica y cohesión de equipo.
+  </Step>
+  <Step num="3" title="Programar descanso y recuperación">
+    Introduce días de descanso obligatorio o sesiones ligeras de recuperación mental para mantener bajos los niveles de agotamiento.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Prevención del agotamiento">
+Vigila de cerca los indicadores de salud mental de tus jugadores. Una plantilla descansada y con confianza superará fácilmente a un equipo muy entrenado pero agotado en partidos de alta presión.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegar por el mercado de fichajes y la contratación de personal">
+
+Construir una organización con calibre de campeonato requiere una planificación financiera inteligente en el mercado de fichajes e invertir en un cuerpo técnico profesional. Aunque fichar a superestrellas caras es tentador, los salarios masivos y las cláusulas de rescisión de contratos elevadas pueden llevar a tu organización a la quiebra rápidamente.
+
+| Rol del personal | Beneficio principal | Prioridad presupuestaria | Impacto en el rendimiento |
+|---|---|---|---|
+| **Analista** | Desbloquea información del meta, revela fallos del oponente | Alta | ★★★★★ |
+| **Psicólogo** | Estabiliza la moral del equipo bajo presión | Alta | ★★★★☆ |
+| **Especialista en medios** | Potencia el alcance de la marca, aumenta los ingresos por patrocinio | Media | ★★★☆☆ |
+
+En lugar de gastar todo tu presupuesto en una sola superestrella, busca valor en jugadores jóvenes prometedores, talentos de la academia y cesiones a corto plazo. Este enfoque mantiene la flexibilidad de tu plantilla y deja suficiente presupuesto para contratar a un cuerpo técnico completo. Los analistas, psicólogos y especialistas en medios ofrecen ventajas silenciosas y acumulativas que mantienen a tu equipo por delante de la competencia.
+
+<Callout type="info" title="Cláusulas contractuales">
+Lee siempre las cláusulas de los contratos con atención antes de fichar jugadores. Evita las primas por rendimiento elevadas y las cláusulas de rescisión restrictivas que puedan convertirse en trampas financieras más adelante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Química de la plantilla y objetivos del equipo">
+
+Para garantizar el éxito a largo plazo, debes establecer objetivos operativos claros y mantener una alta química en el equipo. La simulación de partidos se toma muy en serio la moral de los jugadores, la alineación de personalidades y la comunicación. Tener cinco jugadores estrella con cero sinergia a menudo resultará en derrotas contra equipos mejor coordinados y con menor valoración.
+
+<Checklist
+  id="beginner-milestones"
+  title="Lista de verificación para la configuración de la plantilla:"
+  items={[
+    "Alinea el estilo táctico de tu líder de juego (IGL) con el sistema del equipo",
+    "Realiza charlas individuales con los jugadores para resolver conflictos internos en la plantilla",
+    "Equilibra los roles de la plantilla para que los jugadores no tengan conflictos por las posiciones preferidas en el mapa",
+    "Desarrolla promesas de la academia para rotarlas en la alineación principal durante calendarios apretados"
+  ]}
+/>
+
+<Callout type="tip" title="Selección de IGL">
+Al reclutar a un líder de juego (IGL), prioriza la sinergia táctica y los rasgos de liderazgo sobre las estadísticas de disparo puras. Un gran IGL hace que las decisiones a mitad de ronda fluyan de forma natural.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito que mis jugadores se agoten en Esports Manager 2026?",
+    answer: "Evita programar sesiones de entrenamiento de máxima intensidad de forma consecutiva. Equilibra tu rutina semanal con ejercicios tácticos y mentales, y programa días de descanso obligatorios cuando aumenten los niveles de fatiga de los jugadores."
+  },
+  {
+    question: "¿Debería comprar a los jugadores con mejor valoración disponibles en el mercado de fichajes?",
+    answer: "No. Los jugadores con valoraciones altas exigen salarios enormes y es posible que no se adapten al estilo táctico de tu equipo. Busca jugadores con alta confianza en los mapas, roles compatibles y una fuerte resiliencia mental."
+  },
+  {
+    question: "¿Cuál es la mejor manera de gestionar una racha de derrotas durante los partidos en vivo?",
+    answer: "No dejes que la simulación funcione en piloto automático. Solicita un tiempo muerto táctico inmediatamente después de perder rondas consecutivas, ajusta la configuración defensiva de tu equipo y utiliza las charlas a mitad de partido para levantar la moral de los jugadores."
+  },
+  {
+    question: "¿Por qué es tan importante para los principiantes invertir en el cuerpo técnico?",
+    answer: "Los miembros del personal proporcionan enormes beneficios acumulativos. Los analistas te ayudan a contrarrestar las tácticas del oponente, los psicólogos previenen caídas repentinas en el rendimiento de los jugadores y los especialistas en medios aumentan tu presupuesto general de patrocinio."
+  }
+]} />
+
+</Section>

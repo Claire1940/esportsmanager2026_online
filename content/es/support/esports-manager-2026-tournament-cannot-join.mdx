@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "No se puede unir al torneo en esports manager 2026: Solución de elegibilidad y reglas de la plantilla",
+  description: "Resuelve el error de no poder unirse al torneo en esports manager 2026. Aprende a solucionar problemas de tamaño de plantilla, requisitos de rol y contratos para participar en partidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/581c87/fff?text=Tournament+Join+Fix",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de esports manager 2026"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Problema principal**: El error **no se puede unir al torneo en esports manager 2026** casi siempre está causado por una plantilla inicial no válida o incompleta.
+- **Verificación de plantilla**: Debes tener exactamente cinco jugadores activos, sanos y elegibles firmados con contratos profesionales válidos.
+- **Alineación de roles**: Asegúrate de que tu equipo cubra posiciones críticas, incluyendo el líder de la partida (IGL) y el francotirador principal (AWPer).
+- **Solución con actualización**: Los parches oficiales recientes han resuelto errores por los cuales los jugadores retirados se quedaban bloqueados en ranuras activas, impidiendo el registro.
+- **Recuperación de partida guardada**: Cargar tu partida guardada de carrera después del Parche 1.0.2 repara automáticamente los problemas comunes de bloqueo de plantilla.
+</Callout>
+
+<Section icon={Shield} title="Por qué no puedes unirte a torneos en Esports Manager 2026">
+
+Al gestionar tu club, encontrarte con el error **no se puede unir al torneo en esports manager 2026** puede detener tu progreso competitivo. Este problema ocurre cuando tu escuadra no cumple con los estrictos criterios de registro establecidos por los organizadores del torneo. Esports Manager 2026 simula ligas profesionales reales, lo que significa que no puedes omitir las reglas de plantilla, los términos de los contratos o las restricciones de disponibilidad de los jugadores.
+
+La mayoría de los bloqueos de inscripción a torneos provienen de problemas de plantilla, disputas contractuales o errores persistentes en la base de datos de versiones anteriores del juego. Analicemos las causas principales detrás de este error y cómo afectan a tu estado de registro.
+
+| Causa | Nivel de impacto | Resolución principal |
+|---|---|---|
+| **Plantilla incompleta** | Crítico | Ficha agentes libres o usa cesiones para alcanzar los 5 jugadores activos |
+| **Bloqueo / Congelación de contrato** | Alto | Espera a que pase la congelación de inicio de carrera o completa las renovaciones |
+| **Error de jugador retirado** | Alto | Actualiza al Parche 1.0.2 para limpiar automáticamente las ranuras inactivas |
+| **Error de asignación de rol** | Medio | Define roles claros de francotirador (AWP) y liderazgo (IGL) |
+| **Lesión / Fatiga del jugador** | Medio | Ajusta el entrenamiento semanal para restaurar el bienestar físico |
+
+<Callout type="warning" title="Advertencia sobre el tamaño de la plantilla">
+El registro de un torneo requiere exactamente nada menos que cinco jugadores activos. Si tienes jugadores cedidos, lesionados o bloqueados en negociaciones de contrato, la simulación bloqueará tu participación en el torneo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Proceso de validación de plantilla paso a paso">
+
+Para resolver el bloqueo de registro, debes verificar sistemáticamente el estado de tu escuadra. Sigue esta ruta de diagnóstico paso a paso para asegurarte de que tu organización cumple con las reglas y está lista para competir.
+
+<Steps>
+  <Step num="1" title="Verificar la legalidad de la alineación de cinco jugadores">
+    Abre la pantalla de tu escuadra y verifica el estado activo de tus cinco titulares. Debes tener cinco jugadores sanos que no estén actualmente cedidos, sancionados o esperando la resolución de su contrato. Si te faltan jugadores, debes fichar a un agente libre o pedir prestado un jugador a través del sistema de cesiones.
+  </Step>
+  <Step num="2" title="Eliminar jugadores retirados de las ranuras de la escuadra">
+    Si estás jugando en un archivo de guardado antiguo, un error común hace que los jugadores retirados ocupen ranuras de la plantilla activa sin que se pueda hacer clic en ellos. Actualiza tu juego a la última corrección, carga tu carrera y deja que el script automático elimine a los jugadores retirados de tu escuadra.
+  </Step>
+  <Step num="3" title="Asignar roles tácticos correctos">
+    Verifica que tu alineación inicial tenga roles claramente asignados. Tu sistema táctico requiere al menos un líder de la partida (IGL) designado y un francotirador principal (AWPer). No asignar estos roles puede hacer que el motor del juego rechace la inscripción al torneo.
+  </Step>
+  <Step num="4" title="Comprobar el estado de los contratos y los límites salariales">
+    Asegúrate de que ninguno de tus de tus cinco titulares tenga contratos vencidos. Si el contrato de un jugador ha expirado, se negará a jugar. Además, comprueba si tu nómina total supera los límites financieros establecidos por el nivel de torneo específico al que intentas unirte.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Utilidad del sistema de cesiones">
+Si no puedes permitirte un traspaso permanente para cubrir una posición vacante, utiliza el mercado de cesiones. Puedes obtener en cesión hasta dos jugadores de otras organizaciones para completar temporalmente tu plantilla de cinco integrantes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestión de rutas de plantilla y opciones de traspaso">
+
+Crear una escuadra estable requiere equilibrar tu presupuesto, buscar talento y utilizar el mercado de traspasos. Si no puedes entrar a los torneos debido a la profundidad de la plantilla, debes adquirir jugadores elegibles. Utiliza la tabla comparativa de abajo para determinar la mejor ruta para el presupuesto y prestigio de tu club.
+
+| Ruta | Coste inicial | Compromiso continuo | Mejor uso |
+|---|---|---|---|
+| **Agente libre** | Sin coste de traspaso | Salario y duración del contrato | Completar una alineación de 5 jugadores con un presupuesto ajustado |
+| **Traspaso pagado** | Coste de traspaso | Salario y duración del contrato | Comprar una mejora clara de titular para jugar en el nivel 1 |
+| **Cesión (Entrada)** | Coste temporal | Reparto financiero negociado | Añadir calidad a corto plazo para evitar bloqueos de registro |
+| **Promesa de desarrollo** | Menor coste de traspaso | Salario a largo plazo | Crear valor a lo largo de múltiples temporadas competitivas |
+
+<CardGrid cols={2}>
+  <Card title="Ruta del agente libre">
+    - **No se requieren costes de traspaso**
+    - Capacidad de firma inmediata
+    - Ideal para emergencias de profundidad de plantilla
+    - *Nota*: Los jugadores de élite pueden rechazar clubes débiles
+  </Card>
+  <Card title="Ruta de cesión de jugadores">
+    - **Solución temporal de bajo coste**
+    - Máximo 2 jugadores cedidos a la vez
+    - Fácil de devolver cuando los titulares lesionados se recuperen
+    - *Nota*: No se pueden volver a ceder los jugadores prestados
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Optimización del presupuesto">
+Si un jugador activo pasa más de un mes en tu banquillo, sus exigencias salariales disminuyen un 30%. Utiliza esta mecánica para renegociar contratos caros y liberar presupuesto salarial para nuevos titulares.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación previa al torneo para mánageres">
+
+Antes de hacer clic en registrarse en cualquier campeonato importante o copa local, repasa esta lista de verificación operativa para asegurarte de que tu organización no encuentre bloqueos inesperados de entrada.
+
+<Checklist
+  id="pre-tournament-checklist"
+  title="Hitos requeridos para la entrada al torneo:"
+  items={[
+    "Confirmar que cinco jugadores activos están asignados a la alineación inicial",
+    "Verificar que el rol de líder de la partida (IGL) esté asignado",
+    "Verificar que el rol de francotirador principal (AWPer) esté asignado",
+    "Asegurarse de que ningún titular activo tenga contratos vencidos o en disputa",
+    "Comprobar que la moral del equipo y el bienestar físico estén por encima de los umbrales críticos",
+    "Confirmar que el saldo financiero del club puede cubrir las tasas de inscripción del torneo"
+  ]}
+/>
+
+<Callout type="info" title="Congelación de traspasos del Parche 1.0.2">
+Al inicio de una nueva carrera, puedes activar una congelación de traspasos de la IA de 1 o 6 meses. Esto evita que los clubes de la IA hagan ofertas por tus jugadores, lo que te permite estabilizar a tus cinco titulares sin distracciones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué el juego dice 'no se puede unir al torneo en esports manager 2026' incluso con 5 jugadores?",
+    answer: "Esto suele ocurrir si uno de tus cinco jugadores está cedido actualmente, tiene un contrato vencido, no puede jugar físicamente debido a una fatiga extrema, o si tienes un error de jugador retirado bloqueando una ranura de la plantilla. Asegúrate de que los cinco jugadores estén completamente activos y sanos."
+  },
+  {
+    question: "¿Cómo soluciono el error de plantilla con jugadores retirados?",
+    answer: "Actualiza tu juego al Parche 1.0.2 o a la última corrección. Cuando cargues tu archivo de guardado activo, el juego ejecutará automáticamente un script de reparación para eliminar a los jugadores retirados de tu escuadra y desbloquear tu plantilla."
+  },
+  {
+    question: "¿Puedo usar cesiones para cumplir con los requisitos de plantilla del torneo?",
+    answer: "Sí, puedes recibir en cesión hasta dos jugadores de otros clubes para cubrir las posiciones que te falten. Esta es una excelente manera de cumplir rápidamente con el requisito de cinco jugadores iniciales cuando no tienes fondos para un traspaso permanente."
+  },
+  {
+    question: "¿Afecta la congelación de traspasos de inicio de carrera a mis ofertas de salida?",
+    answer: "No. La congelación opcional del mercado de inicio de carrera de uno o seis meses bloquea las ofertas entrantes de la IA para proteger a tu plantilla, pero te permite seguir haciendo ofertas de traspaso y cesión de salida a otros clubes."
+  }
+]} />
+
+</Section>

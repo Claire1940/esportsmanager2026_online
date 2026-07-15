@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Erro ao entrar em torneios no Esports Manager 2026: Corrija a Elegibilidade do Elenco e Regras",
+  description: "Resolva o erro de não conseguir entrar em torneios no Esports Manager 2026. Saiba como corrigir o tamanho do elenco, requisitos de função e problemas de contrato para participar de partidas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/581c87/fff?text=Tournament+Join+Fix",
+  date: "2026-07-15",
+  author: "Equipe Wiki do Esports Manager 2026",
+  keywords: "esports manager 2026, erro de torneio, elenco, regras de inscrição, contrato"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Problema Principal**: O erro **esports manager 2026 tournament cannot join** é quase sempre causado por um elenco titular inválido ou incompleto.
+- **Verificação de Elenco**: Você deve ter exatamente cinco jogadores ativos, saudáveis e elegíveis, assinados com contratos profissionais válidos.
+- **Alinhamento de Funções**: Certifique-se de que sua equipe cubra posições críticas, incluindo o In-Game Leader (IGL) e o sniper principal (AWPer).
+- **Correção via Atualização**: Patches oficiais recentes resolveram bugs onde jogadores aposentados permaneciam travados em slots ativos, bloqueando a inscrição.
+- **Recuperação de Save**: Carregar seu save de carreira após o Patch 1.0.2 repara automaticamente problemas comuns de bloqueio de elenco.
+</Callout>
+
+<Section icon={Shield} title="Por que você não consegue entrar em torneios no Esports Manager 2026">
+
+Ao gerenciar seu clube, encontrar o erro **esports manager 2026 tournament cannot join** pode interromper seu progresso competitivo. Esse problema ocorre quando sua equipe não atende aos rigorosos critérios de inscrição definidos pelos organizadores do torneio. O Esports Manager 2026 simula ligas profissionais realistas, o que significa que você não pode ignorar as regras de elenco, termos de contrato ou restrições de disponibilidade dos jogadores.
+
+A maioria dos bloqueios de entrada em torneios decorre de problemas de elenco, disputas contratuais ou bugs persistentes no banco de dados de versões anteriores do jogo. Vamos analisar as principais causas por trás desse erro e como elas impactam seu status de inscrição.
+
+| Causa | Nível de Impacto | Resolução Principal |
+|---|---|---|
+| **Elenco Incompleto** | Crítico | Contrate agentes livres ou use empréstimos para atingir 5 jogadores ativos |
+| **Congelamento / Bloqueio de Contrato** | Alto | Aguarde o fim do congelamento de início de carreira ou complete as renovações |
+| **Bug de Jogador Aposentado** | Alto | Atualize para o Patch 1.0.2 para limpar automaticamente slots mortos |
+| **Erro de Alocação de Função** | Médio | Defina funções claras de sniper (AWP) e liderança (IGL) |
+| **Lesão / Fadiga do Jogador** | Médio | Ajuste o treinamento semanal para restaurar o bem-estar físico |
+
+<Callout type="warning" title="Aviso sobre Tamanho do Elenco">
+A inscrição em um torneio exige exatamente cinco jogadores ativos. Se você tiver jogadores emprestados, lesionados ou presos em negociações de contrato, a simulação bloqueará sua entrada no torneio.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Processo de Validação de Elenco Passo a Passo">
+
+Para resolver o bloqueio de inscrição, você deve verificar sistematicamente o status do seu esquadrão. Siga este caminho de diagnóstico passo a passo para garantir que sua organização esteja legalmente em conformidade e pronta para competir.
+
+<Steps>
+  <Step num="1" title="Verifique a Legalidade da Escalação de Cinco Jogadores">
+    Abra a tela do seu esquadrão e verifique o status ativo dos seus cinco titulares. Você deve ter cinco jogadores saudáveis que não estejam atualmente emprestados, suspensos ou aguardando resolução de contrato. Se estiver com falta de pessoal, você deve contratar um agente livre ou pegar um jogador emprestado via sistema de empréstimo.
+  </Step>
+  <Step num="2" title="Limpe Jogadores Aposentados dos Slots do Elenco">
+    Se você estiver usando um arquivo de save antigo, um bug comum deixa jogadores aposentados ocupando slots de elenco ativo enquanto permanecem inclicáveis. Atualize seu jogo para o hotfix mais recente, carregue sua carreira e deixe o script automático remover os jogadores aposentados do seu esquadrão.
+  </Step>
+  <Step num="3" title="Atribua Funções Táticas Corretas">
+    Verifique se sua escalação titular tem funções claramente atribuídas. Seu sistema tático exige pelo menos um In-Game Leader (IGL) designado e um sniper principal (AWPer). Deixar de atribuir essas funções pode fazer com que o motor de jogo rejeite a entrada no torneio.
+  </Step>
+  <Step num="4" title="Verifique Status de Contratos e Tetos Salariais">
+    Certifique-se de que nenhum dos seus cinco titulares tenha contratos expirados. Se o contrato de um jogador terminar, ele se recusará a jogar. Além disso, verifique se sua folha de pagamento total excede os limites financeiros definidos pelo nível específico do torneio que você está tentando entrar.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Utilidade do Sistema de Empréstimo">
+Se você não puder pagar por uma transferência permanente para preencher um slot ausente, use o mercado de empréstimos. Você pode pegar até dois jogadores emprestados de outras organizações para completar seu elenco de cinco pessoas temporariamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gerenciando Caminhos de Elenco e Opções de Transferência">
+
+Construir um esquadrão estável exige equilibrar seu orçamento, observar talentos e utilizar o mercado de transferências. Se você estiver bloqueado de entrar em torneios devido à profundidade do elenco, deve adquirir jogadores elegíveis. Use a tabela de comparação abaixo para determinar o melhor caminho para o orçamento e prestígio do seu clube.
+
+| Rota | Custo Inicial | Compromisso Contínuo | Melhor Uso |
+|---|---|---|---|
+| **Agente Livre** | Sem taxa de transferência | Salário e termo de contrato | Completar um elenco de 5 jogadores com orçamento apertado |
+| **Transferência Paga** | Taxa de transferência | Salário e termo de contrato | Comprar um upgrade claro de titular para o nível 1 |
+| **Empréstimo (In)** | Taxa temporária | Divisão financeira negociada | Adicionar qualidade a curto prazo para contornar bloqueios de inscrição |
+| **Promessa da Base** | Taxa de transferência baixa | Salário de longo prazo | Construir valor ao longo de várias temporadas competitivas |
+
+<CardGrid cols={2}>
+  <Card title="Rota de Agente Livre">
+    - **Sem taxas de transferência exigidas**
+    - Capacidade de contratação imediata
+    - Ideal para profundidade de emergência
+    - *Nota*: Jogadores de elite podem rejeitar clubes fracos
+  </Card>
+  <Card title="Rota de Empréstimo de Jogador">
+    - **Solução temporária de baixo custo**
+    - Máximo de 2 jogadores emprestados por vez
+    - Fácil de devolver quando titulares lesionados se recuperam
+    - *Nota*: Não é permitido sub-emprestar jogadores emprestados
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Otimização de Orçamento">
+Se um jogador ativo passar mais de um mês no seu banco, suas exigências salariais caem em 30%. Use essa mecânica para renegociar contratos caros e liberar orçamento salarial para novos titulares.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Pré-Torneio para Managers">
+
+Antes de clicar em registrar em qualquer campeonato importante ou copa local, passe por este checklist operacional para garantir que sua organização não encontre bloqueios de entrada inesperados.
+
+<Checklist
+  id="pre-tournament-checklist"
+  title="Marcos Necessários para Entrada em Torneio:"
+  items={[
+    "Confirmar se cinco jogadores ativos estão atribuídos à escalação titular",
+    "Verificar se a função de In-Game Leader (IGL) está atribuída",
+    "Verificar se a função de sniper principal (AWPer) está atribuída",
+    "Garantir que nenhum titular ativo tenha contratos expirados ou em disputa",
+    "Verificar se o moral da equipe e o bem-estar físico estão acima dos limites críticos",
+    "Confirmar se o saldo financeiro do clube pode cobrir as taxas de inscrição do torneio"
+  ]}
+/>
+
+<Callout type="info" title="Congelamento de Transferências Patch 1.0.2">
+No início de uma nova carreira, você pode ativar um congelamento de transferências da IA de 1 ou 6 meses. Isso evita que clubes da IA façam ofertas pelos seus jogadores, permitindo que você estabilize seus cinco titulares sem distrações.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que o jogo diz 'esports manager 2026 tournament cannot join' mesmo com 5 jogadores?",
+    answer: "Isso geralmente ocorre se um dos seus cinco jogadores estiver emprestado no momento, tiver um contrato expirado, estiver fisicamente incapaz de jogar devido à fadiga extrema ou se houver um bug de jogador aposentado bloqueando um slot do elenco. Certifique-se de que todos os cinco jogadores estejam totalmente ativos e saudáveis."
+  },
+  {
+    question: "Como corrijo o bug do jogador aposentado no elenco?",
+    answer: "Atualize seu jogo para o Patch 1.0.2 ou o hotfix mais recente. Quando você carregar seu arquivo de save ativo, o jogo executará automaticamente um script de reparo para remover jogadores aposentados do seu esquadrão e desbloquear seu elenco."
+  },
+  {
+    question: "Posso usar empréstimos para contornar os requisitos de elenco do torneio?",
+    answer: "Sim, você pode pegar até dois jogadores emprestados de outros clubes para preencher posições ausentes. Esta é uma excelente maneira de atender rapidamente ao requisito de cinco jogadores titulares quando faltam fundos para uma transferência permanente."
+  },
+  {
+    question: "O congelamento de transferências no início da carreira afeta minhas ofertas de saída?",
+    answer: "Não. O congelamento opcional do mercado de um ou seis meses no início da carreira bloqueia ofertas recebidas da IA para proteger seu esquadrão, mas ainda permite que você faça ofertas de transferência e empréstimo para outros clubes."
+  }
+]} />
+
+</Section>

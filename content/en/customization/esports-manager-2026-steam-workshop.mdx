@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Esports Manager 2026 Steam Workshop: Custom Roster & Database Setup",
+  description: "Learn how to use the Esports Manager 2026 Steam Workshop to download real-world rosters, custom logos, and advanced player databases for your club.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Steam+Workshop+Guide",
+  date: "2026-07-15",
+  author: "esports manager 2026 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Esports Manager 2026 Steam Workshop** allows players to integrate real-world organizations, player names, and custom logos into the simulation.
+- **Roster legality** is essential; ensure your downloaded database includes at least five starters for every team to avoid AI-generated filler.
+- **Save compatibility** is generally maintained across patches 1.0.1 and 1.0.2, but major database updates may require a new career start.
+- **Mod Priority** should be given to "Realism Packs" that align with the 325+ official organizations already supported by Neurona Games.
+</Callout>
+
+<Section icon={Map} title="Maximizing the Esports Manager 2026 Steam Workshop">
+
+The **esports manager 2026 steam workshop** serves as the central hub for community-driven realism and customization. While the base game developed by Neurona Games features over 325 real organizations and a deep simulation engine, the Workshop allows managers to bridge the gap between generic data and licensed professional circuits. By utilizing custom databases, you can transform your management experience with authentic player attributes, historical team rankings, and localized tournament structures.
+
+**Video Highlights:**
+- Overview of the management interface and simulation mode.
+- Demonstration of live match tactics and player roles.
+- Insights into the scouting and transfer market mechanics.
+- Preview of the organization growth and facility management.
+
+<YouTubeEmbed videoId="gxlDTRtBvOk" title="Esports Manager 2026 - RPG Official Launch Gameplay" />
+
+Integrating Workshop content is the first step for any serious manager looking to replicate the Tier-1 professional scene. Whether you are downloading a "2026 Global Realism Pack" or a "Historical Legends Database," the process is streamlined through the Steam interface.
+
+| Feature Type | Description | Benefit |
+| :--- | :--- | :--- |
+| **Realism Databases** | Updates player names, ages, and skills | Authentic scouting experience |
+| **Logo Packs** | Replaces generic icons with real brand art | Enhanced visual immersion |
+| **Custom Maps** | Adds community-designed tactical layouts | Varied match simulation |
+| **Language Packs** | Provides translations for unsupported regions | Accessibility for global users |
+
+<Callout type="tip" title="Pro Tip">
+Always check the "Last Updated" date on the Workshop page. With the release of Patch 1.0.2 on July 11, 2026, some older database structures may cause errors in the new "undismissable manager" mode.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Workshop Installation Guide">
+
+Setting up your custom environment requires a specific sequence to ensure that the game's internal database (EMDB) recognizes the new files without conflicting with the official July 2026 updates.
+
+<Steps>
+  <Step num="1" title="Access the Workshop">
+    Open your Steam Library, select **Esports Manager 2026**, and click on the "Workshop" tab. Use the search bar to filter by "Most Subscribed" or "Recent" to find the most stable community databases.
+  </Step>
+  <Step num="2" title="Subscribe to Content">
+    Click the "Subscribe" button on your chosen mod. Steam will automatically download the files. For large logo packs (often exceeding 1GB), ensure you have sufficient storage space before proceeding.
+  </Step>
+  <Step num="3" title="Enable in Game Settings">
+    Launch the game and navigate to the "Database Manager" or "Mods" menu. Toggle the status of the downloaded content to "Active." If using multiple databases, ensure the realism pack is at the top of the priority list.
+  </Step>
+  <Step num="4" title="Verify Roster Legality">
+    Before starting a new career, check the "Squad" screen. The game requires a five-player starting lineup. If your Workshop mod is incomplete, the game will fill gaps with AI-generated players based on the role-aware signing logic introduced in Patch 1.0.2.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Do not subscribe to multiple "Total Conversion" databases simultaneously. Overlapping player IDs can lead to game crashes during the "End of Season" processing or transfer negotiations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Evaluating Player Tiers and Workshop Roles">
+
+When using the **esports manager 2026 steam workshop**, community creators often categorize players into tiers (S, A, B, C) based on the 1-20 attribute system. Understanding these tiers is vital for effective scouting and roster construction.
+
+<CardGrid cols={2}>
+  <Card title="S-Tier (Elite)">
+    - **Attributes**: 18-20 in core roles.
+    - **Usage**: Franchise anchors and primary AWPers.
+    - **Cost**: Extremely high wages and transfer fees.
+  </Card>
+  <Card title="A-Tier (Professional)">
+    - **Attributes**: 15-17 in core roles.
+    - **Usage**: Reliable Tier-1 starters.
+    - **Cost**: Sustainable for mid-to-large organizations.
+  </Card>
+  <Card title="B-Tier (Semi-Pro)">
+    - **Attributes**: 12-14 in core roles.
+    - **Usage**: Development prospects and bench depth.
+    - **Cost**: Affordable for emerging clubs.
+  </Card>
+  <Card title="C-Tier (Amateur)">
+    - **Attributes**: Below 12.
+    - **Usage**: Emergency fillers or long-term projects.
+    - **Cost**: Minimal financial impact.
+  </Card>
+</CardGrid>
+
+| Role | Primary Attribute | Secondary Attribute | Match Function |
+| :--- | :--- | :--- | :--- |
+| **IGL** | Skill / Decision Making | Grenades / Clutch | Tactical leadership and mid-round calls |
+| **AWPer** | AWP / Reaction | Pistol / Clutch | Long-range impact and defensive picks |
+| **Entry** | Rifle / Reaction | Pistol / Agility | Creating space and opening duels |
+| **Support** | Grenades / Rifle | Teamwork / Utility | Enabling teammates and trade fragging |
+| **Lurker** | Clutch / Reaction | Rifle / Stealth | Map control and punishing rotations |
+
+<Callout type="success" title="Strategy Success">
+A balanced roster of A-tier players with perfect role coverage often outperforms a team of three S-tier players with overlapping roles (e.g., three AWPers). Always prioritize role fit over raw rating.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Patch Compatibility and Mod Stability">
+
+The post-launch updates in July 2026 have significantly altered how the game handles data. Managers using Workshop content must be aware of how these official changes affect community mods.
+
+| Patch Date | Version | Key Changes Affecting Mods | Save Impact |
+| :--- | :--- | :--- | :--- |
+| **July 7, 2026** | 1.0.1 | Expanded AI loan market / Scouting fixes | Low - Mods continue to work |
+| **July 11, 2026** | 1.0.2 | Rebalanced ERS ratings / NewGen logic | High - May require mod updates |
+| **July 12, 2026** | Hotfix | Retired player roster repair | Medium - Fixes stuck Workshop players |
+
+The July 11 update (Patch 1.0.2) was particularly impactful, as it recalculated transfer values and lowered starting wages across the board. If your Workshop database was created before this date, you might find that player valuations are unrealistically high or that small clubs have impossible budgets.
+
+**Mod Maintenance Checklist:**
+- Check for "Patch 1.0.2 Compatible" tags on the Workshop.
+- Clear the game cache if player portraits appear as black squares.
+- Re-verify local files through Steam if the "Simulation Mode" crashes on custom maps.
+- Update your "Talk Module" strings if using a community-made translation pack.
+
+<Callout type="info" title="Note on Transfers">
+The July 12 hotfix ensured that world-class players are less likely to join low-prestige clubs. This affects Workshop "God Mode" databases where elite players were previously too easy to sign.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Scouting and Financial Management with Mods">
+
+Using the **esports manager 2026 steam workshop** to add thousands of players can make scouting overwhelming. Efficient managers use the game's internal filters to navigate these massive community databases.
+
+| Stage | Focus | Action |
+| :--- | :--- | :--- |
+| **1. Budgeting** | Operating Security | Reserve 20% of funds for unexpected buyouts |
+| **2. Scouting** | Role Gaps | Filter by "Role" rather than "Overall Rating" |
+| **3. Negotiation** | Sustainability | Offer 3-year contracts to high-potential B-tiers |
+| **4. Expansion** | Brand Growth | Hire Media Specialists to boost sponsor income |
+
+<Steps>
+  <Step num="1" title="Identify Weakness">
+    Analyze your match history. If you are losing rounds to poor utility usage, prioritize scouting a Support player with a "Grenades" attribute of 16+.
+  </Step>
+  <Step num="2" title="Filter the Database">
+    Use the Workshop-enhanced scouting tool to filter for players within your budget. Don't forget to check the "Free Agent" pool, as community mods often include high-value veterans there.
+  </Step>
+  <Step num="3" title="Compare Costs">
+    A 19-year-old prospect with 14 skill might be more valuable than a 28-year-old veteran with 16 skill due to the "Potential" growth system and lower wage demands.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Financial Tip">
+Player wages now drop by 30% after spending one month on the bench. Use this mechanic to renegotiate contracts for underperforming Workshop players before their value tanks.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Goals and Checklist for New Managers">
+
+To ensure your organization reaches the top of the rankings in the 2026 season, follow this essential checklist for managing Workshop-enhanced careers.
+
+<Checklist
+  id="workshop-setup-goals"
+  title="Workshop Career Milestones:"
+  items={[
+    "Install a verified Realism Database (Patch 1.0.2 compatible)",
+    "Complete a legal 5-player roster with distinct tactical roles",
+    "Hire a Coach and Analyst with high development attributes",
+    "Set a weekly training plan that addresses map pool weaknesses",
+    "Win a regional tournament to increase club prestige",
+    "Secure a Tier-1 sponsorship deal to stabilize recurring wages"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "How do I fix retired players stuck in my roster from a Workshop mod?",
+    answer: "The July 12 hotfix automatically repairs this. Load your save, and the game will remove retired players from the locked state, allowing you to sign replacements."
+  },
+  {
+    question: "Can I use the Esports Manager 2026 Steam Workshop with the demo?",
+    answer: "No, Workshop integration is exclusive to the full Steam release. The free demo is limited to base-game mechanics and a restricted player pool."
+  },
+  {
+    question: "Will adding a custom database disable Steam Achievements?",
+    answer: "Generally, no. Esports Manager 2026 allows for achievements even when using custom rosters, though some specific 'Hardcore' achievements may require the default database."
+  },
+  {
+    question: "What should I do if a Workshop player has 0 attributes?",
+    answer: "This usually indicates a database conflict. Ensure you only have one active player database and that it has been updated for Patch 1.0.2."
+  }
+]} />
+
+</Section>

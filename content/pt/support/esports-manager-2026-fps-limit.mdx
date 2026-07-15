@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Limite de FPS no Esports Manager 2026: Guia de Otimização Passo a Passo",
+  description: "Aprenda a configurar o limite de FPS no Esports Manager 2026, ajustar as configurações de tela e otimizar os gráficos para uma jogabilidade de simulação competitiva fluida.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=FPS+Limit+and+Resolution+Guide",
+  date: "2026-07-15",
+  author: "Equipe do Wiki do Esports Manager 2026"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Problema principal**: Gerenciar o **limite de FPS no Esports Manager 2026** evita o superaquecimento do hardware e estabiliza as simulações de partidas.
+- **Mecânica chave**: A resolução da tela e os limites de quadros estão diretamente ligados às configurações de taxa de atualização nativa do seu monitor.
+- **Melhor estratégia**: Alinhe as configurações de exibição do jogo com a configuração do painel de controle do seu sistema para obter o desempenho ideal.
+- **Dica crítica**: Use um software de GPU externo se precisar limitar os quadros abaixo da taxa de atualização padrão do seu monitor.
+- **Melhor escolha**: Rodar a 60 FPS ou 120 FPS oferece os cálculos de simulação mais estáveis durante visualizações intensas de partidas ao vivo.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Configurações de Limite de FPS no Esports Manager 2026">
+
+Gerenciar sua taxa de quadros é crucial para jogos de simulação como o Esports Manager 2026. Altas taxas de quadros podem causar estresse desnecessário na GPU durante a navegação nos menus, enquanto baixas taxas de quadros deixam as simulações de partidas ao vivo travadas. Configurar o **limite de FPS no Esports Manager 2026** garante que os recursos do seu sistema sejam alocados de forma eficiente para os cálculos de simulação, em vez de renderizar quadros em excesso.
+
+**Destaques do Vídeo:**
+- Como acessar o menu de configurações principal diretamente da tela inicial.
+- Como navegar pelos submenus de exibição para localizar as opções de resolução.
+- Como selecionar o modo de exibição correto para corresponder ao hardware nativo do seu monitor.
+
+<YouTubeEmbed videoId="QxkI8dqjAt8" title="Esports Manager 2026: Como alterar a resolução" />
+
+Para estabelecer uma base para o desempenho dos seus gráficos, primeiro você deve alinhar a resolução da tela com a taxa de quadros desejada. A tabela abaixo detalha as configurações de exibição recomendadas com base na categoria do seu hardware:
+
+| Categoria do Hardware | Resolução Recomendada | Limite de FPS Alvo | Status do V-Sync |
+|--- |--- |--- |--- |
+| Entrada | 1920x1080 (FHD) | 60 FPS | Ativado |
+| Intermediário | 2560x1440 (QHD) | 120 FPS | Ativado |
+| Topo de Linha | 3840x2160 (UHD) | 144 FPS / Ilimitado | Desativado |
+
+<Callout type="tip" title="Dica Profissional">
+Se você notar quebras de tela (screen tearing) durante simulações de partidas aceleradas, ativar o V-Sync nas configurações do jogo é a maneira mais rápida de travar sua taxa de quadros na taxa de atualização do seu monitor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Ajustar a Resolução e os Modos de Exibição">
+
+Antes de ajustar suas taxas de quadros, certifique-se de que sua resolução esteja configurada corretamente. O motor do jogo ajusta os elementos da interface e os textos de simulação com base na resolução de tela ativa. Se a resolução estiver incorreta, você poderá ter limites artificiais de desempenho ou textos embaçados durante as partidas.
+
+| Modo de Exibição | Prós | Contras | Melhor Uso |
+|--- |--- |--- |--- |
+| Tela Cheia | Desempenho máximo, menor atraso de entrada (input lag) | Alt-tab lento | Visualização de partidas competitivas |
+| Janela sem Bordas | Multitarefa fluida, alt-tab fácil | Leve perda de desempenho | Configurações com vários monitores |
+| Em Janela | Baixo consumo de recursos | Área de tela reduzida | Simulações em segundo plano |
+
+<CardGrid cols={3}>
+  <Card title="Modo Desempenho">
+    - **Resolução 1080p**
+    - Alta estabilidade de taxa de quadros
+    - Ideal para GPUs mais antigas
+  </Card>
+  <Card title="Modo Equilibrado">
+    - **Resolução 1440p**
+    - Texto nítido e interface clara
+    - Melhor para configurações modernas
+  </Card>
+  <Card title="Modo Qualidade">
+    - **Resolução 4K**
+    - Máxima fidelidade visual
+    - Exige hardware topo de linha
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso do Sistema">
+Rodar o jogo no modo Janela sem Bordas pode forçar o jogo a herdar a taxa de atualização da sua área de trabalho, substituindo quaisquer limites personalizados de taxa de quadros definidos em softwares de terceiros.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Otimização de Tela Passo a Passo">
+
+Siga esta sequência para acessar o menu de configurações, ajustar sua configuração de exibição e gerenciar com sucesso seus limites de taxa de quadros.
+
+<Steps>
+  <Step num="1" title="Acesse o Menu de Configurações">
+    Inicie o jogo e aguarde o menu principal carregar. Localize o ícone de engrenagem que representa o menu de configurações na tela inicial e clique nele para abrir o painel de configuração.
+  </Step>
+  <Step num="2" title="Selecione as Opções de Resolução">
+    Navegue até a aba Gráficos ou Tela. Clique no menu suspenso de Resolução para ver a lista de todas as resoluções de tela atualmente suportadas pelo seu monitor.
+  </Step>
+  <Step num="3" title="Aplique os Limites de Taxa de Quadros">
+    Escolha a resolução desejada e ative a opção Limite de Taxa de Quadros ou V-Sync. Salve as alterações e reinicie o jogo se for solicitado para aplicar os novos parâmetros de exibição.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Otimização Concluída com Sucesso">
+Depois de aplicar essas configurações, monitore as temperaturas da sua GPU. Um limite de taxa de quadros configurado corretamente deve reduzir o consumo de energia da sua placa de vídeo em até 30% durante as telas de menu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Métodos Externos para Limitar sua Taxa de Quadros">
+
+Se os menus do jogo não oferecerem o limite exato de quadros que você precisa, você pode impor um limite a nível de hardware usando o painel de controle da sua placa de vídeo. Este método é altamente confiável e impede que o jogo ultrapasse o limite de desempenho desejado.
+
+| Marca da GPU | Ferramenta de Software | Nome da Configuração | Valor Recomendado |
+|--- |--- |--- |--- |
+| NVIDIA | Painel de Controle da NVIDIA | Taxa Máxima de Quadros | Corresponder aos Hz do monitor |
+| AMD | AMD Software: Adrenalin | Radeon Chill | Mín: 60 / Máx: 120 |
+| Intel | Centro de Comando de Gráficos Intel | Limite de Taxa de Quadros | Corresponder aos Hz do monitor |
+
+<Checklist
+  id="gpu-settings-checklist"
+  title="Checklist do Painel de Controle da GPU:"
+  items={[
+    "Abra o respectivo software do painel de controle da sua GPU",
+    "Adicione o executável do Esports Manager 2026 às configurações do programa",
+    "Localize a configuração de taxa de quadros máxima ou limitador de quadros",
+    "Defina o valor do limite para corresponder à taxa de atualização da sua tela",
+    "Aplique as alterações e inicie o jogo para verificar"
+  ]}
+/>
+
+<Callout type="info" title="Nota Técnica">
+O uso de limites externos no nível do driver geralmente oferece uma distribuição de quadros (frame pacing) superior aos limitadores integrados do jogo, resultando em menos microtravamentos (micro-stutters) durante telas de simulação intensiva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que devo definir um limite de FPS no Esports Manager 2026?",
+    answer: "Definir um limite evita que sua placa de vídeo funcione a 100% de carga durante telas de menu estáticas, reduzindo o calor do sistema, o consumo de energia e o ruído das ventoinhas."
+  },
+  {
+    question: "Como altero minha resolução se a tela ficar preta?",
+    answer: "Você pode redefinir suas configurações de exibição navegando até a pasta de configuração do jogo no diretório AppData e excluindo o arquivo de configurações locais, o que força o jogo a iniciar no modo janela padrão."
+  },
+  {
+    question: "O V-Sync introduz atraso de entrada (input lag) neste jogo?",
+    answer: "Embora o V-Sync possa introduzir um pequeno atraso de entrada, ele é insignificante em jogos de simulação de gerenciamento, onde tempos de reação de frações de segundo não são necessários."
+  },
+  {
+    question: "Qual é a melhor taxa de quadros para simular partidas?",
+    answer: "Um valor estável de 60 FPS é o ideal, pois garante animações suaves para os motores de partida 2D ou 3D sem desperdiçar recursos do sistema."
+  }
+]} />
+
+</Section>

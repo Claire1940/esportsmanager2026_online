@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de esports manager 2026: Guía de configuración y tutorial táctico",
+  description: "Domina la jugabilidad de Esports Manager 2026 con nuestra guía de configuración. Aprende simulación táctica, creación de plantillas, transferencias y entrenamiento para construir un equipo campeón.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Gameplay+Guide",
+  date: "2026-07-15",
+  author: "Equipo de Wiki de esports manager 2026",
+  keywords: "esports manager 2026, jugabilidad, guía táctica, plantilla, simulación"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **jugabilidad de esports manager 2026** se centra en una gestión profunda de la organización, desde la búsqueda de talentos hasta la simulación táctica en tiempo real.
+- La **legalidad de la plantilla** es la primera prioridad; debes asegurar cinco titulares con roles distintos como IGL y AWPer.
+- El **Modo Simulación** permite a los mánagers influir en los resultados de los partidos mediante decisiones tácticas en vivo y gestión de la economía.
+- La **disciplina financiera** en la primera temporada evita deudas a largo plazo causadas por el gasto excesivo en estrellas con salarios altos.
+- La **moral de los jugadores** es tan crítica como la habilidad; utiliza el módulo de Charlas y las sesiones de psicología para mantener la química del equipo.
+</Callout>
+
+<Section icon={Map} title="Configuración inicial y selección de organización">
+
+La base de tu experiencia en la **jugabilidad de esports manager 2026** comienza con la elección de tu trayectoria profesional. Se te presentan dos opciones principales: crear una organización completamente nueva desde cero o asumir el control de una de las más de 325 organizaciones del mundo real disponibles en la base de datos. Crear una nueva organización ofrece un control total sobre la marca y la identidad de la plantilla, pero comienza con una reputación y un presupuesto más bajos. Tomar las riendas de un equipo existente otorga acceso inmediato a talentos consagrados y plazas en torneos, pero conlleva mayores expectativas y obligaciones contractuales preexistentes.
+
+Antes de avanzar en el calendario del juego, debes auditar tus recursos iniciales. Esto incluye revisar la profundidad de tu plantilla actual, la efectividad del cuerpo técnico y el presupuesto de transferencias restante. El juego cuenta con una opción de \"congelación del mercado\" durante la creación de la carrera, que puede bloquear las ofertas de la IA hasta por seis meses, dándote tiempo para estabilizar tu alineación sin perder activos clave.
+
+| Trayectoria inicial | Reputación | Nivel de control | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Nueva Organización** | Baja | Máximo | Reconstrucciones a largo plazo y marca personalizada |
+| **Equipo Existente** | Alta | Moderado | Competición inmediata y plantillas consolidadas |
+| **Inicio en Academia** | Muy Baja | Alto | Desarrollar jóvenes promesas para obtener ganancias |
+
+<Callout type="tip" title="Estrategia de Gestión">
+Si eres principiante, se recomienda tomar el control de un equipo existente de nivel medio. Te permite aprender las mecánicas de simulación táctica sin la presión inmediata de construir una plantilla legal de cinco integrantes desde cero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Creación de plantilla y roles de jugadores">
+
+Construir una plantilla campeona en la **jugabilidad de esports manager 2026** requiere más que simplemente fichar a los jugadores con las valoraciones generales más altas. El juego utiliza un sistema basado en roles donde la sinergia y la especialización de atributos determinan el rendimiento en el partido. Cada alineación legal requiere cinco jugadores, y debes asegurarte de que los roles especializados como el Líder en el Juego (IGL) y el Francotirador Principal (AWPer) estén cubiertos por jugadores con los atributos adecuados.
+
+Los jugadores se clasifican en niveles del S al C. Aunque los jugadores de nivel S son los pilares de la franquicia, una alineación equilibrada de nivel A a menudo supera a una plantilla desequilibrada de superestrellas con roles superpuestos. Por ejemplo, tener dos \"Lurkers\" puede llevar a estilos de juego pasivos que no logran crear presión en el mapa, independientemente de sus niveles de habilidad individuales.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S (Élite)">
+    - **Top 20 de Talento Global**
+    - Altas demandas salariales
+    - Gran impacto en el prestigio
+  </Card>
+  <Card title="Nivel A (Profesional)">
+    - **Estándar Competitivo de Tier 1**
+    - Especialistas de rol confiables
+    - Núcleo de una plantilla estable
+  </Card>
+  <Card title="Nivel B (Semiprofesional)">
+    - **Promesas en Desarrollo**
+    - Alto potencial de crecimiento
+    - Profundidad de reserva asequible
+  </Card>
+</CardGrid>
+
+| Rol | Atributos principales | Función en el partido |
+| :--- | :--- | :--- |
+| **IGL** | Habilidad, Granadas, Clutch | Liderazgo estratégico y estabilidad en rondas tardías |
+| **AWPer** | AWP, Reacción, Clutch | Impacto a larga distancia y anclaje defensivo |
+| **Entry Fragger** | Rifle, Reacción, Pistola | Creación de espacio y victoria en duelos de apertura |
+| **Support** | Granadas, Rifle, Pistola | Uso de utilidad y comercio de bajas con compañeros |
+| **Lurker** | Clutch, Reacción, Rifle | Control del mapa y castigo a las rotaciones enemigas |
+
+<Callout type="warning" title="Superposición de Roles">
+No fiches a varios jugadores para el mismo rol especializado simplemente porque su valoración general sea alta. Un equipo con dos especialistas principales en AWP tendrá dificultades con la economía y el conflicto de roles durante la simulación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Simulación táctica y mecánicas de partido">
+
+El núcleo del ciclo de **jugabilidad de esports manager 2026** es el Modo Simulación. Este motor de juego semi-3D te coloca en el papel de entrenador principal durante las series en vivo. Eres responsable del proceso de veto de mapas, la gestión de la economía y los ajustes tácticos en tiempo real. Las actualizaciones recientes han mejorado significativamente la lógica de baneo de mapas de la IA, lo que te obliga a preparar un conjunto de mapas diverso para seguir siendo competitivo.
+
+Durante un partido, puedes emitir órdenes como \"Presión Rápida\" o \"Predeterminado Equilibrado\". El éxito de estas tácticas depende de los atributos de tus jugadores y de su moral actual. Por ejemplo, una táctica agresiva fallará si tu Entry Fragger tiene una velocidad de reacción baja o si la motivación del equipo se ha desplomado debido a una racha de derrotas reciente.
+
+<Steps>
+  <Step num="1" title="Veto de mapas y preparación">
+    Banea tus mapas menos preparados y protege tus mapas más fuertes. Asegúrate de tener al menos tres mapas practicados antes de entrar a un torneo.
+  </Step>
+  <Step num="2" title="Gestión de la economía">
+    Monitorea los fondos del equipo durante la fase de compra. Decide cuándo ahorrar (Eco), comprar parcialmente (Force) o ir por una compra completa (Full Buy) según el marcador.
+  </Step>
+  <Step num="3" title="Decisiones tácticas en vivo">
+    Ajusta el ritmo de tu equipo. Si el oponente rota lentamente, usa al Lurker para cortar sus rutas mientras el grupo principal ejecuta en un sitio.
+  </Step>
+  <Step num="4" title="Análisis pospartido">
+    Revisa las valoraciones individuales y las ganancias de ERS. Identifica qué jugadores rindieron por debajo de lo esperado y ajusta su enfoque de entrenamiento para la semana siguiente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Actualización de Simulación">
+El parche 1.0.2 rediseñó la lógica de compra y habilitó las configuraciones de doble AWP. Ahora puedes asignar un rol de francotirador secundario para aprovechar diseños de mapas defensivos específicos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mercado de transferencias y estrategia de contratos">
+
+El mercado de transferencias en la **jugabilidad de esports manager 2026** es dinámico y se ve influenciado por el prestigio del club. No puedes simplemente comprar tu camino hacia el éxito; los jugadores de clase mundial rechazarán ofertas de organizaciones con baja reputación, incluso si les ofreces un salario alto. El juego incluye transferencias, préstamos y fichajes de agentes libres, cada uno con sus propias implicaciones financieras.
+
+Los contratos son más que solo el salario; debes negociar los términos, la duración y el estatus en la plantilla. El salario de un jugador disminuirá un 30% si pasa más de un mes en el banquillo, lo que puede ser una herramienta útil para gestionar una nómina inflada.
+
+| Ruta | Costo inicial | Costo continuo | Mejor caso de uso |
+| :--- | :--- | :--- | :--- |
+| **Agente Libre** | Ninguno | Salario | Cubrir huecos o añadir profundidad a bajo costo |
+| **Transferencia de Pago** | Tarifa Alta | Salario | Asegurar una mejora clara en la alineación titular |
+| **Préstamo Entrante** | Negociado | Salario Parcial | Calidad a corto plazo sin un compromiso largo |
+| **Préstamo Saliente** | Ninguno | Ninguno | Desarrollar jugadores jóvenes en otros clubes |
+
+<Callout type="success" title="Consejo de Búsqueda">
+Utiliza los filtros de búsqueda para encontrar \"Promesas en Desarrollo\" con alto potencial pero baja habilidad actual. Estos jugadores son significativamente más baratos y pueden ser entrenados para convertirse en estrellas de nivel S en 2 o 3 temporadas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Entrenamiento, moral y gestión del personal">
+
+Gestionar el elemento humano es vital para el éxito sostenido. La **jugabilidad de esports manager 2026** incluye un sistema integral de entrenamiento y moral. Los planes de entrenamiento semanales deben ajustarse según el calendario del torneo; sobrecargar a los jugadores durante una semana ocupada de partidos provocará fatiga y un menor rendimiento.
+
+Los roles del personal, como entrenadores, analistas y especialistas en medios, otorgan bonificaciones pasivas al crecimiento de los jugadores, la preparación de partidos y la visibilidad de la marca. Contratar a un psicólogo suele ser más efectivo que aumentar la intensidad del entrenamiento si tu equipo está luchando con una baja motivación.
+
+<Checklist
+  id="weekly-routine"
+  title="Lista de verificación de gestión semanal:"
+  items={[
+    "Revisar el calendario del torneo para detectar próximos conflictos de partidos",
+    "Ajustar la carga de trabajo de entrenamiento para prevenir la fatiga de los jugadores",
+    "Comprobar el módulo de Charlas para resolver quejas o conflictos de los jugadores",
+    "Analizar los informes de los ojeadores para posibles objetivos de transferencia",
+    "Verificar los ingresos de patrocinadores y los gastos salariales recurrentes"
+  ]}
+/>
+
+<Callout type="tip" title="Gestión de la Moral">
+Realiza actividades de integración de equipo inmediatamente después de fichar a un nuevo jugador. Los cambios en la plantilla reducen de forma natural la química, y una gestión proactiva puede prevenir baches a principio de temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre la jugabilidad de esports manager 2026">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono el problema de una plantilla legal de cinco jugadores?",
+    answer: "Asegúrate de tener al menos cinco jugadores bajo contratos activos. Si un jugador se retira, es eliminado del estado de la plantilla. Revisa el mercado de transferencias en busca de agentes libres para cubrir el hueco de inmediato."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar más presupuesto de transferencias?",
+    answer: "Concéntrate en ganar torneos para aumentar la visibilidad de la marca y atraer patrocinadores que paguen más. También puedes ceder a jugadores del banquillo o vender promesas de gran valor para reinvertir en la alineación titular."
+  },
+  {
+    question: "¿Afecta la edad del jugador al rendimiento en el juego?",
+    answer: "Sí. Los jugadores más jóvenes (NewGens) tienen un mayor potencial de crecimiento pero atributos mentales más bajos. Los veteranos tienen mayores capacidades de 'Clutch' e 'IGL', pero pueden ver disminuir su habilidad mecánica con el tiempo."
+  },
+  {
+    question: "¿En qué se diferencia el modo simulación de un partido rápido?",
+    answer: "El modo simulación permite intervenciones tácticas y gestión de la economía en tiempo real, mientras que los resultados de los partidos rápidos se calculan instantáneamente según las valoraciones y los niveles de preparación del equipo."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Гайд",
+    "tactics": "Тактики",
+    "roster": "Состав",
+    "customization": "Настройка",
+    "release": "Релиз",
+    "support": "Поддержка",
+    "review": "Обзор"
+  }
+}

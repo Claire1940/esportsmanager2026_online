@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Esports Manager 2026 How to Install Custom Database: Step-by-Step Setup Guide",
+  description: "Learn how to install custom databases in Esports Manager 2026 to unlock real player names, updated rosters, and community-created leagues with our guide.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Custom+Database+Installation",
+  date: "2026-07-15",
+  author: "esports manager 2026 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Custom Databases** allow players to replace fictional rosters with real-world professional esports players and teams.
+- **Installation Path** usually involves the local application data folder or the Steam Workshop directory.
+- **New Game Requirement**: Most custom databases require starting a **new career save** to take effect properly.
+- **File Integrity**: Always verify that the database version matches your current **Esports Manager 2026** game version.
+- **Backup Priority**: Create a backup of your original **database folder** before overwriting any files.
+</Callout>
+
+<Section icon={Target} title="Understanding Custom Databases in Esports Manager 2026">
+
+Custom databases are the backbone of the community experience in **Esports Manager 2026**. While the base game provides a robust simulation engine, licensing constraints often mean that many teams and players use randomized or fictional names. By learning **esports manager 2026 how to install custom database** files, you can transform your management experience into a hyper-realistic simulation of the current global esports scene.
+
+These databases typically modify player statistics, team logos, tournament structures, and even historical data. The community often releases updates shortly after major roster moves or "shuffle" periods in the professional scene.
+
+| Database Type | Primary Contents | Best For |
+| :--- | :--- | :--- |
+| **Real Name Fix** | Corrects fictional names to real pros | Players seeking basic realism |
+| **Roster Update** | Current team lineups and transfers | Competitive simulation |
+| **Historical Pack** | Classic rosters from 2015-2022 | Nostalgic playthroughs |
+| **Fantasy Draft** | Randomized high-stat young prospects | Long-term career modes |
+| **Regional Expansion** | Adds tier-2 and tier-3 local leagues | Deep scouting enthusiasts |
+
+<Callout type="tip" title="Pro Tip">
+Before downloading any file, check the "Last Updated" date. Databases created for the 2025 season may cause stability issues with the **Esports Manager 2026** engine if the data structure has changed.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Where to Find Reliable Database Files">
+
+Finding the right files is the first step in the process. The **Esports Manager 2026** community is spread across several platforms, each offering different levels of convenience and customization.
+
+<CardGrid cols={3}>
+  <Card title="Steam Workshop">
+    - **One-click installation**
+    - Automatic updates
+    - Integrated with Steam client
+  </Card>
+  <Card title="Community Forums">
+    - **Advanced customization**
+    - Beta versions available
+    - Detailed creator notes
+  </Card>
+  <Card title="Discord Servers">
+    - **Real-time support**
+    - Exclusive roster leaks
+    - Direct dev communication
+  </Card>
+</CardGrid>
+
+When selecting a source, prioritize creators with high ratings and active comment sections. This ensures the database is free of "game-breaking" bugs that could crash your save during the mid-season transition.
+
+| Source Platform | Reliability | Ease of Use | Update Frequency |
+| :--- | :--- | :--- | :--- |
+| **Steam Workshop** | High | Excellent | Weekly |
+| **Nexus Mods** | Very High | Moderate | Monthly |
+| **Reddit Community** | Moderate | Low | Daily |
+| **Official Discord** | High | Moderate | Occasional |
+
+<Callout type="warning" title="Warning">
+Never download `.exe` files disguised as databases. Legitimate **Esports Manager 2026** database files should primarily be in `.json`, `.db`, or `.xml` formats.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Manual Installation Steps for Custom Databases">
+
+If you are not using the Steam Workshop, you will need to perform a manual installation. This is common for "Total Conversion" mods that change more than just player names. Following the correct directory path is critical for the game to recognize the new data.
+
+<Steps>
+  <Step num="1" title="Download and Extract">
+    Download the database ZIP or RAR file from a trusted source. Use a tool like 7-Zip or WinRAR to extract the contents to a temporary folder on your desktop.
+  </Step>
+  <Step num="2" title="Locate Game Directory">
+    Navigate to your local game files. For most users, this is found at: `C:\Users\[YourName]\Documents\Esports Manager 2026\Databases`. If the folder does not exist, create it manually.
+  </Step>
+  <Step num="3" title="Transfer Files">
+    Copy the extracted folder (containing the `.db` or `.json` files) into the `Databases` directory. Ensure you do not have nested folders (e.g., `Databases/ModName/ModName/files`).
+  </Step>
+  <Step num="4" title="Verify File Structure">
+    Open the newly moved folder. You should see a file named `config.json` or `meta.data`. This file tells the game how to load the specific assets.
+  </Step>
+</Steps>
+
+| Installation Step | Common Error | Solution |
+| :--- | :--- | :--- |
+| **Extraction** | Corrupt ZIP file | Re-download with stable internet |
+| **Pathing** | Wrong folder selected | Use the Documents path, not Program Files |
+| **Naming** | Special characters in folder | Rename folder to simple English text |
+| **Permissions** | Read-only folder access | Run your file explorer as Administrator |
+
+<Callout type="success" title="Success">
+Once the files are in the correct directory, they will appear in the "Database Selection" dropdown menu when you click "New Game" in the main menu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Activating the Database in Game">
+
+Simply placing the files in the folder is not enough; you must explicitly tell **Esports Manager 2026** to use the custom data instead of the default 2026 roster.
+
+When you launch the game, follow these specific settings to ensure the custom database initializes correctly:
+
+1.  Click on **New Career**.
+2.  In the **Database Selection** screen, click the dropdown menu.
+3.  Select your custom database name (e.g., "Global Realism Pack v1.2").
+4.  Wait for the "Data Validation" progress bar to complete.
+5.  Select the leagues you wish to load.
+
+| Feature | Default Database | Custom Database |
+| :--- | :--- | :--- |
+| **Player Names** | Fictional/Random | Real Professional Pros |
+| **Team Logos** | Generic Shapes | Official Team Branding |
+| **Tournament Prize Pools** | Estimated | Real-world 2026 Figures |
+| **Sponsor Names** | Made-up Brands | Global Tech/Energy Brands |
+| **Staff Attributes** | Balanced/Standard | Based on Real Performance |
+
+<Callout type="info" title="Important Note">
+Some databases are "Large" and may increase the initial loading time of your game. If the game appears to freeze at 88%, give it a few minutes to process the thousands of new player entries.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Post-Installation Checklist">
+
+After you have successfully figured out **esports manager 2026 how to install custom database** and started your save, you should verify that everything is working as intended. Use this checklist to confirm a successful setup.
+
+<Checklist
+  id="db-verification"
+  title="Database Verification Steps:"
+  items={[
+    "Check if the top 10 ranked players have their real-world names.",
+    "Verify that team logos appear correctly in the 'League Standings' page.",
+    "Confirm that the 'Start Date' matches the database's intended season.",
+    "Check the 'Free Agents' list to ensure it isn't empty (a common bug).",
+    "Save the game and reload to ensure the database link remains stable."
+  ]}
+/>
+
+If you notice that names are correct but logos are missing, you may need to install a separate "Graphics Pack." Databases often handle the text data, while logos and player faces are stored in a different `Graphics` folder.
+
+| Resource Type | Folder Name | File Extension |
+| :--- | :--- | :--- |
+| **Rosters/Stats** | `Databases` | .db / .json |
+| **Logos/Faces** | `Graphics` | .png / .fmf |
+| **Skins/UI** | `Interface` | .xml |
+| **Language Packs** | `Languages` | .txt / .xml |
+
+<Callout type="tip" title="Optimization Tip">
+For the best performance, only load the leagues you intend to manage in. Loading every single regional league from a massive custom database can slow down the "Continue" processing speed significantly.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Troubleshooting and FAQ">
+
+Even with a perfect guide, issues can arise due to software conflicts or version mismatches. Below are the most frequent questions regarding database installation in the 2026 edition.
+
+<FAQ items={[
+  {
+    question: "Can I add a custom database to an existing save file?",
+    answer: "No. Databases change the fundamental structure of the game world. To use a new database, you must start a new career. Adding data mid-save would cause critical conflicts with existing player IDs."
+  },
+  {
+    question: "Why does my game crash when I click 'New Game'?",
+    answer: "This usually happens if the database folder is empty or the config.json file is missing. Double-check your installation path and ensure all files were extracted correctly."
+  },
+  {
+    question: "How do I update my database to a newer version?",
+    answer: "Download the new version, delete the old folder in your 'Databases' directory, and paste the new one. Note that you will likely need to start a new career to see the updates."
+  },
+  {
+    question: "Is it safe to use multiple custom databases at once?",
+    answer: "It is generally not recommended. Most databases overwrite the same player IDs. Using multiple can lead to 'duplicate players' or corrupted stats. Stick to one comprehensive 'Mega-Pack' for the best results."
+  }
+]} />
+
+<Callout type="warning" title="Final Reminder">
+Always keep a clean copy of the original game files. If a custom database causes persistent crashes, deleting the `Databases` folder and "Verifying Integrity of Game Files" on Steam will reset your game to its factory state.
+</Callout>
+
+</Section>

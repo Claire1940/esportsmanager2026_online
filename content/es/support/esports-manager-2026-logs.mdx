@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Registros de Esports Manager 2026: Notas del parche y cambios de equilibrio",
+  description: "Sigue los últimos registros, notas del parche, correcciones y actualizaciones del sistema de transferencias de Esports Manager 2026 para optimizar la ventaja competitiva de tu club.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2b0f54/fff?text=Patch+Notes+and+Logs",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de Esports Manager 2026"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Últimos registros**: Las actualizaciones oficiales abordan directamente los **registros de esports manager 2026**, corrigiendo errores críticos e inconsistencias en las plantillas.
+- **Reparación de plantillas**: Las partidas guardadas cargadas reparan automáticamente a los jugadores retirados que antes estaban atrapados en las alineaciones activas.
+- **Ajustes de transferencia**: Los clubes controlados por la IA ahora esperan 14 días antes de repetir ofertas rechazadas, mientras que los salarios de los jugadores se ajustan dinámicamente según sus valoraciones.
+- **Mejoras de simulación**: Los cambios estratégicos mejoran los tiempos de los Terroristas, las rotaciones de los Anti-Terroristas y las configuraciones de doble AWP.
+</Callout>
+
+<Section icon={Map} title="Registros de Esports Manager 2026: Historial completo de actualizaciones">
+
+Mantenerse a la vanguardia en la escena competitiva requiere una comprensión profunda de las mecánicas en evolución del juego. Los **registros oficiales de esports manager 2026** documentan revisiones importantes del sistema que influyen directamente en el desarrollo de los jugadores, la sostenibilidad financiera y la simulación de partidos en vivo. Esta guía recopila todas las actualizaciones posteriores al lanzamiento para mantener a tu organización funcionando con la máxima eficiencia.
+
+| Fecha | Versión | Enfoque principal | Compatibilidad de guardado |
+|---|---|---|---|
+| **12 de jul. de 2026** | Parche de corrección rápida | Corrección de plantillas, realismo de transferencias | Totalmente compatible |
+| **11 de jul. de 2026** | Parche 1.0.2 | Simulación, entrenamiento, economía | Totalmente compatible |
+| **7 de jul. de 2026** | Parche 1.0.1 | Préstamos de IA, filtros de ojeador, EMTV | Totalmente compatible |
+
+<Callout type="success" title="Nota sobre la compatibilidad de guardado">
+Todas las carreras activas reciben automáticamente fórmulas de entrenamiento, estructuras salariales y lógica de simulación actualizadas al cargar tu archivo de guardado después de un parche.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Revisiones de plantillas y del mercado de transferencias">
+
+El mercado de transferencias es el alma de tu organización. Las actualizaciones recientes han rediseñado por completo las fórmulas de transferencia, los valores de los jugadores y las negociaciones de contratos para evitar explotaciones comunes y mejorar el realismo.
+
+<CardGrid cols={3}>
+  <Card title="Limitación de ofertas de la IA">
+    - **Retraso de 14 días** en ofertas rechazadas
+    - Detiene las ofertas de spam diarias
+    - Planificación de plantilla más sencilla
+  </Card>
+  <Card title="Escala salarial dinámica">
+    - Los salarios se ajustan según la valoración del jugador
+    - **Reducción salarial del 30%** en el banquillo
+    - Contratos de nivel de entrada más bajos
+  </Card>
+  <Card title="Restricciones de prestigio">
+    - Las estrellas rechazan clubes de bajo prestigio
+    - El dinero por sí solo no puede comprar talento de élite
+    - Progresión de carrera realista
+  </Card>
+</CardGrid>
+
+La siguiente tabla describe las diferencias entre las principales rutas de adquisición disponibles en la base de datos actual:
+
+| Ruta | Coste inicial | Compromiso continuo | Mejor uso táctico |
+|---|---|---|---|
+| **Agente libre** | Ninguno | Salario y término del contrato | Cubrir brechas inmediatas en la plantilla |
+| **Transferencia pagada** | Tarifa alta | Salario y término del contrato | Adquirir estrellas que definen la franquicia |
+| **Cesión (Entrada)** | Tarifa temporal | Términos de cesión acordados | Cobertura a corto plazo para torneos clave |
+| **Cesión (Salida)** | Ninguno | Contrato principal activo | Desarrollar jóvenes promesas del banquillo |
+
+<Callout type="warning" title="Alerta de bloqueo de plantilla">
+Con la última corrección rápida, los jugadores retirados se eliminan con éxito de las plantillas activas. Ya no enviarán quejas sobre demandas salariales o tiempo de juego a la directiva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Simulación de partidos y correcciones tácticas">
+
+Las decisiones de los partidos en vivo ahora son más predecibles y gratificantes. El motor de simulación ha sido sometido a amplios ajustes de comportamiento y rutas para recompensar la asignación adecuada de roles y la preparación táctica.
+
+<Steps>
+  <Step num="1" title="Alineación de roles en la plantilla">
+    Asegúrate de que tu alineación activa cubra los roles principales, incluidos IGL, AWPer, Entry Fragger, Support y Lurker.
+  </Step>
+  <Step num="2" title="Preparación del grupo de mapas">
+    Focaliza el entrenamiento semanal en un grupo pequeño de mapas. La lógica de veto de la IA ahora castiga las selecciones de mapas no preparadas.
+  </Step>
+  <Step num="3" title="Configuración de estrategia de francotirador">
+    Asigna roles secundarios de francotirador para utilizar las nuevas configuraciones tácticas de doble AWP.
+  </Step>
+</Steps>
+
+| Métrica | Sistema antiguo | Nuevo sistema (Post-parche) | Impacto |
+|---|---|---|---|
+| **Rotaciones CT** | Lógica de rotación retrasada | Rotación inmediata tras la plantación | Alta estabilidad defensiva |
+| **Tiempos T** | Presión de mapa inconsistente | Tiempos de carril equilibrados | Mejor éxito en la ejecución |
+| **Ganancias de valoración ERS** | Ganancias excesivas por partido | Curva de progresión reequilibrada | Crecimiento más lento y realista |
+| **Lógica de compra** | Compras de armas aleatorias | Control de compra en rondas decisivas | Rondas de compra completa coordinadas |
+
+<Callout type="tip" title="Recomendación táctica">
+No fuerces a los jugadores a asumir roles desconocidos. Utiliza la base de datos de jugadores actualizada para buscar talentos que se adapten a tu plan táctico en lugar de buscar solo números de valoración brutos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ajustes de entrenamiento y gestión del club">
+
+Detrás de cada equipo campeón hay un personal de apoyo dedicado. Equilibrar los planes de entrenamiento semanales con el bienestar de los jugadores, la química del equipo y la salud financiera es esencial para la supervivencia a largo plazo.
+
+| Rol del personal | Beneficio principal | Recomendada Prioridad |
+|---|---|---|
+| **Entrenador** | Acelera el crecimiento de los atributos del jugador | Crítica (Primera temporada) |
+| **Analista** | Proporciona una preparación detallada antes del partido | Alta (Fase de torneo) |
+| **Gestor júnior** | Reduce la carga de trabajo administrativa | Media (Expansión a mitad de juego) |
+| **Especialista en medios** | Aumenta la visibilidad de la marca y las ofertas de patrocinadores | Baja (Escalamiento al final del juego) |
+
+<Checklist
+  id="patch-readiness"
+  title="Plan de acción posterior a la actualización:"
+  items={[
+    "Carga tu carrera activa para activar la reparación automática de la plantilla de jugadores retirados",
+    "Revisa los salarios de los jugadores en el banquillo para aprovechar la reducción salarial del 30%",
+    "Ajusta tus horarios de entrenamiento semanales para que coincidan con las fórmulas de crecimiento de atributos reequilibradas",
+    "Establece una ventana de negociación de 14 días después de rechazar ofertas de transferencia no deseadas de la IA"
+  ]}
+/>
+
+<Callout type="info" title="Disciplina financiera">
+Nunca gastes todo tu presupuesto inicial en un solo jugador de nivel S. Asegúrate de mantener suficiente liquidez para cubrir los salarios recurrentes del personal y las tarifas de inscripción a los torneos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos del sistema y acceso a la demo">
+
+Si ejecutas el juego en hardware más antiguo, se recomienda encarecidamente probar el rendimiento a través de la demo oficial de Steam. El juego está optimizado para funcionar de manera eficiente en una amplia gama de configuraciones de PC con Windows.
+
+| Requisito | Especificación mínima | Especificación recomendada |
+|---|---|---|
+| **SO** | Windows 7, 10 o 11 (64 bits) | Windows 10 o 11 (64 bits) |
+| **Procesador** | Intel Core 2 / AMD Athlon 64 X2 | Intel Core i3 / AMD Ryzen 3 |
+| **Memoria** | 2 GB de RAM | 4 GB de RAM |
+| **Gráficos** | Intel GMA X4500 / NVIDIA 9600M GT | Tarjeta gráfica dedicada con 1 GB de VRAM |
+| **DirectX** | Versión 10 | Versión 11 |
+| **Almacenamiento** | 4 GB de espacio disponible | 4 GB de espacio disponible |
+
+<Callout type="success" title="Disponibilidad de la demo">
+La demo gratuita de Steam se actualiza regularmente junto con el lanzamiento principal, lo que permite a los jugadores probar las últimas mejoras de simulación y actualizaciones de localización antes de comprar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar los últimos registros oficiales de Esports Manager 2026?",
+    answer: "Los registros oficiales se publican en el centro de noticias de Steam de Esports Manager 2026 y en los foros de la comunidad de desarrolladores, detallando correcciones rápidas, actualizaciones de la base de datos y notas del parche."
+  },
+  {
+    question: "¿Cómo soluciono el error del jugador retirado en mi archivo de guardado activo?",
+    answer: "Simplemente actualiza tu juego a la versión más reciente y carga tu partida guardada. La corrección rápida activa automáticamente un script que repara las plantillas bloqueadas y elimina a los jugadores retirados."
+  },
+  {
+    question: "¿Por qué los jugadores de clase mundial se niegan a fichar por mi organización?",
+    answer: "Tras las recientes actualizaciones de equilibrio, los jugadores de élite tienen en cuenta el prestigio del club además del salario. Debes elevar la clasificación de tu organización antes de fichar a talentos de nivel S."
+  },
+  {
+    question: "¿Poner a un jugador en el banquillo reduce el coste de su contrato?",
+    answer: "Sí. Bajo el nuevo sistema de escala salarial, el salario de un jugador disminuye automáticamente un 30% después de pasar un mes consecutivo en el banquillo."
+  }
+]} />
+
+</Section>
