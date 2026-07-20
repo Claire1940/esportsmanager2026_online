@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "esports manager 2026 alpha: Core Systems & Setup Guide",
+  description: "Master the core simulation mechanics, scouting networks, and tactical boards originating from the esports manager 2026 alpha build.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Esports+Manager+Alpha+Guide",
+  date: "2026-07-21",
+  author: "esports manager 2026 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary objective**: Master the tactical foundation established during the **esports manager 2026 alpha** testing phases.
+- **Scouting strategy**: Evaluate real player data across 1,900+ active profiles to build a balanced competitive roster.
+- **Tactical execution**: Customize mid-round calls, economy strategies, and timeout adjustments during live match simulations.
+- **Staff recruitment**: Hire dedicated coaches, analysts, and media personnel to maximize team development.
+- **Database management**: Use the EMDB.gg platform to customize rosters, teams, and player statistics.
+</Callout>
+
+<Section icon={Sparkles} title="Evolution of the Esports Manager 2026 Alpha">
+
+When Neurona Games first introduced the **esports manager 2026 alpha** concept, the goal was to pivot from mobile-centric MOBA games toward a highly detailed, authentic PC tactical simulation. Developed in partnership with publisher indie.io, this management sim bypasses scripted campaigns to deliver a dynamic sandbox experience. Understanding how these early alpha systems transitioned into the current release is essential for establishing a championship-winning organization.
+
+The development pipeline focused heavily on community feedback. Through successive public demos and closed focus group testing, the developers refined the nine core interconnected systems that govern team operations. This iterative process ensured that player statistics, transfer market behaviors, and live match calculations mirror real-world professional esports environments.
+
+| Phase | Date | Core Features Tested |
+|---|---|---|
+| Alpha Concept | 2023-12 | First PC simulation architecture and database framework. |
+| Public Demo 1.0 | 2025-12 | Basic scouting, contract negotiations, and live simulation. |
+| Public Demo 2.0 | 2026-02 | Upgraded tactical board, expanded player database, and UI. |
+| Public Demo 3.0 | 2026-04 | Website launch, EMDB.gg database, and roster editor tools. |
+
+<Callout type="info" title="Development History">
+The original 2021 mobile version focused on MOBA mechanics. The shift to a dedicated PC platform in late 2023 allowed the developers to build a complex simulation engine capable of tracking real-time round events and individual player behaviors.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mastering the Player Market & Scouting Systems">
+
+Building a championship roster requires a deep understanding of the scouting network. With a database featuring over 325 real-world organizations and 1,900+ real players, finding the right talent involves analyzing more than just raw aiming ability. You must evaluate weapon proficiency, mental resilience, and wage demands to keep your organization financially stable.
+
+Every player profile contains specific data points that directly impact their performance in server environments. When scouting potential signings, pay close attention to how their individual statistics align with your team's tactical playbook.
+
+<CardGrid cols={3}>
+  <Card title="AWP Specialist">
+    - **High Reaction Time**
+    - High confidence requirements
+    - Expensive salary demands
+  </Card>
+  <Card title="Rifle Entry">
+    - **High Spray Control**
+    - Excellent entry-kill rate
+    - High stamina depletion
+  </Card>
+  <Card title="Support Player">
+    - **High Utility Usage**
+    - Strong team chemistry booster
+    - Moderate market value
+  </Card>
+</CardGrid>
+
+To build a balanced roster, you must balance raw mechanics with psychological attributes. A player with exceptional mechanical skill may struggle under pressure if their tilt resistance is low.
+
+| Attribute | Primary Impact | Recommended Minimum |
+|---|---|---|
+| **Headshot %** | Increases instant-kill probability during rifle duels. | 65% |
+| **Reaction Time** | Determines who fires first in long-range AWP engagements. | 80% |
+| **Spray Control** | Controls multi-kill potential during close-quarters rushes. | 60% |
+| **Tilt Resistance** | Prevents performance drop-offs after losing consecutive rounds. | 70% |
+| **Chemistry** | Boosts overall team coordination and utility trade-kills. | 75% |
+
+<Callout type="warning" title="Contract Negotiations">
+Always monitor contract lengths and wage expectations. High-tier players like s1mple or NiKo command premium salaries that can quickly drain your organization's monthly budget if you do not secure lucrative sponsorships.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Planning & Live Match Simulation">
+
+The live match simulation engine puts you directly in the coach's seat. Unlike traditional management games that fast-forward through matches, this simulation requires you to make critical decisions every round. You must manage your team's economy, call strategic timeouts, and adjust setups based on opponent behaviors.
+
+The tactical board allows you to configure thousands of playstyle variations. You can establish default setups for both Counter-Terrorist (CT) and Terrorist (T) sides, ensuring your players occupy the correct positions on each map.
+
+<Steps>
+  <Step num="1" title="Analyze Roster Strengths">
+    Evaluate player weapon ratings and map pool confidence before designing your playbook.
+  </Step>
+  <Step num="2" title="Set Default Side Setups">
+    Establish passive or aggressive default holds for CT side and map control defaults for T side.
+  </Step>
+  <Step num="3" title="Configure Economic Thresholds">
+    Define the exact cash reserves required before calling for full buys, force buys, or eco rounds.
+  </Step>
+  <Step num="4" title="Execute Live Adjustments">
+    Monitor the live feed and call tactical timeouts to reset morale or counter opponent setups.
+  </Step>
+</Steps>
+
+Economic management is the foundation of long-term match success. Forcing buys too frequently will ruin your economy, while saving too often concedes map control and round momentum to the opposition.
+
+| Economy Call | Cost Range | Tactical Objective |
+|---|---|---|
+| **Full Eco** | $0 - $1,500 | Save maximum resources to guarantee a full buy next round. |
+| **Force Buy** | $2,000 - $3,200 | Purchase pistols and light armor to catch the opponent off-guard. |
+| **Half Buy** | $3,000 - $3,800 | Maintain enough bank reserves to buy utility in subsequent rounds. |
+| **Full Buy** | $4,500+ | Equip full armor, primary rifles (or AWPs), and complete utility sets. |
+
+<Callout type="tip" title="Timeout Management">
+Use your tactical timeouts when your team loses three consecutive rounds. This pauses the match momentum, boosts player composure, and allows you to adjust your mid-round call preferences to counter the enemy defense.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Team Development & Backroom Staff Setup">
+
+Developing raw talent into world-class superstars requires a structured weekly training program. Your training schedules should target specific mechanical skills, tactical understanding, and physical conditioning to keep players performing at their peak.
+
+In addition to player development, your backroom staff multiplies the effectiveness of your training sessions. Recruiting specialized coaches and analysts ensures your players gain maximum attribute points during the off-season.
+
+<Checklist
+  id="org-goals"
+  title="Essential Management Milestones:"
+  items={[
+    "Recruit a high-tier head coach to boost training efficiency",
+    "Hire an analyst to identify opponent map preferences",
+    "Establish a weekly physical training routine to maintain player stamina",
+    "Balance player morale by conducting regular leadership interactions"
+  ]}
+/>
+
+A proper staff infrastructure relieves pressure on your players, allowing them to focus entirely on their in-game performance. Ensure you allocate a portion of your revenue to staff salaries.
+
+| Staff Role | Primary Benefit | Key Attribute |
+|---|---|---|
+| **Head Coach** | Increases overall attribute gains during weekly training. | Tactical Knowledge |
+| **AWP Specialist** | Provides targeted training boosts to sniper-role players. | Weapon Expertise |
+| **Tactical Analyst** | Unlocks detailed scouting reports on upcoming opponents. | Data Analysis |
+| **Media Specialist** | Boosts organization fan growth and sponsorship revenue. | Public Relations |
+
+<Callout type="success" title="Morale & Chemistry">
+High team chemistry can overcome mechanical deficits. Regularly check player morale and resolve internal conflicts before they impact live match performance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="System Requirements & Optimization">
+
+The simulation engine is optimized to run efficiently across a wide variety of hardware setups. Whether you are running the game on an older laptop or a modern gaming rig, the lightweight processing requirements ensure smooth turn transitions and rapid live match calculations.
+
+Review the official hardware specifications to ensure your system can handle the extensive database calculations during multi-season simulations.
+
+| Component | Minimum Requirement | Recommended Specification |
+|---|---|---|
+| **OS** | Windows 7/10/11 (64-bit) | Windows 10/11 (64-bit) |
+| **CPU** | Intel Core 2 / AMD Athlon 64 X2 | Modern multi-core processor |
+| **RAM** | 2 GB | 4 GB or higher |
+| **GPU** | 256 MB VRAM | Dedicated graphics card |
+| **Storage** | 4 GB available space | SSD highly recommended |
+
+<Callout type="warning" title="Database Size">
+Running large custom databases with all 325+ active organizations can increase turn processing times on systems that do not meet the recommended multi-core CPU specifications.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How can I access the esports manager 2026 alpha features?",
+    answer: "The core mechanics developed during the early alpha and demo phases are fully integrated into the official Steam release. You can access these systems by downloading the game or trying the free demo."
+  },
+  {
+    question: "Can I customize the real players and team databases?",
+    answer: "Yes. The community-driven database platform EMDB.gg allows you to edit real teams, player rosters, and individual statistics to match real-world competitive shifts."
+  },
+  {
+    question: "What is the best way to improve team chemistry quickly?",
+    answer: "Schedule regular team-building activities, maintain stable rosters without constant transfers, and ensure your in-game leader (IGL) has high leadership attributes."
+  },
+  {
+    question: "How do economic strategies affect match simulation outcomes?",
+    answer: "Improper economic management leads to force-buys with inferior weaponry, lowering your round-win probability. Always coordinate your team buys based on your current bank reserves."
+  }
+]} />
+
+</Section>

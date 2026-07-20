@@ -40,6 +40,14 @@
         "file": "esports-manager-2026-beginner-guide"
       },
       {
+        "slug": "esports-manager-2026-cs2",
+        "file": "esports-manager-2026-cs2"
+      },
+      {
+        "slug": "esports-manager-2026-discord",
+        "file": "esports-manager-2026-discord"
+      },
+      {
         "slug": "esports-manager-2026-guide",
         "file": "esports-manager-2026-guide"
       },
@@ -50,6 +58,30 @@
       {
         "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
         "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      },
+      {
+        "slug": "esports-manager-2026-league-of-legends",
+        "file": "esports-manager-2026-league-of-legends"
+      },
+      {
+        "slug": "esports-manager-2026-multiplayer",
+        "file": "esports-manager-2026-multiplayer"
+      },
+      {
+        "slug": "esports-manager-2026-reddit",
+        "file": "esports-manager-2026-reddit"
+      },
+      {
+        "slug": "esports-manager-2026-steam-charts",
+        "file": "esports-manager-2026-steam-charts"
+      },
+      {
+        "slug": "esports-manager-2026-steamdb",
+        "file": "esports-manager-2026-steamdb"
+      },
+      {
+        "slug": "esports-manager-2026-twitter",
+        "file": "esports-manager-2026-twitter"
       }
     ],
     "release": [
@@ -58,12 +90,36 @@
         "file": "esports-manager-2026-achievements"
       },
       {
+        "slug": "esports-manager-2026-alpha",
+        "file": "esports-manager-2026-alpha"
+      },
+      {
+        "slug": "esports-manager-2026-android",
+        "file": "esports-manager-2026-android"
+      },
+      {
+        "slug": "esports-manager-2026-beta",
+        "file": "esports-manager-2026-beta"
+      },
+      {
         "slug": "esports-manager-2026-buy",
         "file": "esports-manager-2026-buy"
       },
       {
         "slug": "esports-manager-2026-demo",
         "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-early-access",
+        "file": "esports-manager-2026-early-access"
+      },
+      {
+        "slug": "esports-manager-2026-ios",
+        "file": "esports-manager-2026-ios"
+      },
+      {
+        "slug": "esports-manager-2026-mobile",
+        "file": "esports-manager-2026-mobile"
       },
       {
         "slug": "esports-manager-2026-price",
@@ -132,6 +188,10 @@
         "file": "esports-manager-2026-logs"
       },
       {
+        "slug": "esports-manager-2026-mac",
+        "file": "esports-manager-2026-mac"
+      },
+      {
         "slug": "esports-manager-2026-save-location",
         "file": "esports-manager-2026-save-location"
       },
@@ -150,8 +210,16 @@
         "file": "esports-manager-2026-cannot-win-qualifier-matches"
       },
       {
+        "slug": "esports-manager-2026-cs",
+        "file": "esports-manager-2026-cs"
+      },
+      {
         "slug": "esports-manager-2026-how-to-improve-player-form",
         "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-lol",
+        "file": "esports-manager-2026-lol"
       },
       {
         "slug": "esports-manager-2026-tactics-dust-2",
@@ -204,6 +272,14 @@
         "file": "esports-manager-2026-beginner-guide"
       },
       {
+        "slug": "esports-manager-2026-cs2",
+        "file": "esports-manager-2026-cs2"
+      },
+      {
+        "slug": "esports-manager-2026-discord",
+        "file": "esports-manager-2026-discord"
+      },
+      {
         "slug": "esports-manager-2026-guide",
         "file": "esports-manager-2026-guide"
       },
@@ -214,6 +290,30 @@
       {
         "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
         "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      },
+      {
+        "slug": "esports-manager-2026-league-of-legends",
+        "file": "esports-manager-2026-league-of-legends"
+      },
+      {
+        "slug": "esports-manager-2026-multiplayer",
+        "file": "esports-manager-2026-multiplayer"
+      },
+      {
+        "slug": "esports-manager-2026-reddit",
+        "file": "esports-manager-2026-reddit"
+      },
+      {
+        "slug": "esports-manager-2026-steam-charts",
+        "file": "esports-manager-2026-steam-charts"
+      },
+      {
+        "slug": "esports-manager-2026-steamdb",
+        "file": "esports-manager-2026-steamdb"
+      },
+      {
+        "slug": "esports-manager-2026-twitter",
+        "file": "esports-manager-2026-twitter"
       }
     ],
     "release": [
@@ -222,12 +322,36 @@
         "file": "esports-manager-2026-achievements"
       },
       {
+        "slug": "esports-manager-2026-alpha",
+        "file": "esports-manager-2026-alpha"
+      },
+      {
+        "slug": "esports-manager-2026-android",
+        "file": "esports-manager-2026-android"
+      },
+      {
+        "slug": "esports-manager-2026-beta",
+        "file": "esports-manager-2026-beta"
+      },
+      {
         "slug": "esports-manager-2026-buy",
         "file": "esports-manager-2026-buy"
       },
       {
         "slug": "esports-manager-2026-demo",
         "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-early-access",
+        "file": "esports-manager-2026-early-access"
+      },
+      {
+        "slug": "esports-manager-2026-ios",
+        "file": "esports-manager-2026-ios"
+      },
+      {
+        "slug": "esports-manager-2026-mobile",
+        "file": "esports-manager-2026-mobile"
       },
       {
         "slug": "esports-manager-2026-price",
@@ -296,6 +420,10 @@
         "file": "esports-manager-2026-logs"
       },
       {
+        "slug": "esports-manager-2026-mac",
+        "file": "esports-manager-2026-mac"
+      },
+      {
         "slug": "esports-manager-2026-save-location",
         "file": "esports-manager-2026-save-location"
       },
@@ -314,8 +442,16 @@
         "file": "esports-manager-2026-cannot-win-qualifier-matches"
       },
       {
+        "slug": "esports-manager-2026-cs",
+        "file": "esports-manager-2026-cs"
+      },
+      {
         "slug": "esports-manager-2026-how-to-improve-player-form",
         "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-lol",
+        "file": "esports-manager-2026-lol"
       },
       {
         "slug": "esports-manager-2026-tactics-dust-2",
@@ -368,6 +504,14 @@
         "file": "esports-manager-2026-beginner-guide"
       },
       {
+        "slug": "esports-manager-2026-cs2",
+        "file": "esports-manager-2026-cs2"
+      },
+      {
+        "slug": "esports-manager-2026-discord",
+        "file": "esports-manager-2026-discord"
+      },
+      {
         "slug": "esports-manager-2026-guide",
         "file": "esports-manager-2026-guide"
       },
@@ -378,6 +522,30 @@
       {
         "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
         "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      },
+      {
+        "slug": "esports-manager-2026-league-of-legends",
+        "file": "esports-manager-2026-league-of-legends"
+      },
+      {
+        "slug": "esports-manager-2026-multiplayer",
+        "file": "esports-manager-2026-multiplayer"
+      },
+      {
+        "slug": "esports-manager-2026-reddit",
+        "file": "esports-manager-2026-reddit"
+      },
+      {
+        "slug": "esports-manager-2026-steam-charts",
+        "file": "esports-manager-2026-steam-charts"
+      },
+      {
+        "slug": "esports-manager-2026-steamdb",
+        "file": "esports-manager-2026-steamdb"
+      },
+      {
+        "slug": "esports-manager-2026-twitter",
+        "file": "esports-manager-2026-twitter"
       }
     ],
     "release": [
@@ -386,12 +554,36 @@
         "file": "esports-manager-2026-achievements"
       },
       {
+        "slug": "esports-manager-2026-alpha",
+        "file": "esports-manager-2026-alpha"
+      },
+      {
+        "slug": "esports-manager-2026-android",
+        "file": "esports-manager-2026-android"
+      },
+      {
+        "slug": "esports-manager-2026-beta",
+        "file": "esports-manager-2026-beta"
+      },
+      {
         "slug": "esports-manager-2026-buy",
         "file": "esports-manager-2026-buy"
       },
       {
         "slug": "esports-manager-2026-demo",
         "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-early-access",
+        "file": "esports-manager-2026-early-access"
+      },
+      {
+        "slug": "esports-manager-2026-ios",
+        "file": "esports-manager-2026-ios"
+      },
+      {
+        "slug": "esports-manager-2026-mobile",
+        "file": "esports-manager-2026-mobile"
       },
       {
         "slug": "esports-manager-2026-price",
@@ -460,6 +652,10 @@
         "file": "esports-manager-2026-logs"
       },
       {
+        "slug": "esports-manager-2026-mac",
+        "file": "esports-manager-2026-mac"
+      },
+      {
         "slug": "esports-manager-2026-save-location",
         "file": "esports-manager-2026-save-location"
       },
@@ -478,8 +674,16 @@
         "file": "esports-manager-2026-cannot-win-qualifier-matches"
       },
       {
+        "slug": "esports-manager-2026-cs",
+        "file": "esports-manager-2026-cs"
+      },
+      {
         "slug": "esports-manager-2026-how-to-improve-player-form",
         "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-lol",
+        "file": "esports-manager-2026-lol"
       },
       {
         "slug": "esports-manager-2026-tactics-dust-2",
@@ -532,6 +736,14 @@
         "file": "esports-manager-2026-beginner-guide"
       },
       {
+        "slug": "esports-manager-2026-cs2",
+        "file": "esports-manager-2026-cs2"
+      },
+      {
+        "slug": "esports-manager-2026-discord",
+        "file": "esports-manager-2026-discord"
+      },
+      {
         "slug": "esports-manager-2026-guide",
         "file": "esports-manager-2026-guide"
       },
@@ -542,6 +754,30 @@
       {
         "slug": "esports-manager-2026-how-to-send-team-to-bootcamp",
         "file": "esports-manager-2026-how-to-send-team-to-bootcamp"
+      },
+      {
+        "slug": "esports-manager-2026-league-of-legends",
+        "file": "esports-manager-2026-league-of-legends"
+      },
+      {
+        "slug": "esports-manager-2026-multiplayer",
+        "file": "esports-manager-2026-multiplayer"
+      },
+      {
+        "slug": "esports-manager-2026-reddit",
+        "file": "esports-manager-2026-reddit"
+      },
+      {
+        "slug": "esports-manager-2026-steam-charts",
+        "file": "esports-manager-2026-steam-charts"
+      },
+      {
+        "slug": "esports-manager-2026-steamdb",
+        "file": "esports-manager-2026-steamdb"
+      },
+      {
+        "slug": "esports-manager-2026-twitter",
+        "file": "esports-manager-2026-twitter"
       }
     ],
     "release": [
@@ -550,12 +786,36 @@
         "file": "esports-manager-2026-achievements"
       },
       {
+        "slug": "esports-manager-2026-alpha",
+        "file": "esports-manager-2026-alpha"
+      },
+      {
+        "slug": "esports-manager-2026-android",
+        "file": "esports-manager-2026-android"
+      },
+      {
+        "slug": "esports-manager-2026-beta",
+        "file": "esports-manager-2026-beta"
+      },
+      {
         "slug": "esports-manager-2026-buy",
         "file": "esports-manager-2026-buy"
       },
       {
         "slug": "esports-manager-2026-demo",
         "file": "esports-manager-2026-demo"
+      },
+      {
+        "slug": "esports-manager-2026-early-access",
+        "file": "esports-manager-2026-early-access"
+      },
+      {
+        "slug": "esports-manager-2026-ios",
+        "file": "esports-manager-2026-ios"
+      },
+      {
+        "slug": "esports-manager-2026-mobile",
+        "file": "esports-manager-2026-mobile"
       },
       {
         "slug": "esports-manager-2026-price",
@@ -624,6 +884,10 @@
         "file": "esports-manager-2026-logs"
       },
       {
+        "slug": "esports-manager-2026-mac",
+        "file": "esports-manager-2026-mac"
+      },
+      {
         "slug": "esports-manager-2026-save-location",
         "file": "esports-manager-2026-save-location"
       },
@@ -642,8 +906,16 @@
         "file": "esports-manager-2026-cannot-win-qualifier-matches"
       },
       {
+        "slug": "esports-manager-2026-cs",
+        "file": "esports-manager-2026-cs"
+      },
+      {
         "slug": "esports-manager-2026-how-to-improve-player-form",
         "file": "esports-manager-2026-how-to-improve-player-form"
+      },
+      {
+        "slug": "esports-manager-2026-lol",
+        "file": "esports-manager-2026-lol"
       },
       {
         "slug": "esports-manager-2026-tactics-dust-2",
